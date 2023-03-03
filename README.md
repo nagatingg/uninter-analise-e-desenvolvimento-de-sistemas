@@ -33,7 +33,7 @@ Você pode encontrar informações mais detalhadas sobre o planejamento do curso
 <img src="/assets/manual_do_curso.jpg" />
 
 ## 🛠 Ciclos e Disciplinas da Grade
-  <img src="/assets/ciclo.jpg" />
+  <img src="/assets/ciclo.png" />
   <img src="/assets/grade1.png" />
 
 
