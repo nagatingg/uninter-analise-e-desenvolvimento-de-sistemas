@@ -14,7 +14,7 @@
 </h1>
 <img src="/assets/ads.png" />
 <p align="center">
-  <a href="#page_facing_up-descrição">Descriçãoo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#closed_book-manual-do-curso">Manual do Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Perfil do Formando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-Funcionalidades">Disciplinas da Grade</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
