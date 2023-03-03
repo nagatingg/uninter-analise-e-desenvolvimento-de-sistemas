@@ -31,7 +31,6 @@ Você pode encontrar informações mais detalhadas sobre o planejamento do curso
 
 ## :clipboard: Perfil do Formando
 <img src="/assets/manual_do_curso.jpg" />
-  <img src="/assets/manual_do_curso.jpg" />
 This project was developed with the following technologies
 
 - [React Native](https://reactnative.dev/)
@@ -39,7 +38,7 @@ This project was developed with the following technologies
 - [TypeScript](https://www.typescriptlang.org/)
 - [Lottie React Native](https://docs.expo.io/versions/latest/sdk/lottie/)
 
-## 🛠 Disciplinas da Grade
+# 🛠 Disciplinas da Grade
 - [x] Ciclo Introdutório:
 - Fundamentos de Sistemas de Informação
 - Fundamentos de Desenvolvimento de Software
