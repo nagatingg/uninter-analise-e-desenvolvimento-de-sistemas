@@ -14,8 +14,8 @@
 </h1>
 <img src="/assets/ads.png" />
 <p align="center">
-  <a href="#page_facing_up-descrição">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed_book-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#closed_book-manual-do-curso">Manual do Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-Funcionalidades">Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art-instalação">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -23,13 +23,14 @@
   <a href="#memo-Licença">License</a>
 </p>
 
-## :page_facing_up: Description
+## :page_facing_up: Descrição
 Criei esse repositório para listar todo o aprendizado durante o curso de Análise e Desenvolvimento de Sistemas, cursado na Uninter e ministrado pelo coordenador Prof. Vinicius Pozzobon Borin.
 
-## :art: Layout
+## :closed_book: Manual do Curso
 Você pode encontrar informações mais detalhadas sobre o planejamento do curso, no Manual do Aluno de Analise e Desenvolvimento de Sistemas através <a href="/pdf/Manual_do_Aluno_Analise_e_Desenvolvimento_de_Sistemas.pdf">desse link<a>.
 
 ## 🛠 Technologies
+<img src="/assets/manual_do_curso.png" />
 This project was developed with the following technologies
 
 - [React Native](https://reactnative.dev/)
