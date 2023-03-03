@@ -19,7 +19,7 @@
   <a href="#-perfil-do-formando">Perfil do Formando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-ciclos-do-curso">Ciclos do Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art-disciplinas-da-grade">Disciplinas da Grade</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man-Autor">Autor</a>
 </p>
 
 ## :page_facing_up: Descrição
@@ -33,9 +33,9 @@ Você pode encontrar informações mais detalhadas sobre o planejamento do curso
 
 ## :dart: Ciclos do Curso
   O curso está dividido em <b>3 ciclos</b>, sendo que cada ciclo será estudado em <b>1 ano</b>, com exceção ao ciclo introdutório e ciclo 1, que juntos formam 1 ano.
-  - 1 Ano: Ciclo Introdutório (4 disciplinas) + Ciclo 1 (8 disciplinas);
-  - 2 Ano: Ciclo 2 (12 disciplinas);
-  - 3 Ano: Ciclo 3 (4 disciplinas).
+  - <b>1 Ano:</b> Ciclo Introdutório (4 disciplinas) + Ciclo 1 (8 disciplinas);
+  - <b>2 Ano:</b> Ciclo 2 (12 disciplinas);
+  - <b>3 Ano:</b> Ciclo 3 (4 disciplinas).
 
 
 ## 🛠 Disciplinas da Grade
@@ -50,13 +50,10 @@ Você pode encontrar informações mais detalhadas sobre o planejamento do curso
 </a>
 
 
-Create by Wesley Alexandre :wave::wave: Contact!🚀
+Criado por Wesley Alexandre :wave::wave: Entre em contato!🚀
 
 <a href="https://www.linkedin.com/in/wesley-alexandre-393044240/">
   <img alt="Linkedin" src="https://img.shields.io/badge/-Wesley%20Alexandre-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
 </a>
-
-
-## :memo: License
 
 Copyright © 2022 [Wesley Alexandre](https://github.com/nagatingg).<br />
