@@ -16,15 +16,14 @@
 <p align="center">
   <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#closed_book-manual-do-curso">Manual do Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Perfil do Formando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#clipboard-Funcionalidades">Disciplinas da Grade</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#art-instalação">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#man-Autor">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-Licença">License</a>
+  <a href="#-perfil-do-formando">Perfil do Formando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#clipboard-ciclos-do-curso">Ciclos do Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-disciplinas-da-grade">Disciplinas da Grade</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## :page_facing_up: Descrição
-Criei esse repositório para listar todo o aprendizado durante o curso de Análise e Desenvolvimento de Sistemas, cursado na Uninter e ministrado pelo coordenador Prof. Vinicius Pozzobon Borin.
+Criei esse repositório para listar todo o aprendizado durante o curso de Análise e Desenvolvimento de Sistemas que possui duração de <b>2 anos e meio (5° semestres)</b>, cursado na Uninter e ministrado pelo coordenador Prof. Vinicius Pozzobon Borin.
 
 ## :closed_book: Manual do Curso
 Você pode encontrar informações mais detalhadas sobre o planejamento do curso, no Manual do Aluno de Analise e Desenvolvimento de Sistemas através <a href="/pdf/Manual_do_Aluno_Analise_e_Desenvolvimento_de_Sistemas.pdf">desse link<a>.
@@ -32,11 +31,14 @@ Você pode encontrar informações mais detalhadas sobre o planejamento do curso
 ## :clipboard: Perfil do Formando
 <img src="/assets/manual_do_curso.jpg" />
 
-## 🛠 Ciclos do Curso
-O curso está dividido em <strong>3 ciclos<strong>, sendo que cada ciclo será estudado em <strong>1 ano</strong>, com exceção ao ciclo introdutório e ciclo 1, que juntos formam 1 ano.
+## :dart: Ciclos do Curso
+  O curso está dividido em <b>3 ciclos</b>, sendo que cada ciclo será estudado em <b>1 ano</b>, com exceção ao ciclo introdutório e ciclo 1, que juntos formam 1 ano.
+  - 1 Ano: Ciclo Introdutório (4 disciplinas) + Ciclo 1 (8 disciplinas);
+  - 2 Ano: Ciclo 2 (12 disciplinas);
+  - 3 Ano: Ciclo 3 (4 disciplinas).
 
 
-## :closed_book: Disciplinas da Grade
+## 🛠 Disciplinas da Grade
   <img src="/assets/grade1.png" />
 
 ## :man: Autor
