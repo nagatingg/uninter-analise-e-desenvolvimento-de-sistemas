@@ -56,4 +56,4 @@ Criado por Wesley Alexandre :wave::wave: Entre em contato!🚀
   <img alt="Linkedin" src="https://img.shields.io/badge/-Wesley%20Alexandre-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
 </a>
 
-Copyright © 2023 [Wesley Alexandre](https://github.com/nagatingg).<br />
+Copyright © 2023 [Wesley Alexandre](https://github.com/wesleyarm).<br />
