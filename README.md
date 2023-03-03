@@ -34,8 +34,7 @@ Você pode encontrar informações mais detalhadas sobre o planejamento do curso
 
 ## 🛠 Ciclos e Disciplinas da Grade
   <img src="/assets/ciclo.jpg" />
-  <img src="/assets/grade1.jpg" />
-  <img src="/assets/grade2.jpg" />
+  <img src="/assets/grade1.png" />
 
 
 ## :closed_book: Installation
