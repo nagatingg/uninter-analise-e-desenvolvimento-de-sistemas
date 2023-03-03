@@ -30,7 +30,7 @@ Criei esse repositório para listar todo o aprendizado durante o curso de Análi
 Você pode encontrar informações mais detalhadas sobre o planejamento do curso, no Manual do Aluno de Analise e Desenvolvimento de Sistemas através <a href="/pdf/Manual_do_Aluno_Analise_e_Desenvolvimento_de_Sistemas.pdf">desse link<a>.
 
 ## :clipboard: Perfil do Formando
-<img src="/assets/manual_do_curso.png" />
+<img src="/assets/manual_do_curso.jpg" />
 This project was developed with the following technologies
 
 - [React Native](https://reactnative.dev/)
