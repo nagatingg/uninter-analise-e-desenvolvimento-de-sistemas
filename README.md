@@ -31,44 +31,11 @@ Você pode encontrar informações mais detalhadas sobre o planejamento do curso
 
 ## :clipboard: Perfil do Formando
 <img src="/assets/manual_do_curso.jpg" />
-This project was developed with the following technologies
 
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.io/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Lottie React Native](https://docs.expo.io/versions/latest/sdk/lottie/)
-
-# 🛠 Disciplinas da Grade
-- [x] Ciclo Introdutório:
-- Fundamentos de Sistemas de Informação
-- Fundamentos de Desenvolvimento de Software
-- Fundamentos de Design de Sistemas
-- Lógica de Programação e Algoritmos
-  
-- [x] Ciclo 1:
-- Legislação, Ética e Conformidade
-- Análise de Sistemas
-- Matématica Aplicada à Computação
-- Programação Orientada a Objetos
-- Fundamentos da Programação Web
-- Banco de Dados Relacional
-- Fundamentos do Desenvolvimento Mobile
-- Design de Interação
-  
-- [x] Ciclo 2:
-- Organização de Computadores
-- Linguagem de Programação Aplicada
-- Engenharia de Software
-- Eletiva I
-- Estrutura de Dados
-- Computação em Nuvem
-- Fundamentos do Desenvolvimento Mobile
-- Design de Interação
-  
-  
-- [x] Receive a notification reminding you to water the plant at the time you chose.
-- [x] Remove plants.
-- [x] All data is saved in the device's Local Storage.
+## 🛠 Ciclos e Disciplinas da Grade
+  <img src="/assets/ciclo.jpg" />
+  <img src="/assets/grade1.jpg" />
+  <img src="/assets/grade2.jpg" />
 
 
 ## :closed_book: Installation
