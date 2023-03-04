@@ -26,7 +26,7 @@
 Criei esse repositório para listar todo o aprendizado durante o curso de Análise e Desenvolvimento de Sistemas que possui duração de <b>2 anos e meio (5° semestres)</b>, cursado na Uninter e ministrado pelo coordenador Prof. Vinicius Pozzobon Borin.
 
 ## :closed_book: Manual do Curso
-Você pode encontrar informações mais detalhadas sobre o planejamento do curso, no Manual do Aluno de Analise e Desenvolvimento de Sistemas através <a href="/pdf/Manual_do_Aluno_Analise_e_Desenvolvimento_de_Sistemas.pdf">desse link<a>.
+Você pode encontrar informações mais detalhadas sobre o planejamento do curso, no Manual do Aluno de Analise e Desenvolvimento de Sistemas através <a href="/assets/pdf/Manual_do_Aluno_Analise_e_Desenvolvimento_de_Sistemas.pdf">desse link<a>.
 
 ## :clipboard: Perfil do Formando
 <img src="/assets/manual_do_curso.jpg" />
