@@ -1,19 +1,4 @@
-Projeto Aula 1 -Fundamentos de Desenvolvimento de Software - Prof. Luciane Y. H. Kanashiro
 
----------------  Aula 1 ---------------------
-
-Aspectos Técnicos do Software
-	Aspectos técnicos do Software abrangem desde a escolha da linguagem de
-	programação e plataforma de desenvolvimento até características como
-	desempenho, compatibilidiade e usabilidade
-
-Linguagem C será utilizada
-
-Um programa bem documentado ajuda na manuntenção do Software
-
-Linguagem Interpretada não precisa de um executável para funcionar
-
-#include <stdio.h>
 /*
 Obter as notas do Aluno
 Calcular Média
@@ -52,28 +37,3 @@ int main(void) {
   
   return 0;
 }
-
-Diferenças da linguagem, legibilidade de código -> manutibilidade, IDE
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
