@@ -1,0 +1,492 @@
+Fundamentos de Desenvolvimento de Software - Prof. Luciane Y. H. Kanashiro
+
+---------------  Aula 1 ---------------------
+
+#Software
+Qual a diferença entre Software, Sistemas OS, etc
+
+-Software, programas e sistemas
+-Sistema Operacional
+-Algoritmos e linguagens
+-O jargão na área de TI
+-O ciclo de vida do desenvolvimento de software (metodologias)
+
+#Software, programas e Sistemas
+Software conssiste em:
+1 Instruções ( programas de computador ) que, quando executadas, fornecem 
+caractéristicas, funções e desempenho desejados.
+2- estruturas de dados que possibilitam aos programas manipular informações 
+adequadamente.
+3- informação descritica, tanto na forma impressa quanto na virtual, 
+descrevendo operação e o uso dos programas
+
+#Software
+-programa > sequencia de passos ou instruções descritos por um algoritmo
+
+#Algoritmo > estrutura passo a passo de como um problema deve ser resolvido 
+			> uma receita de bolo ( tutorial )
+
+--
+
+#Software de Sistema (básico)
+	Sistemas Operacionais
+	Sistemas Tradutores
+	Software Aplicativo
+
+--
+
+#Software Utilitário
+
+Software de Sistema (OS)
+	Coleção de programas para apoiar outros programas
+	Sistema Operacional
+	Softwares utilitários ou ferramentas de sistema
+		Exemplos: Microsoft, Android, Ubuntu, MacOS
+
+Software Utilitário
+	Fornecem ao usuário ferramentas para organizar os discos, verificar 
+	disponibilidade de memória, corrigir falhas de processamento
+	Úteis ao sistema operacional
+		Exemplo: Antivirus, AVG, CCleaner, etc
+
+--
+
+Software Aplicativo
+	Programas que auxiliam o usuario de computador a realizar determinada tarefa
+	Popularmente conhecidos como app
+		Exemplo: navegadores, editor de texto, planilhas, etc
+
+--
+
+Software malware
+	Virus
+
+--
+
+------------------------
+
+#Sistema Operacional
+	Sistema: conjunto de partes que se interagem para alcançar determinado objetivo
+	O que diferencia software de sistema é que um sistema pode ser definido como um 
+	conjunto de softwares que intagem entre si para alcançar determinado objetivo
+
+Sistemas Operacionais
+	Software responsável pela supervisão dos processos executados em um computador
+	Gerencia todo o hardware e todo o software do computador e realiza 
+	a "comunicação" entre eles
+
+Processos > programa em execução
+
+Exemplo: gerenciador de tarefas > processo > programas em execução
+
+Camada de Software entre o hardware e os softwares usados pelos usuarios
+
+Usuário/Aplicativo < Hardware < Sistema Operacional ( sistema operacional maior )
+
+#Funções de SO
+
+	-Facilita o uso do computador pelo usuário, tornando mais simples 
+	a utilização de seus recursos
+	-Gerenciar os recursos do computador
+	-Controlar a execução de programas pela CPU - CP
+
+#Sistemas Tradutores
+	Converte os programass escritos para um código em uma linguagem de máquina, 
+	mais adequada para manipular bits
+if(media >=7)    ~     media = (nota1 + nota2) / 2;    ~    printf("Aprova do \n");
+
+
+Programa escrito em linguagem de alto nível:
+Necessidade ser traduzido para a linguagem de máquina para que o 
+computador possa executálo
+- interpretadores e compiladores    
+
+Fonte ---- Interpretador ----- 111001000 ------ CPU  |  Linguagens de programação
+Fonte								     |
+Fonte
+Fonte
+
+Fonte
+Fonte ---- Compilador ------ 11000100		     | Programas e executável
+Fonte
+Fonte
+
+--------------------
+
+Algoritmos e Linguagens
+
+Algoritmos
+	Algoritmo é uma sequência de passos que visa atingir um objetivo bem definido 
+		- Forbellone, 1999
+
+Objetivo: representar mais fielmente o raciocínio na lógica de programação
+	Uma vez concebida uma solução, esta pode ser traduzida para qualquer linguagem 
+	de programação
+
+#Sintaxe x semântica
+	Gap semântica entre lógica de programação e a lógica do dia a dia
+	Semântica na linguagem de programação: referindo ao conteúdo, ao significado
+	Sintaxe está relacionada com as regras, premissas, restrições
+	Modo como as palavras podem ser combinadas e formas os enunciados
+
+---
+
+Sintaxe
+Exemplo 1:
+	Fiz prova de FDS na semana passada
+		Se escrevêssemos:
+			FDS passada semana prova fiz
+
+Exemplo 2:
+(2 ] - /
+
+----
+
+Semântica
+	Define o significado formal das expressões, comandos ou unidades de programas
+	Erros de semântica estão relacionadas a lógica de programação
+	Exemplo: expressão sintaticamente correta na linguagem Python, mas
+	semanticamente não faz sentido somar um número e um caractere
+		a = 2 + "3"
+
+----
+
+Algoritmos - exemplo 1
+Receita de bolo de caneca
+	Ingredientes
+		Ovo, etc
+
+
+Modo de Preparo
+	Em uma caneca com capacidade superior, acrescente leite, etc
+			( algoritmo )
+
+---
+
+Algoritmo - exemplo 2
+Calcular média de prova
+	Obter as duas notas de provas > calcular a média > média > que x - aprovado 
+		~ < que x = reprovado
+
+------------
+
+#Linguagens
+
+Linguagens de Programação tratam os dados de um computador por meio do uso de 
+algoritmos
+
+Programador > Deve encontrar um algoritmo que resolve o seu problema
+		> Implementá-lo usando uma linguagem de programação
+
+Exemplo - Python
+
+Obter as duas notas de provas
+	nota1 = float(input("Digite a primeira nota: "))
+	nota2 = float(input("Digite a primeira nota: "))
+
+#Calcular a média aritmética
+	media = (nota1 + nota2) / 2
+
+#Se a média for igual ou maior que 7, o aluno foi aprovado
+	if media >= 7:
+		print("Aprovado")
+		#Se não, ele foi reprovado
+		else:
+		print("Reprovado")
+
+	--
+
+Exemplo - Java
+
+//Obter as duas notas de provas
+	System.out.print1n("Digite a primeira nota: ");
+	float nota1 = teclado.nextFloat();
+	System.out.print1n("Digite a segunda nota: ");
+	float nota2 = teclado.nextFloat();
+
+//Calcular a média aritmética
+	float media = (nota1 + nota2) / 2;
+
+//Se a média for igual ou maior que 7, o aluno foi aprovado,
+	if(media >= 7)
+		System.out.print1n("Aprovado");
+
+//Se não, ele foi reprovado
+	else
+		System.out.print1n("Reprovado");
+
+	--
+
+//obter as duas notas de provas
+	printf("Digite a primeira nota: ");
+	scanf_s("%d", &nota1);
+	printf("Digite a segunda nota: ");
+	scanf_s("%d", &nota2);
+
+//Calcular a média aritmética
+	media = (nota1 + nota2) / 2;
+
+//Se a média for igual ou maior que 7, o aluno foi aprovado
+	if (media >=7)
+		printf("Aprovado");
+
+//Se não, ele reprovado
+	else
+		printf("Reprovado");
+
+	----------------
+
+Glossário do Desenvolvedor de Software
+
+-Significado de Jargão
+"Linguagem restrita a determinado grupo profissional ou social; gíria. Linguagem 
+de códigos que alguns grupos usam para que pessoas desconhecidas não compreendam 
+suas conversas; gíria."
+
+-Jargão. In: DICIO, Dicionário Online de Português. Porto: 7Graus, 2022. 
+Disponível em: <https:/>/www.dicio.com.br/jargao/>. Acesso em: 6 dez.2022
+
+Exemplos:
+Front-end: parte gráfica de uma aplicação web
+Back-end: desenvolvimento no lado do servidor
+Full-stack: ambas as abordagens
+
+-API (Application Programming Interface)
+	Conjunto de rotinas e padrões de programação
+	Objetivo: acessar aplicativos de software
+	Plataformas baseados na web
+	Utilizada por programa/aplicação
+
+-Framework:
+	Conjunto de código de LP específica
+	Auxilia no desenvolvimento web ou de software
+	Biblioteca de códigos com funções já prontas
+	Arcabouço de código
+
+-IDE (Integrated Development Environment):
+	Integra diversas funcionalidades para desenvolvimento em única interface gráfica
+	Auxilia e agiliza o processo de desenvolvimento
+		Exemplo: Eclipse, PC, Netbins, etc
+
+-SDK (Software Development Kit):
+	Composição: compilador, debugger e API
+	Conjunto de ferramentas fornecidas por um fabricante para que se desenvolva
+	em uma plataforma ou sistema específico
+		Exemplos: SDK
+
+-Nativo
+	Desenvolvido para uma única plataforma	Utilização de linguagens e ferramentas
+	específica para a plataforma em questão
+		Exemplo: para Android, usa-se Android SDK; 
+		e Android Studio, linguagem Java e Kotlin
+
+-Híbrido
+	Implementação utiliza html, css e javascript
+	Frameworks ou ferramentas que permitem uma mesma base de código
+	Uma linguagem e distribuída para várias Plataformas
+
+-Serviços:
+	Processos de Software
+		O termo processo de software nesse caso não é no sentido de conjunto de
+		atividades da engenharia de software, mas, sim, naquele programa 
+		processado pelo SO
+
+-Monolítico: 
+	Roda com um único processo
+
+-Microsserviços: 
+	Abordagem arquitetônica e organizacional do desenvolvimento de software consiste
+	em pequenos serviços independentes que se comunicam usando APIs bem definidas.
+	São autônomos e especiliazados
+
+-SOAP Service-Oriented Architecture (Or Application) Protocol
+	Utiliza arquivos xml
+	Protoclo de transporte: HTTP com
+
+-REST Representational State Transfer
+	Conjunto de restrições para criação de webservices
+	Quando um serviço implementa esse padrão: Restfull
+	Restfull utiliza arquivos JSON
+
+-Commit
+
+	Enviar alterações de determinada trecho de código
+	Enviar criação de uma nova versão do projeto
+
+-Versionamento
+	Atribuição de número de versão ao estado do projeto
+	Exemplo: pastas com versões do projeto: trabalho_FDS_v1, trabalho_FDS_v2
+
+-Snapshot
+	Cópia instantânea em determinado tempo de um volume
+
+-Debug
+	Debugging ou debugar
+	Depurar o programa
+	Encontrar erros no programa e tentar resolvê-los
+
+-Git
+	Sistema de controle de versão
+	Gerencia as várias versões no desenvolvimento de um documento
+	O logo do GIT representa a remificação para desenvolvimento não linear
+
+-Github
+	Plataforma de desenvolvedor completa para criar, dimensionar e fornecer
+		software seguro
+	Utiliza o Git como sistema de controle
+
+-----------------------------------
+
+Ciclo de Vida de Software
+
+-Ciclo de vida de Desenvolvimento de Softwares
+	Software Development Life Cycle - SDLC
+	Modelo de processo
+	Representação simplificada de um processo de software
+
+-Quatro atividade que são comuns a todos os processo de Software:
+	Especificação -> Desenvolvimento -> Validação -> Evolução
+		-Somerville, 2019
+
+Analogia com a construção de uma caractéristicas
+	Especificação -> Desenvolvimento -> Validação -> Evolução
+
+Exemplo geral ( uma casa )
+	Especificação   -> especificar como quer que a casa seja
+	Desenvolvimento -> construção da casa propriamente
+	Validação       -> o que está sendo construído está de acordo com o solicitado
+	Evolução        -> manuntenção da casa. Evoluir para atender as necessidades
+
+Exemplo Área de TI
+
+	Especificação -> Entrevistas, Levantamento de Requisitos, quais Funções do Software
+						e também as suas necessidades
+
+	Desenvolvimento -> Tudo da fase (especificação) será criado, escolha da linguagem
+						Utilizada para o programador codificar
+
+	Validação -> Será que o desenvolvimento está de acordo com o 
+					solicitado nas especificações?
+
+	Evolução -> Manuntenção do Software, espansão das funcionalidades, 
+				retirar e atribuir requisito, etc
+
+-----------------
+
+Etapas de Modelos de processos
+
+Modelo Clássico
+
+-Modelo cascata
+Classica
+Tradicional
+SDLC
+Waterfall
+
+	Requerimento(Requisito)
+		Metas e restrições são identificadas junto aos usuários (cliente)
+	>
+	Projeto
+		Requisitos são mapeados em componentes de hardware e Software
+		>
+	Implementação
+		As funções do (requisito) serão implementados em unidades de programação
+			>
+	Verificação
+		Unidades de programa são integradas e testadas como um sistema completo
+				>
+	Manuntenção
+		Sistema é instalado e colocado em operação
+
+------
+
+Metodologia Ágil
+
+-Alternativas para gestão de projetos tradicionais
+-Entrega rápida das funcionalidades
+-Foco no software e não no projeto
+-Adequada a aplicações em que os requisitos mudam rapidamente
+-Duas abordagens: o extreme Programming (XP) e o SCRUM
+
+-Prinicipios da ( Metodologia Ágil )
+	Propriedade Coletiva -> Código é de todo mundo, todos podem alterar
+
+	Integração Contínua ->	Tudo feito é integrado e já passado os testes
+
+	Planejamento Incremental -> Metodologia ágil trabalha com cartões de história
+								representam funções implementadas no decorrer do projeto
+	
+	Representante do Cliente -> Uma pessoa sempre trás as ideias e requisitos cliente
+	
+	Refatoração -> Feita contínuamente para ajudar na manuntenção, refatorar um código
+					mudando sua estrutura interna, sem alterar o funcionamento externo
+	
+	Programação em Pares -> Quando trabalham em pares, um verificando o trabalho do outros
+							Dessa forma, a chance de erro diminui
+
+	Lançamentos Pequenos -> Pequenos lançamentos são feitos para mostrar as funcionalidades
+							e o avanço dos projetos
+
+	Projeto Simples -> Faça apenas o necessário sem inventar coisas
+
+	Ritmo Sustentável -> Mínimo possível de horas extras porque uma equipe cansada
+						não rende
+
+	Desenvolvimento Test First -> Cada môdulo antes de ser implementado, ele é testado
+
+-SCRUM ( Mesmo não sendo uma Metodologia Ágil e sim um Framework ele é considerado )
+
+Diferenças Metodologia Ágil x SCRUMM
+	Metologia Ágil > Mostra o que fazer e como fazer
+	SCRUMM > Arcabouço de ideias, ele não vai te dizer como fazer
+
+SCRUMM 
+	Artefatos | Eventos | Valores | Papéis
+
+Sprint 1 -> Sprint 2 -> Sprint 3 -> Sprint 4 -> Sprint 5 -> Sprint 6
+	Sprint > Como se fosse ciclos do SCRUMM, definido por um Engenheiro de Software,
+			sempre com a duração feita consistente, se uma sprint dura 15 dias,
+			todas precisam durar também 15 dias
+
+SCRUMM como funciona
+	Product Backlog - Todos os requisitos vão estar aqui, o que o cliente quer, listas
+
+	Sprint Planning -> Reunião para definir as funções que serão implementadas 
+						na Sprint
+
+	Sprint Backlog - Duração aproximada de 15 ou 20 dias, com a funções que foram
+					definidas em Sprint Planning
+
+	Scrumm Team -> Daily Scrumm para geralmente saber o que foi feito no dia anterior,
+					o andamento do projeto em sí
+
+	Sprint Review -> Deu tudo certo?
+
+	Increment -> Artefato final é o Increment
+
+	Sprint Retrospective -> O que no final da lista deu certo ou o que deve ser feito
+							Recomeça tudo novamente
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
