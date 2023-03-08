@@ -1,473 +1,375 @@
-Fundamentos de Desenvolvimento de Software - Prof. Luciane Y. H. Kanashiro
-
----------------  Aula 1 ---------------------
-
-#Software
-Qual a diferença entre Software, Sistemas OS, etc
-
--Software, programas e sistemas
--Sistema Operacional
--Algoritmos e linguagens
--O jargão na área de TI
--O ciclo de vida do desenvolvimento de software (metodologias)
-
-#Software, programas e Sistemas
-Software conssiste em:
-1 Instruções ( programas de computador ) que, quando executadas, fornecem 
-caractéristicas, funções e desempenho desejados.
-2- estruturas de dados que possibilitam aos programas manipular informações 
-adequadamente.
-3- informação descritica, tanto na forma impressa quanto na virtual, 
-descrevendo operação e o uso dos programas
-
-#Software
--programa > sequencia de passos ou instruções descritos por um algoritmo
-
-#Algoritmo > estrutura passo a passo de como um problema deve ser resolvido 
-			> uma receita de bolo ( tutorial )
-
---
-
-#Software de Sistema (básico)
-	Sistemas Operacionais
-	Sistemas Tradutores
-	Software Aplicativo
-
---
-
-#Software Utilitário
-
-Software de Sistema (OS)
-	Coleção de programas para apoiar outros programas
-	Sistema Operacional
-	Softwares utilitários ou ferramentas de sistema
-		Exemplos: Microsoft, Android, Ubuntu, MacOS
-
-Software Utilitário
-	Fornecem ao usuário ferramentas para organizar os discos, verificar 
-	disponibilidade de memória, corrigir falhas de processamento
-	Úteis ao sistema operacional
-		Exemplo: Antivirus, AVG, CCleaner, etc
-
---
-
-Software Aplicativo
-	Programas que auxiliam o usuario de computador a realizar determinada tarefa
-	Popularmente conhecidos como app
-		Exemplo: navegadores, editor de texto, planilhas, etc
-
---
-
-Software malware
-	Virus
-
---
-
-------------------------
-
-#Sistema Operacional
-	Sistema: conjunto de partes que se interagem para alcançar determinado objetivo
-	O que diferencia software de sistema é que um sistema pode ser definido como um 
-	conjunto de softwares que intagem entre si para alcançar determinado objetivo
-
-Sistemas Operacionais
-	Software responsável pela supervisão dos processos executados em um computador
-	Gerencia todo o hardware e todo o software do computador e realiza 
-	a "comunicação" entre eles
-
-Processos > programa em execução
-
-Exemplo: gerenciador de tarefas > processo > programas em execução
-
-Camada de Software entre o hardware e os softwares usados pelos usuarios
-
-Usuário/Aplicativo < Hardware < Sistema Operacional ( sistema operacional maior )
-
-#Funções de SO
-
-	-Facilita o uso do computador pelo usuário, tornando mais simples 
-	a utilização de seus recursos
-	-Gerenciar os recursos do computador
-	-Controlar a execução de programas pela CPU - CP
-
-#Sistemas Tradutores
-	Converte os programass escritos para um código em uma linguagem de máquina, 
-	mais adequada para manipular bits
-if(media >=7)    ~     media = (nota1 + nota2) / 2;    ~    printf("Aprova do \n");
-
-
-Programa escrito em linguagem de alto nível:
-Necessidade ser traduzido para a linguagem de máquina para que o 
-computador possa executálo
-- interpretadores e compiladores    
-
-Fonte ---- Interpretador ----- 111001000 ------ CPU  |  Linguagens de programação
-Fonte								     |
-Fonte
-Fonte
-
-Fonte
-Fonte ---- Compilador ------ 11000100		     | Programas e executável
-Fonte
-Fonte
-
---------------------
-
-Algoritmos e Linguagens
-
-Algoritmos
-	Algoritmo é uma sequência de passos que visa atingir um objetivo bem definido 
-		- Forbellone, 1999
-
-Objetivo: representar mais fielmente o raciocínio na lógica de programação
-	Uma vez concebida uma solução, esta pode ser traduzida para qualquer linguagem 
-	de programação
-
-#Sintaxe x semântica
-	Gap semântica entre lógica de programação e a lógica do dia a dia
-	Semântica na linguagem de programação: referindo ao conteúdo, ao significado
-	Sintaxe está relacionada com as regras, premissas, restrições
-	Modo como as palavras podem ser combinadas e formas os enunciados
-
----
-
-Sintaxe
-Exemplo 1:
-	Fiz prova de FDS na semana passada
-		Se escrevêssemos:
-			FDS passada semana prova fiz
-
-Exemplo 2:
-(2 ] - /
-
-----
-
-Semântica
-	Define o significado formal das expressões, comandos ou unidades de programas
-	Erros de semântica estão relacionadas a lógica de programação
-	Exemplo: expressão sintaticamente correta na linguagem Python, mas
-	semanticamente não faz sentido somar um número e um caractere
-		a = 2 + "3"
-
-----
-
-Algoritmos - exemplo 1
-Receita de bolo de caneca
-	Ingredientes
-		Ovo, etc
-
-
-Modo de Preparo
-	Em uma caneca com capacidade superior, acrescente leite, etc
-			( algoritmo )
-
----
-
-Algoritmo - exemplo 2
-Calcular média de prova
-	Obter as duas notas de provas > calcular a média > média > que x - aprovado 
-		~ < que x = reprovado
-
-------------
-
-#Linguagens
-
-Linguagens de Programação tratam os dados de um computador por meio do uso de 
-algoritmos
-
-Programador > Deve encontrar um algoritmo que resolve o seu problema
-		> Implementá-lo usando uma linguagem de programação
-
-Exemplo - Python
-
-Obter as duas notas de provas
-	nota1 = float(input("Digite a primeira nota: "))
-	nota2 = float(input("Digite a primeira nota: "))
-
-#Calcular a média aritmética
-	media = (nota1 + nota2) / 2
-
-#Se a média for igual ou maior que 7, o aluno foi aprovado
-	if media >= 7:
-		print("Aprovado")
-		#Se não, ele foi reprovado
-		else:
-		print("Reprovado")
-
-	--
-
-Exemplo - Java
-
-//Obter as duas notas de provas
-	System.out.print1n("Digite a primeira nota: ");
-	float nota1 = teclado.nextFloat();
-	System.out.print1n("Digite a segunda nota: ");
-	float nota2 = teclado.nextFloat();
-
-//Calcular a média aritmética
-	float media = (nota1 + nota2) / 2;
-
-//Se a média for igual ou maior que 7, o aluno foi aprovado,
-	if(media >= 7)
-		System.out.print1n("Aprovado");
-
-//Se não, ele foi reprovado
-	else
-		System.out.print1n("Reprovado");
-
-	--
-
-//obter as duas notas de provas
-	printf("Digite a primeira nota: ");
-	scanf_s("%d", &nota1);
-	printf("Digite a segunda nota: ");
-	scanf_s("%d", &nota2);
-
-//Calcular a média aritmética
-	media = (nota1 + nota2) / 2;
-
-//Se a média for igual ou maior que 7, o aluno foi aprovado
-	if (media >=7)
-		printf("Aprovado");
-
-//Se não, ele reprovado
-	else
-		printf("Reprovado");
-
-	----------------
-
-Glossário do Desenvolvedor de Software
-
--Significado de Jargão
-"Linguagem restrita a determinado grupo profissional ou social; gíria. Linguagem 
-de códigos que alguns grupos usam para que pessoas desconhecidas não compreendam 
-suas conversas; gíria."
-
--Jargão. In: DICIO, Dicionário Online de Português. Porto: 7Graus, 2022. 
-Disponível em: <https:/>/www.dicio.com.br/jargao/>. Acesso em: 6 dez.2022
-
-Exemplos:
-Front-end: parte gráfica de uma aplicação web
-Back-end: desenvolvimento no lado do servidor
-Full-stack: ambas as abordagens
-
--API (Application Programming Interface)
-	Conjunto de rotinas e padrões de programação
-	Objetivo: acessar aplicativos de software
-	Plataformas baseados na web
-	Utilizada por programa/aplicação
-
--Framework:
-	Conjunto de código de LP específica
-	Auxilia no desenvolvimento web ou de software
-	Biblioteca de códigos com funções já prontas
-	Arcabouço de código
-
--IDE (Integrated Development Environment):
-	Integra diversas funcionalidades para desenvolvimento em única interface gráfica
-	Auxilia e agiliza o processo de desenvolvimento
-		Exemplo: Eclipse, PC, Netbins, etc
-
--SDK (Software Development Kit):
-	Composição: compilador, debugger e API
-	Conjunto de ferramentas fornecidas por um fabricante para que se desenvolva
-	em uma plataforma ou sistema específico
-		Exemplos: SDK
-
--Nativo
-	Desenvolvido para uma única plataforma	Utilização de linguagens e ferramentas
-	específica para a plataforma em questão
-		Exemplo: para Android, usa-se Android SDK; 
-		e Android Studio, linguagem Java e Kotlin
-
--Híbrido
-	Implementação utiliza html, css e javascript
-	Frameworks ou ferramentas que permitem uma mesma base de código
-	Uma linguagem e distribuída para várias Plataformas
-
--Serviços:
-	Processos de Software
-		O termo processo de software nesse caso não é no sentido de conjunto de
-		atividades da engenharia de software, mas, sim, naquele programa 
-		processado pelo SO
-
--Monolítico: 
-	Roda com um único processo
-
--Microsserviços: 
-	Abordagem arquitetônica e organizacional do desenvolvimento de software consiste
-	em pequenos serviços independentes que se comunicam usando APIs bem definidas.
-	São autônomos e especiliazados
-
--SOAP Service-Oriented Architecture (Or Application) Protocol
-	Utiliza arquivos xml
-	Protoclo de transporte: HTTP com
-
--REST Representational State Transfer
-	Conjunto de restrições para criação de webservices
-	Quando um serviço implementa esse padrão: Restfull
-	Restfull utiliza arquivos JSON
-
--Commit
-
-	Enviar alterações de determinada trecho de código
-	Enviar criação de uma nova versão do projeto
-
--Versionamento
-	Atribuição de número de versão ao estado do projeto
-	Exemplo: pastas com versões do projeto: trabalho_FDS_v1, trabalho_FDS_v2
-
--Snapshot
-	Cópia instantânea em determinado tempo de um volume
-
--Debug
-	Debugging ou debugar
-	Depurar o programa
-	Encontrar erros no programa e tentar resolvê-los
-
--Git
-	Sistema de controle de versão
-	Gerencia as várias versões no desenvolvimento de um documento
-	O logo do GIT representa a remificação para desenvolvimento não linear
-
--Github
-	Plataforma de desenvolvedor completa para criar, dimensionar e fornecer
-		software seguro
-	Utiliza o Git como sistema de controle
-
------------------------------------
-
-Ciclo de Vida de Software
-
--Ciclo de vida de Desenvolvimento de Softwares
-	Software Development Life Cycle - SDLC
-	Modelo de processo
-	Representação simplificada de um processo de software
-
--Quatro atividade que são comuns a todos os processo de Software:
-	Especificação -> Desenvolvimento -> Validação -> Evolução
-		-Somerville, 2019
-
-Analogia com a construção de uma caractéristicas
-	Especificação -> Desenvolvimento -> Validação -> Evolução
-
-Exemplo geral ( uma casa )
-	Especificação   -> especificar como quer que a casa seja
-	Desenvolvimento -> construção da casa propriamente
-	Validação       -> o que está sendo construído está de acordo com o solicitado
-	Evolução        -> manuntenção da casa. Evoluir para atender as necessidades
-
-Exemplo Área de TI
-
-	Especificação -> Entrevistas, Levantamento de Requisitos, quais Funções do Software
-						e também as suas necessidades
-
-	Desenvolvimento -> Tudo da fase (especificação) será criado, escolha da linguagem
-						Utilizada para o programador codificar
-
-	Validação -> Será que o desenvolvimento está de acordo com o 
-					solicitado nas especificações?
-
-	Evolução -> Manuntenção do Software, espansão das funcionalidades, 
-				retirar e atribuir requisito, etc
-
------------------
-
-Etapas de Modelos de processos
-
-Modelo Clássico
-
--Modelo cascata
-Classica
-Tradicional
-SDLC
-Waterfall
-
-	Requerimento(Requisito)
-		Metas e restrições são identificadas junto aos usuários (cliente)
-	>
-	Projeto
-		Requisitos são mapeados em componentes de hardware e Software
-		>
-	Implementação
-		As funções do (requisito) serão implementados em unidades de programação
-			>
-	Verificação
-		Unidades de programa são integradas e testadas como um sistema completo
-				>
-	Manuntenção
-		Sistema é instalado e colocado em operação
-
-------
-
-Metodologia Ágil
-
--Alternativas para gestão de projetos tradicionais
--Entrega rápida das funcionalidades
--Foco no software e não no projeto
--Adequada a aplicações em que os requisitos mudam rapidamente
--Duas abordagens: o extreme Programming (XP) e o SCRUM
-
--Prinicipios da ( Metodologia Ágil )
-	Propriedade Coletiva -> Código é de todo mundo, todos podem alterar
-
-	Integração Contínua ->	Tudo feito é integrado e já passado os testes
-
-	Planejamento Incremental -> Metodologia ágil trabalha com cartões de história
-								representam funções implementadas no decorrer do projeto
+Fundamentos de Desenvolvimento de Software - Prof. Luciane Yanase Hirabara Kanashiro
+
+---------------  Aula 2 ---------------------
+O Profissional de TI e sua atuação
+
+-Temas
+	Crise do Software
+	Profissional de TI
+	Perfil do Prossional de TI
+	Mercado de TI
+	Mitos e verdades do Desenvolvimento de Software
+
+-Crise do Software
+	> O conceito de Engenharia de Software foi inicialmente proposto em 1965 durante 
+		conferência sobre a crise do Software.
+	> Referente aos problemas do Software não acompanharem o desenvolvimento 
+		do hardware
+
+    Hardware               ->      Software      ->      Crise do Software
+
+Circuitos Integrados		Desenvolvimento Informal	Erros em sistemas
+Barateamento				Ausência de metodologias	Problemas de cálculos
+Miniaturização											Perdas financeiras
+														Perdas de tempo
+
+-Bug
+Erro na interpretação de um requisito
+Erro de sintaxe no código
+A causa (ainda desconhecida) da queda de um sistema
+
+-----------------Bugs mais famosos
+-1962: Falha na sonda
+Mariner 1
+-Sonda para o planeta Vênus
+-Desvio do curso preestabelecido
+-Destruída enquanto sobrevoava o Atlântico
+-O problema: fórmula escrita a lápis que depois foi digitada errada no computador
+	de cálculos
+
+------1985-1987: Acelerador médico Therac-25
+-Acelerador linear empregado nos hospitais na década de 80 para tratar tumores
+-O problema: devido a uma falha de programação, a máquina emitia 100 vezes mais
+	energia do que a requerida.
+-Consequência: morte de cinco pacientes e várias pessoas sofreram os efeitos de
+	ficarem expostos a uma elevada radiação
+
+-----1993: divisão de números com ponto flutuante no Pentium
+Exemplo:
+-4195835,0 / 3145727,0 = 1,33374
+-4195835,0 / 3145727,0 = 1,33382 Erro de 0.006%
+Intel foi obrigada a trocar entre três e cinco milhões de chips
+Prejuízo: mais de meio bilhão de dólares
+
+---------------------------------------------
+
+O Profissional de TI
+
+Pápeis do Profissional de TI
+
+Engenheiro de Software
+	-Esxolhe, especifica os processos de planejamento, gerência e produção
+		a serem implementados
+	-Acompanha e avalia o desenvolvimento
+	-Verifica se o processo é executado de forma efeciente e efetiva
+	-Reavalia o processo continuamente
+
+Analista
+	-Responsável pela compreensão do problema
+	-Levantamento dos requisitos e modelagem
+	-Descobrir o que o cliente precisa
+
+Programador ou Desenvolvedor
+	-Construir a solução física a partir das especificações
+	-Conhecimento profundo da linguagem e o ambiente de programação e bibliotecas
+	-Conhecimento sobre teste e depuração
+
+Eng. Da Computação
+	-Base sólida em cálculo
+	-Apto a desenvolver software e hardware
+	-Software: microcontroladores e chips
+	-Junção entre cientistas da computação e engenheiro eletricista
+
+Gestor de TI
+	-Administra recursos de TI
+	-Tratamento, armazenamento e proteção de SI
+	-Conhecimento em marketing e administração
+
+Cientista de Dados
+	-Reúne e interpreta os dados
+	-Especialista analítico
+	-Capacidade: ler, escrever, comunicar e racionar com dados
+
+Adm. de Redes
+	-Responsabilidades: instalação e implementação de infraestrutura de Sistemas
+	-Documentar projetos, configurar e gerenciar redes
+	-Web segurança
+
+Adm. de Banco de Dados
+	-Implementa, projeto soluções e gerencia Banco de Dados (BD)
+	-Responsabilidades: segurança e integridade dos Dados
+	-Alternativa: engenharia de Dados
+
+Perfil do Profissional de TI
+	-Habilidades básica: habilidades básica de TI
+	-Habilidade técnica: hard skills
+		Estudo formal
+		Conhecimento fundamental
+		Especialista em alguma área e generalista em outras
+	-Habilidade comportamental: soft skills
+		Subjetivas
+		Resolver problemas, comunicação, planejamento
+			Exemplo Soft Skills:
+				Criatividade, colaboração, adaptabilidade, tomada de decisão,
+				alto QE, resolver problemas, comunicação
+
+O que o mercado busca do Profissional de TI?
+	Competência Profissional:
+		-Conhecimento, Atitude, Habilidade
+
+----------------------------------------------
+	Importância do Profissional de TI
+
+Mercado de TI
+	-A área de TI é a que mais cresce atualmente
+	-Estima-se que a demanda é de 70 mil profissionais ao anterior
+	-Atualmente existe um déficit de profissionais nessa área
+
+Pesquisa Brasscom - 2013 - 2021
+	-A proporção de empresas brasileiras que comercializaram produtos e serviços
+		online cresceu de 57% para 73% (Cetic. 2021)
+			| IMAGEM COMPLETA SALVA EM ASSETS |
+
+Pesquisa Brasscom mais recente	
+	-Demanda por mão de obra na área de TI entre 2021 a 2025 é de 797 mil,
+		com uma média simples de 159 mil empregos por anterior
+	-Demanda por mão de obra Brasil: foram cerca de 52 mil pessoas com perfil TI por ano
+	-Oportunidade: taxa de desemprego de mais de 11%
+	-Remuneração média do subsetor de Software e serviços de TI: é 3,5 vezes
+		superior ao salário médio nacional
+			| IMAGEM COMPLETA SALVA EM ASSETS |
+
+As Startups
+	-Startup é uma ideia de empresa ou uma empresa nascente voltado à tecnologia e
+		inovação que tenha como objetivo desenvolver e aprimorar um modelo de négocio.
+			(Sebrae, [S.d])
+				Exemplos: Uber, grow, ifood, loggi, arco, dr.c, neon, banco inter,
+							hotmart, cargox, vtex, nubank, quintoandar, gympass, rappi
+	-As empresas startups que atingem mais de 1 bilhão de dólares são chamadas
+		de unicórnio
+	-O Brasil ingressou com mais unicórnios no mundo: Stone, Gympass, Nubank, Ifood,
+		Loggi, Quinto Andar, Arco, Pagseguro, 99, Wildlife
+	-As funtechs são startups ou empresas que desenvolvem produtos financeiros
+		totalmente digitais nas quais o uso da tecnologia é o principal diferencial
+			relação às empresas tradicionais do setor
+				Exemplos: Neon, Stone, Nubank, Getnet, Ebanx, C6Bank, Vero, Safrapay,
+							Pagseguro, Nibo, ContaAzul, Mercado Pago, Banco Inter, Geru
+		Crescimento de mais de 96% p.a
+			AGO 2015: 54 / ABRIL 2016: 130 / FEV 2017: 244
+				NOV 2017: 332 / AGO 2018: 404 / 2022: mais de 1289 fintechs
+						Fonte: Mckinsey, 2019
+
+Qual o impacto disso?
+	-Cenário favorável para o desenvolvimento
+	-Pessoas conectadas a internet e utilizando dispositivos digitais:
+		-Baixando mais apps
+		-Empresas vão precisar de mais desenvolvedores
+		-Mais profissionais na área de TI
+
+Curiosidade: Mulheres no Mercado de TI
+	-O primeiro programador da história é na verdade uma programadora, seu nome é
+	Ada Lovelace. Ada Lovelace, matemática Inglesa escreveu o primeiro algortimo para
+	a máquina analítica de Charles Babbage. A linguagem de programação Ada foi criada
+	em homenagem a ela pelo Departamento de Defesa dos Estados Unidos.
+
+	-Grace Murray Hopper foi analista de dados da marinha americana e criou a linguagem
+	de programação Flow-matic. que serviu de base para a criação do COBOL. É de autoria
+	dela o termo "bug".
+
+	-Hedy Lamarr é a mãe do wifi. Mais famosa como atriz do que como cientista em sua
+	época, durante a Segunda Guerra, inventou um aparelho de interferência em rádio,
+	que posteriormente possibilitou a criação de tecnologias como wifi e CDMA ( CODE 
+	Division Multiple Access, ou Acesso Múltiplo por Divisão de Código).
+
+Experiência por Gênero
+	Revelo é uma empresa de tecnologia no setor de recursos humanos que oferece uma
+		plataforma de recrutamento e seleção que conecta candidatos às vagas de forma
+		ágil e humanizada
+ | TEM IMAGEM DO GRAFICO EM ASSETS |
+
+-------------------------------------------
+Tecnologias emergentes
+-Computação em nuvem
+-Cloud computing
+		Definição:
+	A computação em nuvem é a entrega sob demanda de poder computacional,
+	armazenamento de banco de dados, aplicativos e outros recursos de TI por meio
+	de uma plataforma de serviços de nuvem via Internet com definição de preço
+	conforme o uso
+		Fonte: AWS
+
+Motivos da nuvem ser importante hoje:
+
+	-Uma tendência que foi ressaltada pela pandemia é a da virtualização, conteinerização
+		e computação em borda
+
+	-A criação de um ambiente de desenvolvimento pode ser árdua e demorada...
+
+Solução:
+
+	-Hospedar códigos e criar, testar e implantar seus aplicativos na nuvem
+
+	-Disponibilizar softwares com mais rapidez
+
+	-Equipe mais produtiva
+
+Computação em nuvem
+
+	Houve um crescimento da utilização de serviços na nuvem durante a pandemia
+
+	-2020 - Destaques de crescimento para software na Nuvem com 165,8% e 
+		infraestrutura na nuvem com 127,8%
+			(Relatório Setorial 2020 Macrossetor de TIC - Brasscom)
+
+Exemplo: AWS
+	-Amazon Web Services
+	-Plataforma de serviços de computação em nuvem:
+		IaaS
+		PaaS
+		SaaS 
+	-Foco implacável no cliente
+	-Dogfooding
+
+--------------------------------------------
+
+Virtualização
+	-Máquina física que emula várias máquinas virtuais
+	-Cada máquina virtual roda uma cópia do sistema operacional
+	-Cria um ambiente virtual de computação ao invés de um ambiente físico.
+		Exemplo: WMWare e VirtualBox
+	-Conceito não é novo (1960)
+	-Tendência ressaltada com a popularização da computação em nuvem
+
+Contêineres
+	-Método de virtualização do sistema operacional
+	-Permite executar um aplicativo e suas dependências em processos
+		isolados de recursos
+	-Simplificando: contêineres empacotam o código, as configurações e as
+		dependências de um aplicativo em um único objeto
+			Exemplo: Docker
+
+Computação em borda
+	-Aproxima os equipamentos de onde os dados são gerados
+	-Evolução da computação em nuvem
+	-Origem: 1990 com o surgimento das CDNs que armazena conteúdo próximo dos locais
+		de entrega (exemplo de utilizador: Netflix e Disney Plus)
+		(Os dados ficam proximo do cliente, muiti utilizado em on demmand)
+
+	-Tendência ressaltada com o aparecimento do conceito de IoT
+	-IoT: possibilidade de conectar internet com objetos que utilizamos no dia
+		a dia, como eletrodomésticos, carros, babá eletrônica
+
+---------------------------
+
+Mitos e Verdade do Desenvolvimento de Software
+	-Crenças comuns, sem fundamento científico sobre o software e o processo utilizado
+		para criá-lo
+	-De acordo com Pressman (2016) existem os mitos de gerenciamento, mitos do cliente
+		e mitos dos profissionais da área
+
+-----------Mitos de Gerenciamento
+	Mito
+	-Já temos um livro cheio de padrões e procedimentos
+	Realidade
+	-O livro é utilizado?
+
+	Mito
+	-Se o cronograma atrasar, acrescentaremos mais programadores
+	Realidade
+	-Acrescentar mais pessoal atrasa o projeto
+
+	Mito
+	-Ao terceirizar o projeto é possível relaxar
+	Realidade
+	-Acompanhamento contínuo
+
+----------Mitos do Cliente
+	Mito
+	-Uma definição geral dos objetivos é suficiente
+	Realidade
+	-Principal causa do fracasso: requisitos iniciais mal definidos
+
+	Mito
+	-Software é flexível: mudanças facilmente assimiladas
+	Realidade
+	-O impacto da mudança depende de quando ela é introduzida
+
+----------Mitos dos Profissionais da área
+	Mito
+	-Programa feito e colocado em uso: trabalho concluído!
+	Realidade
+	-Entre 60 e 80% de esforço despendido após a primeira entrega
+
+	Mito
+	-Avaliação de qualidade: apenas quando em execução
+	Realidade
+	-Qualidade pode ser avaliada antes da implementação
+
+	Mito
+	-Único produto passível de entrega: programa funcionando
+	Realidade
+	-Outros artefatos necessários: modelos, documentos, planos, etc
+
+	Mito
+	-Engenharia de software: cria documentação volumosa e desnecessária
+	Realidade
+	-Objetivo: criar um modelo de qualidade. Melhor qualidade: redução do retrabalho
+
+		Kanashiro, 2022
+
+------------------------------------------------------
+Outros mitos
+	-Ser bom em matemática
+	-TI não é uma área para mulheres
+		Atualmente estão sendo feitas muitas pesquisas em relação à prodominância
+		de homens, não só na área de TI, mas na STEM (Science, Technology, Engineering
+		and Mathematics)
+
+Questões que influenciam as escolhas de mulheres jovens ao estudar STEM/TI Nível Individual
+	-Autoeficácia >
+		crença na própria capacidade de realizar uma tarefa ou um objetivo
+	-Atitudes e interesses > 
+		atitudes em relação aos computadores
+		interesses preveem busca por um diploma de TI
+	-Exposição prévia à computação >
+		experiência em computação: maior probabilidade de concluir um curso de TI
+		relação: acesso precoce ao computador reduz a intimidação e aumenta a percepção
+		familiaridade com computadores: estimula interesse e curiosidade
+	-Percepção de carreira >
+		Mais atrativo: trabalhos que envolvem interações sociais e valorizam 
+			recompensas sociais
+		Menos atrativo: profissões com objetos físicos e/ou mais focadas em alto salário 
+			e poder
+		Percepção errônia: carreira em STEM não é associada a objetivos comunitários
+
+-----Questões que influenciam as escolhas de mulheres jovens ao estudar STEM/TI 
+			Nível Interpessoal
+
+Influência dos pais e dos pares
+Modelos femininos "comuns" > professores, pessoas estudiosas, programadores, engenheiras
+	que as mulheres possam se espelhar
+Presença de mentores
+
+			Nível Estrutural
+Ambiente acadêmico
+	> Professores reforçam os estereótipos de gênero
+Indústria de games e filmes
+	> Proliferação das personagens sexualizadas
+	> Personagem principal não evoluiu ou se desenvolveu ao longo do tempo
+
+Verdades
+	-inglês é imprescindível
+	-Profissionais em constante aprendizado
+	-TI é uma área em expansão
 	
-	Representante do Cliente -> Uma pessoa sempre trás as ideias e requisitos cliente
+	 
 	
-	Refatoração -> Feita contínuamente para ajudar na manuntenção, refatorar um código
-					mudando sua estrutura interna, sem alterar o funcionamento externo
-	
-	Programação em Pares -> Quando trabalham em pares, um verificando o trabalho do outros
-							Dessa forma, a chance de erro diminui
 
-	Lançamentos Pequenos -> Pequenos lançamentos são feitos para mostrar as funcionalidades
-							e o avanço dos projetos
 
-	Projeto Simples -> Faça apenas o necessário sem inventar coisas
 
-	Ritmo Sustentável -> Mínimo possível de horas extras porque uma equipe cansada
-						não rende
-
-	Desenvolvimento Test First -> Cada môdulo antes de ser implementado, ele é testado
-
--SCRUM ( Mesmo não sendo uma Metodologia Ágil e sim um Framework ele é considerado )
-
-Diferenças Metodologia Ágil x SCRUMM
-	Metologia Ágil > Mostra o que fazer e como fazer
-	SCRUMM > Arcabouço de ideias, ele não vai te dizer como fazer
-
-SCRUMM 
-	Artefatos | Eventos | Valores | Papéis
-
-Sprint 1 -> Sprint 2 -> Sprint 3 -> Sprint 4 -> Sprint 5 -> Sprint 6
-	Sprint > Como se fosse ciclos do SCRUMM, definido por um Engenheiro de Software,
-			sempre com a duração feita consistente, se uma sprint dura 15 dias,
-			todas precisam durar também 15 dias
-
-SCRUMM como funciona
-	Product Backlog - Todos os requisitos vão estar aqui, o que o cliente quer, listas
-
-	Sprint Planning -> Reunião para definir as funções que serão implementadas 
-						na Sprint
-
-	Sprint Backlog - Duração aproximada de 15 ou 20 dias, com a funções que foram
-					definidas em Sprint Planning
-
-	Scrumm Team -> Daily Scrumm para geralmente saber o que foi feito no dia anterior,
-					o andamento do projeto em sí
-
-	Sprint Review -> Deu tudo certo?
-
-	Increment -> Artefato final é o Increment
-
-	Sprint Retrospective -> O que no final da lista deu certo ou o que deve ser feito
-							Recomeça tudo novamente
 
 	
+
 
 
 
