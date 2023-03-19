@@ -58,7 +58,7 @@ O Profissional de TI
 Pápeis do Profissional de TI
 
 Engenheiro de Software
-	-Esxolhe, especifica os processos de planejamento, gerência e produção
+	-Escolhe, especifica os processos de planejamento, gerência a produção
 		a serem implementados
 	-Acompanha e avalia o desenvolvimento
 	-Verifica se o processo é executado de forma efeciente e efetiva
@@ -298,7 +298,7 @@ Mitos e Verdade do Desenvolvimento de Software
 	Mito
 	-Programa feito e colocado em uso: trabalho concluído!
 	Realidade
-	-Entre 60 e 80% de esforço despendido após a primeira entrega
+	-Entre 60% e 80% de esforço é despendido após a primeira entrega
 
 	Mito
 	-Avaliação de qualidade: apenas quando em execução

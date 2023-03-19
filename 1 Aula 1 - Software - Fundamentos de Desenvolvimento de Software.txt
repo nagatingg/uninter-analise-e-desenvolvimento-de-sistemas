@@ -12,12 +12,12 @@ Qual a diferença entre Software, Sistemas OS, etc
 -O ciclo de vida do desenvolvimento de software (metodologias)
 
 #Software, programas e Sistemas
-Software conssiste em:
+Software consiste em:
 1 Instruções ( programas de computador ) que, quando executadas, fornecem 
 caractéristicas, funções e desempenho desejados.
 2- estruturas de dados que possibilitam aos programas manipular informações 
 adequadamente.
-3- informação descritica, tanto na forma impressa quanto na virtual, 
+3- informação descritiva, tanto na forma impressa quanto na virtual, 
 descrevendo operação e o uso dos programas
 
 #Software
@@ -66,9 +66,9 @@ Software malware
 ------------------------
 
 #Sistema Operacional
-	Sistema: conjunto de partes que se interagem para alcançar determinado objetivo
+	Sistema: conjunto de partes que interagem para alcançar determinado objetivo
 	O que diferencia software de sistema é que um sistema pode ser definido como um 
-	conjunto de softwares que intagem entre si para alcançar determinado objetivo
+	conjunto de softwares que interagem entre si para alcançar determinado objetivo
 
 Sistemas Operacionais
 	Software responsável pela supervisão dos processos executados em um computador
@@ -125,9 +125,9 @@ Objetivo: representar mais fielmente o raciocínio na lógica de programação
 
 #Sintaxe x semântica
 	Gap semântica entre lógica de programação e a lógica do dia a dia
-	Semântica na linguagem de programação: referindo ao conteúdo, ao significado
+		Semântica na linguagem de programação: referindo ao conteúdo, ao significado
 	Sintaxe está relacionada com as regras, premissas, restrições
-	Modo como as palavras podem ser combinadas e formas os enunciados
+		Modo como as palavras podem ser combinadas e formas dos enunciados
 
 ---
 
@@ -295,7 +295,7 @@ Full-stack: ambas as abordagens
 	Roda com um único processo
 
 -Microsserviços: 
-	Abordagem arquitetônica e organizacional do desenvolvimento de software consiste
+	Abordagem arquitetônica e organizacional do desenvolvimento de software que consiste
 	em pequenos serviços independentes que se comunicam usando APIs bem definidas.
 	São autônomos e especiliazados
 
@@ -309,7 +309,6 @@ Full-stack: ambas as abordagens
 	Restfull utiliza arquivos JSON
 
 -Commit
-
 	Enviar alterações de determinada trecho de código
 	Enviar criação de uma nova versão do projeto
 
