@@ -17,7 +17,7 @@ Software conssiste em:
 caractéristicas, funções e desempenho desejados.
 2- estruturas de dados que possibilitam aos programas manipular informações 
 adequadamente.
-3- informação descritica, tanto na forma impressa quanto na virtual, 
+3- informação descritiva, tanto na forma impressa quanto na virtual, 
 descrevendo operação e o uso dos programas
 
 #Software

@@ -1,2 +1,27 @@
 Projeto Aula 3 -Fundamentos de Desenvolvimento de Software - Prof. Luciane Y. H. Kanashiro
 
+-Infraestrutura de Web Site
+Aprendendo a configurar um site pronto, utilizando o 000webhost
+
+Arquivos do site pronto, salvo na pasta Projeto
+Link online no 000webhost ainda não disponível:
+    https://testeinicial14.000webhostapp.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
