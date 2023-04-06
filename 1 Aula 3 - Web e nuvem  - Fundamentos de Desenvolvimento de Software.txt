@@ -1,369 +1,733 @@
 Fundamentos de Desenvolvimento de Software - Prof. Luciane Yanase Hirabara Kanashiro
 
----------------  Aula 2 ---------------------
-O Profissional de TI e sua atuação
+---------------  Aula 3 ---------------------
+Desenvolvimento Colaborativo: do início ao fim
 
--Temas
-	Crise do Software
-	Profissional de TI
-	Perfil do Prossional de TI
-	Mercado de TI
-	Mitos e verdades do Desenvolvimento de Software
+Assuntos abordados na Aula:
+    Teremos uma visão geral sobre o desenvolvimento colaborativo:
+        -Como nasce um Software
+        -Ferramentas colaborativas
+        -Conceito de reúso e versionamento
+        -Testes de Software
 
--Crise do Software
-	> O conceito de Engenharia de Software foi inicialmente proposto em 1965 durante 
-		conferência sobre a crise do Software.
-	> Referente aos problemas do Software não acompanharem o desenvolvimento 
-		do hardware
+----- Como nasce um Software
+Rotina para o desenvolvimento de Software
+    Baixar o código -> Codificar -> Validar -> Integrar -> Testar
 
-    Hardware               ->      Software      ->      Crise do Software
+-Baixar o código
+    Aquisição de código / Atualização da versão no repositório
 
-Circuitos Integrados		Desenvolvimento Informal	Erros em sistemas
-Barateamento				Ausência de metodologias	Problemas de cálculos
-Miniaturização											Perdas financeiras
-														Perdas de tempo
+-Codificar
+    Observar boas práticas de programação / legibilidade do código / Padrão nomeação
 
--Bug
-Erro na interpretação de um requisito
-Erro de sintaxe no código
-A causa (ainda desconhecida) da queda de um sistema
+-Validar
+    Tudo funciona de acordo com o que foi especificado?
 
------------------Bugs mais famosos
--1962: Falha na sonda
-Mariner 1
--Sonda para o planeta Vênus
--Desvio do curso preestabelecido
--Destruída enquanto sobrevoava o Atlântico
--O problema: fórmula escrita a lápis que depois foi digitada errada no computador
-	de cálculos
+-Integrar
+    Integração por meio de sistema de controle de versão
 
-------1985-1987: Acelerador médico Therac-25
--Acelerador linear empregado nos hospitais na década de 80 para tratar tumores
--O problema: devido a uma falha de programação, a máquina emitia 100 vezes mais
-	energia do que a requerida.
--Consequência: morte de cinco pacientes e várias pessoas sofreram os efeitos de
-	ficarem expostos a uma elevada radiação
+-Testar
+    Automatização de testes, e realização das atividades de testes durante a codificação
+    Não tem obrigatoriedade de ser apenas no final, pode ser feito durante cada fase
 
------1993: divisão de números com ponto flutuante no Pentium
-Exemplo:
--4195835,0 / 3145727,0 = 1,33374
--4195835,0 / 3145727,0 = 1,33382 Erro de 0.006%
-Intel foi obrigada a trocar entre três e cinco milhões de chips
-Prejuízo: mais de meio bilhão de dólares
+-Trabalho em equipe e boas práticas em reuniões
+    Pessoas que fazem um Software
+    Relembrando: daily scrum
+        -Priorizar tarefas
+        -Comunicação com a equipe
+        -Foco no cliente
+    Times são formado por Pessoas
+    O trabalho em equipe e a colaboração ampactam no sucesso de uma aplicação
+    Uma equipe que não colabora, que não sabe em quê o outro parceiro está 
+        trabalhando, uma equipe cansada não rende!
 
----------------------------------------------
+-Reunião
+    Boa estratégia para saber em quê cada um do time está trabalhando e quais
+        tarefas são prioridades
+    Excesso de reuniões pode atrapalhar a produtividade
 
-O Profissional de TI
+-Pesquisa Havard Business Review
+    90% sonham acordado em reuniões
+    73% fazem outro trabalho
 
-Pápeis do Profissional de TI
+-Pesquisa MPRJ/INOVA
+    82.3% Escolha criteoriosa de temas
+    91.6% Envio prévio da pauta
+    89.4% Definição de quem faz o quê
+    68.1% Limitação de participantes
+    85.8% Limitação do tempo total de reunião
 
-Engenheiro de Software
-	-Escolhe, especifica os processos de planejamento, gerência a produção
-		a serem implementados
-	-Acompanha e avalia o desenvolvimento
-	-Verifica se o processo é executado de forma efeciente e efetiva
-	-Reavalia o processo continuamente
+-Boas práticas em reuniões
 
-Analista
-	-Responsável pela compreensão do problema
-	-Levantamento dos requisitos e modelagem
-	-Descobrir o que o cliente precisa
+    Para conduzir uma reunião, são elencados os seguintes fatores:
+        Não se atrase para a reunião
+        Quem faz o convite deve guiar a reunião
+        Prepare-se para a reunião
+        Apresente todos os participantes
+        Estabeleça as regras da reunião
+        Seja direto e objetivo
+        Pergunte como as pessoas estão se sentindo
 
-Programador ou Desenvolvedor
-	-Construir a solução física a partir das especificações
-	-Conhecimento profundo da linguagem e o ambiente de programação e bibliotecas
-	-Conhecimento sobre teste e depuração
+    Para que as reuniões sejam mais eficientes, os seguintes fatores são elencados:
+        Verifique se o assunto, de fato, pede uma reunião
+        Marque reuniões mais curtas
+        Evite encontros fora do horário comercial e tente não remarcar
+        Envie o convite já com um contexto do que será abordado
+        Convide apenas pessoas realmente necessárias para o encontros
+        Esteja presente e vite distrações
+        Tenha sempre cuidado com a câmera e o microfone
+        Faça uma ata da reunião remota
 
-Eng. Da Computação
-	-Base sólida em cálculo
-	-Apto a desenvolver software e hardware
-	-Software: microcontroladores e chips
-	-Junção entre cientistas da computação e engenheiro eletricista
+-Zoom fadigue
+    Termo que se refere aos aspectos negativos da videoconferência em geral
+    Está associado ao uso prolongado e repetido de ferramentas de videoconferência
 
-Gestor de TI
-	-Administra recursos de TI
-	-Tratamento, armazenamento e proteção de SI
-	-Conhecimento em marketing e administração
+-Causas
+    Excesso de contato visual
+    Muito tempo vendo a si mesmo
+    Redução de mobilidade
+    Videochamadas demandam maior carga cognitiva
+    
 
-Cientista de Dados
-	-Reúne e interpreta os dados
-	-Especialista analítico
-	-Capacidade: ler, escrever, comunicar e racionar com dados
+-------Ferramentas colaborativas de trabalho em equipe
 
-Adm. de Redes
-	-Responsabilidades: instalação e implementação de infraestrutura de Sistemas
-	-Documentar projetos, configurar e gerenciar redes
-	-Web segurança
+-Ferramentas de colaboração
+    As feramentas de colaboração são softwares ou plataformas que permitem
+        o compartilhamento de arquivos e a efetiva comunicação entre os integrantes
+        de um mesmo projeto
 
-Adm. de Banco de Dados
-	-Implementa, projeto soluções e gerencia Banco de Dados (BD)
-	-Responsabilidades: segurança e integridade dos Dados
-	-Alternativa: engenharia de Dados
+-Trello
+    Anteriormente denominado feramenta de gestão on-line para métodos ágeis
+    Versões: gratuita (recursos limitados), standard e premium (mais completa e cara)
+    Conceito: quadros, listas e cartões
+    Permite gerenciar tarefas com facilidade
+    Cartões: mantêm informações necessárias organizadas e em um só lugar
 
-Perfil do Profissional de TI
-	-Habilidades básica: habilidades básica de TI
-	-Habilidade técnica: hard skills
-		Estudo formal
-		Conhecimento fundamental
-		Especialista em alguma área e generalista em outras
-	-Habilidade comportamental: soft skills
-		Subjetivas
-		Resolver problemas, comunicação, planejamento
-			Exemplo Soft Skills:
-				Criatividade, colaboração, adaptabilidade, tomada de decisão,
-				alto QE, resolver problemas, comunicação
+-Jira
+    Ferramenta para gestão de projetos
+    Painel Scrum personalizado para o próximo sprint
+    Exclusivo para desenvolvimento ágil, sendo mais indicado para grandes empresas
+    
+-Jira Antes e Hoje
+    Antes: rastreador de bugs e itens / truncamento de godzila / bugzila
+    Hoje: gestão ágil de projetos / Suporte à metodologia ágil
 
-O que o mercado busca do Profissional de TI?
-	Competência Profissional:
-		-Conhecimento, Atitude, Habilidade
+-Diferenças Jira x Trello
+    Jira
+        Colaboração entre os integrandes do time
+        Criado pela empresa australiana Atlassian
+        Requer instalação
 
-----------------------------------------------
-	Importância do Profissional de TI
+    Trello
+        Painel flexível e visual para trocar idieias sobre novos produtos
+        Criado por subsidiária da Atlassian
+        Aplicação na nuvem
 
-Mercado de TI
-	-A área de TI é a que mais cresce atualmente
-	-Estima-se que a demanda é de 70 mil profissionais ao anterior
-	-Atualmente existe um déficit de profissionais nessa área
+-----IMAGEM SALVA EXPLICANDO MELHOR AS DIFERENÇAS A SEGUIR Trelo vs Jira
 
-Pesquisa Brasscom - 2013 - 2021
-	-A proporção de empresas brasileiras que comercializaram produtos e serviços
-		online cresceu de 57% para 73% (Cetic. 2021)
-			| IMAGEM COMPLETA SALVA EM ASSETS |
+    Planeje e acompanha o trabalho das equipes que desenvolvem, executam e dão
+    suporte ao software
+        Trello ( Indisponível ) - Jira ( Disponível )
 
-Pesquisa Brasscom mais recente	
-	-Demanda por mão de obra na área de TI entre 2021 a 2025 é de 797 mil,
-		com uma média simples de 159 mil empregos por anterior
-	-Demanda por mão de obra Brasil: foram cerca de 52 mil pessoas com perfil TI por ano
-	-Oportunidade: taxa de desemprego de mais de 11%
-	-Remuneração média do subsetor de Software e serviços de TI: é 3,5 vezes
-		superior ao salário médio nacional
-			| IMAGEM COMPLETA SALVA EM ASSETS |
+	Faça retrospectivas e reuniões sobre o sprint
+        Trello ( Disponível ) - Jira ( Indisponível )
 
-As Startups
-	-Startup é uma ideia de empresa ou uma empresa nascente voltado à tecnologia e
-		inovação que tenha como objetivo desenvolver e aprimorar um modelo de négocio.
-			(Sebrae, [S.d])
-				Exemplos: Uber, grow, ifood, loggi, arco, dr.c, neon, banco inter,
-							hotmart, cargox, vtex, nubank, quintoandar, gympass, rappi
-	-As empresas startups que atingem mais de 1 bilhão de dólares são chamadas
-		de unicórnio
-	-O Brasil ingressou com mais unicórnios no mundo: Stone, Gympass, Nubank, Ifood,
-		Loggi, Quinto Andar, Arco, Pagseguro, 99, Wildlife
-	-As funtechs são startups ou empresas que desenvolvem produtos financeiros
-		totalmente digitais nas quais o uso da tecnologia é o principal diferencial
-			relação às empresas tradicionais do setor
-				Exemplos: Neon, Stone, Nubank, Getnet, Ebanx, C6Bank, Vero, Safrapay,
-							Pagseguro, Nibo, ContaAzul, Mercado Pago, Banco Inter, Geru
-		Crescimento de mais de 96% p.a
-			AGO 2015: 54 / ABRIL 2016: 130 / FEV 2017: 244
-				NOV 2017: 332 / AGO 2018: 404 / 2022: mais de 1289 fintechs
-						Fonte: Mckinsey, 2019
+    Troque ideias sobre desenvolvimento e produtos
+        Trello ( Disponível ) - Jira ( Indisponível )
 
-Qual o impacto disso?
-	-Cenário favorável para o desenvolvimento
-	-Pessoas conectadas a internet e utilizando dispositivos digitais:
-		-Baixando mais apps
-		-Empresas vão precisar de mais desenvolvedores
-		-Mais profissionais na área de TI
+    Integração com Bitbucket ou GitHub
+        Trello ( Disponível ) - Jira ( Disponível )
 
-Curiosidade: Mulheres no Mercado de TI
-	-O primeiro programador da história é na verdade uma programadora, seu nome é
-	Ada Lovelace. Ada Lovelace, matemática Inglesa escreveu o primeiro algortimo para
-	a máquina analítica de Charles Babbage. A linguagem de programação Ada foi criada
-	em homenagem a ela pelo Departamento de Defesa dos Estados Unidos.
+    Fácil de configurar e gerenciar
+        Trello ( Disponível ) - Jira ( Disponível )
+            Fonte: Atlassian
 
-	-Grace Murray Hopper foi analista de dados da marinha americana e criou a linguagem
-	de programação Flow-matic. que serviu de base para a criação do COBOL. É de autoria
-	dela o termo "bug".
+------Slack
+    Ferramenta de mensagem
+    Uma das ferramentas mais conhecidas e utilizadas no setor corporativo
+    Utiliza o conceito de canais
+    Espaços organizados para cada aspecto do trabalho
 
-	-Hedy Lamarr é a mãe do wifi. Mais famosa como atriz do que como cientista em sua
-	época, durante a Segunda Guerra, inventou um aparelho de interferência em rádio,
-	que posteriormente possibilitou a criação de tecnologias como wifi e CDMA ( CODE 
-	Division Multiple Access, ou Acesso Múltiplo por Divisão de Código).
+-----Teams
+    Objetivo principal: substituir o e-mail
+    Ferramentas:
+        Chamadas de vídeo
+        Edição de documentos
+        Integração com outros aplicativos da Microsoft
 
-Experiência por Gênero
-	Revelo é uma empresa de tecnologia no setor de recursos humanos que oferece uma
-		plataforma de recrutamento e seleção que conecta candidatos às vagas de forma
-		ágil e humanizada
- | TEM IMAGEM DO GRAFICO EM ASSETS |
+-----Discord
+    Aplicativo para conectar gamers
+    Sua evolução permitiu que atualmente seja usado no mundo corporativo
+    Pode ser utilizado on-line sem necessidade de instalação
 
--------------------------------------------
-Tecnologias emergentes
+-----Zoom
+    Plataforma de reunião virtual mais conhecida e utilizada no mundo
+    Videoconferência e troca de mensagens simplificadas entre qualquer dispositivo 
+	Permite a colaboração móvel
+
+-----------------------------------------------------
+
+-------------Versionamento e Reúso
+
+-----Reúso
+    Diz respeito a qualquer parte de um sistema implementado anteriormente, podendo
+        ser uma especificação, módulo, arquitetura e padrões, dentre outras
+
+-Reúso (Sommerville,2019)
+    O reúso pode ser empregado em qualquer fase do projeto, desde a concepção até sua
+    implantação, e cada técnica aplicada dependerá dos requisitos do sistema, da 
+    tecnologia, de ativos reusáveis disponíveis e do conhecimento da equipe de
+    desenvolvimento.
+
+----Vantagens
+    As vantagens para reúso de código incluem o aumento na produtivadade, redução
+        do tempo de entrega do produto e consequentemente aumento da qualidade do 
+        software.
+
+---Qualidade e reúso
+    Fator de qualidade ->
+        Funcionalidade / Confiabilidade / Usabilidade / Manutebilidade / Portabilidade
+            Fonte: Kanashiro, 2022 ( Imagem Salva )
+
+    Funcionalidade: reutilizar um módulo como protótipo, assim descobrindo novas 
+        funcionalidades ou novos requisitos para nosso produto de software
+
+    Confiabilidade: geralmente quando um produto é desenvolvido para o reúso, ele
+        geralmente tem muito mais testes, dessa forma, sua confiabilidade é maior
+
+    Usabilidade: mesmo princípio da confiabilidade
+
+    Manutebilidade: manutenção, modificações que poderiam ser feito futuramente, já
+        são abordadas com maior frequente por conta do reúso
+
+    Portabilidade: geralmente quando um software é desenvolvimento com a intenção de
+        ser explorado o reúso, sua portabilidade é naturalmente incorporada como
+        um dos fatores principais.
+
+--Pergunta aleatória:
+-Mas se o reúso traz tantos benefícios, então por que não temos um maior número de
+    empresas que utilizam o reúso para abreviar o processo de desenvolvimento?
+
+------------Problemas
+
+-Síndrome NIH: 
+    Rotina não é boa, a menos que o próprio desenvolvedor a tenha escrito
+
+-Medo de falhas: 
+    Reutilização pode introduzir falhas no produto
+
+-Custo da reutilização: 
+    Tornar algo reutilizável
+    Reutilizar
+    Definir e implementar um processo de reutilização
+
+-Quedtões legais:
+    Software sob contrato
+    Violação de copyright
+
+-Compreender a parte reutilizada:
+    O que reusar e como reusar?
+
+-Mudança na mentalidade da equipe:
+    Objetivos e benéficios do reúso muitas vezes são percebidos apenas a longo prazo
+
+------REÚSO E VERSIONAMENTO
+Diagrama:
+Armaneza arquivo      | Acessar e recuperar última versão | Submeter alteração
+Registrar HIstórico   |          Copiar e Alterar         | Recuperar as atualizações
+
+Fonte: Kanashiro, 2022
+
+-----Repositório de Códigos
+    Guardamos todos os artefatos (componentes, códigos) em repositórios
+    2 perspectivas de repositório:
+        Repositório de gerência de configuração
+        Repositório de reutilização
+
+-Repositórios de gerência de configuração
+    Sistemas de controle de versão
+    VCS (Version Control System)
+    SCM (do inglês Source Code Managament)
+    Gerenciar várias versões no desenvolvimento do PROJETO
+    Gestão inteligente e eficaz para organizar o projeto
+    Acompanhamento de históricos de desenvolvimento
+    Customização de determinada versão sem alterar o projeto principal
+    Recuperação de versão anterior
+
+-Sistemas de controle de versão
+    Existem dois tipos de sistema de controle de versão:
+        -Centralizado: composto por um único servidor central e várias estações
+        de trabalho
+
+        -Descentralizado (distribuído): possuem diversos repositórios autônomos e
+        independentes para cada desenvolvedor
+
+-Sistemas de controle de versão (imagem salva na pasta)
+    Git
+        Desenvolvido por Linus Torvalds
+        Linguagem C
+        Distribuído
+        Criada para versionar kernel Linux
+        Interface gráfica agradável
+        Eficaz
+
+    Mercurial
+        Distribuído
+        Open Source
+        Grandes empresas (facebook e google)
+        Escrita em python e parte em C
+        Interface fácil e intuitiva
+
+    Subversion
+        SVN
+        Centralizado
+        Código aberto (open source)
+        Para equipes menores
+        2000: CollabNet
+        2010: Apache subversion
+
+    BitKeper
+        Originou Git
+        Distribuído
+        2016: Open Source
+        Licença Apache 2.0
+        Projetos grandes e pequenos
+
+-Repositório de reutilização (imagem salva na pasta)
+    Bootstrap
+        Biblioteca de componentes front-end
+        Ferramenta gratuita -HTML, CSS e JS
+        Abordagem mobile first
+
+    Github
+        Hospedagem de código
+        Controle de versão
+        Repositório abertos
+
+    Spring
+        Open Source para Java
+        Baseado em padrões de projeto
+        Injeção de dependência
+
+    Angular
+        Web front end desenvolvido pela Google utilizando typescript
+        Aplicações mobile e aplicações web desktop
+
+-Repositório de ideias
+    Além dos repositórios de conteúdo tradicionais, temos ainda os chamados repositórios
+    de ideias, que vão além de repositório de códigos, criando um espaço no qual os
+    desenvolvedores e futuros desenvolvedores possam trocar informações e dicas sobre
+    ferramentas, códigos e linguagens. A seguir, são listadas alguns desses repositórios
+
+----Oracle Developer
+    1977 SDL: Larry Ellison, Bob Miner e ED Oates
+    1982: Oracle Corporation
+    1995: Software via internet
+    1999: Produto mais influente
+    2010: Aquisição da Sun Microsystems Java Nuvem - entrada no mercado de nuvem
+
+    O site da Oracle developer traz dicas, eventos e ferramentas para desenvolvedores
+    Vários códigos para desenvolvedores e futuros desenvolvedores no github
+    Missão: capacitar os desenvolvedores e continuar apoiando tecnologias de código aberto
+
+----Cisco
+    -Cisco DevNet: programa de desenvolvedor da Cisco que ajuda desenvolvedores e 
+    profissionais de TI a desenvolver aplicativos e implementar integrações
+    
+    -Netacad: um programa global de educação de TI e segurança cibernética que forma
+    parcerias com instituições de ensino em todo o mundo, para capacitar pessoas com
+    oportunidades de carreira
+
+-Cisco - NetAcad
+    A netacad começou como um ato comunitário. Em 1997, a Cisco doou alguns equipamentos
+    de rede para uma escola local, mas ninguém recebeu treinamento, e os equipamentos
+    ficaram inutilizados.
+
+   Doação Inicial -> Observação importante: A tecnologia tem um poder transformador
+                     quando combinada com a educação
+
+    Ensinar -> Parceria -> Contratar
+    190 países - 29 mil educadores - 12 mil academias
+
+    A netacad nasceu naquele dia, enquanto a cisco treinava os professores para
+    construir suas redes
+            Fonte: Npeter / Shutterstock
+            Gorodenkoff/Shutterstock
+            Asdf_mEDIA/Shutterstock
+            iNK dROP/Shutterstock
+
+-AWS
+    1994: Jeff Bezos - Loja de Livros
+    2000: Infra TI
+    2002: AWS
+
+AWS(Amazon Web Services)
+Dogfooding ("Comer sua própria comida de cachorro")
+Gíria de TI: desenvolvimento e utilização de seus próprios serviços
+AWS Academy: currículo de computação na nuvem
+    Fonte: Amazon, 2022
+
+-Mozzila
+    Firefox
+    MDN - Mozilla Developers Networks
+    Documentação de aprendizagem:
+        tecnologias da Web
+        Software que alimenta a web
+
+-Outras fontes
+    Manual do Python
+        Referência da Linguagem
+        Sintaxe e semântica da linguagem
+        Biblioteca Padrão
+
+    Site do Java
+        Oracle
+        Sessão developer
+        Tutoriais
+
+    W3Schools
+        Referências e exemplo didáticos de comandos
+        Desenvolvimento web
+        Exemplos de várias linguagens: C, Java e Python
+
+-----------Testes de Software, controle de qualidade e deploy
+
+-Teste de Software
+    É um elemento de um tema mais amplo, muitas vezes conhecido como verificação e
+    validação (V&V). Verificação refere-se ao conjunto de tarefas que garantem que o
+    software implemente corretamente uma função específica. Validação refere-se ao
+    conjunto de tarefas que asseguram que o software foi criado e pode ser rastreado
+    segundo os requisitos do cliente. 
+        Fonte: (Pressman, 2021, p.373)
+
+-Teste de Software: 
+    Garantir que o software funcione corretamente, atendendo àsespecificações.
+
+-Objetivo: revelar os erros de um software
+
+Error (Mistake): 
+    uma ação humana que produz um resultado incorreto. ERRO/ENGANO
+->
+Fault: 
+    Manifestação de um erro em software. Popularmente conhecido como bugs. DEFEITO/BUG
+->
+Failure:
+    Incapacidade de um sistema ou componente de software de executar suas funções
+        exigidas dentro dos requisitos de desempenho especificados. FALHA
+            ---Uma failure ocorre quando uma fault é encontrada
+
+Fonte: Luciane Yanase Hirabara Kanashiro, 2022
+
+-----CUSTO para correção (imagem salva na pasta)
+
+     Mais fácil - aumentando o custo gradativamente
+Especificação -> Design -> Desenvolvimento -> Teste -> Liberação
+Custos de modificar um software aumentam conforme o projeto avança
+
+-Garantia de qualidade de software
+    Os testes de software garantem, ainda, que a qualidade do produto seja alcançada
+
+    Conjunto de atividades técnicas aplicadas durante todo o processo de desenvolvimento
+    
+    Esse conjunto de atividades engloba vários testes, a fim de se garantir um software
+        de qualidade
+
+-Estratégia de teste - espiral ( salva imagem nos arquivos, pressman)
+    Teste de unidade -> código -> teste de integração -> projeto -> teste de validação
+    -> requisitos -> teste de sistema -> engenharia de sistemas
+
+Teste de Unidade
+    Teste unitários
+    Testar pequenas unidades em um sistema
+
+Teste de Validação
+    Software atende aos requisitos
+    Programa faz o que é proposto a fazer
+
+Teste de Integração
+    Unidades se comunicam, se integram corretamente sem falhas
+    Realizado após serem testadas as unidades individualmente
+    
+Teste de Sistema
+    Testes de interface com o usuário
+    Requisitos de acordo com o especificado
+    Requistos foram atendidos
+
+-Implantação - deployment
+Necessário: além das dependências
+    Interpretadores
+    Compiladores
+    Pacotes
+    Extensões
+    Configuração do ambiente
+    Licenças de outros softwares
+    Senhas de banco de dados
+
+-Contêiner
+Pacote que contém um software e todas as dependências necessárias para que ele execute
+
+Fornece facilidade de manuseio e economia de tempo, facilitando a implantação (deploy)
+
+Contêineres são um método de virtualização
+
+-A diferença entre contêiner e máquina virtual está relacionada basicamente com escala
+    e portabilidade 
+        (imagem salva na pasta)
+
+Virtualização - 
+    Abstrair
+    Dividir
+    Duplicar
+    Emular:
+        Servidores
+        SO - desktops
+        BD
+        Redes
+    SO PRÓRIO, executa simultanemanete várias funções com uso intenso de recursos
+
+Contâineres
+    Contêm a aplicação e os arquivos necessários para executá-la
+    Leve
+    SO compartilhado
+    Fáceis de migrar entre vários ambientes
+    Empacotam funções individuais que realizam tarefas específicas (microsserviços)
+
+---------------WEB / NUVEM
+Redes de computadores
+    Rede de computadores é um conjunto de computadores interligados
+
+Meios de transmissão
+    Meios físicos: utilizados para ligar os computadores em rede
+
+    Fibra óptica         Sem fio                          Utiliza canais de rádio
+    Par trançado         Não utilizam linha física        para transmitir sinais
+    Coaxial                                               dentro do espectro eletromagnético
+
+    Cabo                 Wireles                          Ondas de rádio
+(Imagem salva na pasta)
+
+-Extensão da Rede
+    Distância física entre os computadores interligados
+(imagem salva na pasta )
+Lan
+    Local Area Network
+    pequena área geográfica
+    conecta computadores, impressoras dentro de um prédio
+
+Man
+    Metropolitan Area Networks
+    Ampla área geográfica
+    Conecta Lans
+
+Wan
+    Wide Area Networks
+    Ligação Remota
+    Prestadores de serviço
+
+-Como os computadores estão ligados na rede?
+    Topologia
+
+        Barramento
+            Ligados no mesmo barramento físico
+            Falha no cabo paralisa toda a rede
+
+        Anel
+            Dispositivos conectados formando um anel
+            Falha no cabo em apenas um ponto, pode-se mudar o sentido de propagação
+                para continuar operacional
+
+        Estrela
+            Ligados através cabos saindo de um equipamento central
+            Falha no cabo, apenas o computador a ele conectado ficará fora da rede
+
+                Fonte: Bakhtiar Zein / shutterstock
+                (imagem salva na pasta)
+
+-Protocolos de rede
+    Conjunto de normas           
+    Permitem comunicação entre máquinas
+    Definem acordos para a transmissão de dados
+            ->
+        Aplicação: WWW.HTTTP,SMTP,FTP,SSH,TLS
+        Transporte: TCP,UTP,SCTP
+        Rede: IP
+        Link: ETHERNET e MODEM
+
+Uma camada só pode se comunicar com quem está abaixo ou acima
+
+Analogia: Executamos protoclos o tempo todo
+
+-Função do computador (IMAGEM SALVA NA PASTA)
+    Cliente: utiliza algum recurso disponível na rede
+    Servidor: disponibiliza recursos na rede
+
+PEER-TO-PEER (P2P) NETWORK
+
+Ponto a Ponto
+    Inglês peer to peer
+    Todos os computadores podem ter a função de cliente ou de servidor
+
+Baseado em servidor
+    Rede que possui computadores dedicados a tarefas específicas
+
+------INTERNET
+    Pode ser definida como uma rede de redes
+    Benefício das redes: surgimento da Internet
+    Principal característica técnica: descentralização
+
+-início da Internet
+    Criada em 1969, com o nome de ARPANET, pelo Departamento de Defesa dos EUA
+    Objetivo: permitir que pesquisadores pudessem se comunicar
+
+-A internet no Brasil
+    1987 - FAPESP / LNCC começam a utilizar a internet
+    1990 - RNP / EDUCAÇÃO dissiminar a internet no meio da educação
+    1995 - Comercialmente começa a ser utilizada
+
+ FAPESP - Fundação de Amaparo à Pesquisa do Estado de São PAULO
+ LNCC - Laboratório Nacional de Computação Científica
+ RNP - Rede Nacional de Ensino e Pesquisa
+
+-Serviços
+    Internet: infraestrutura que provê serviços a aplicações
+    Serviços: são aplicações cliente/servidor que realizam que realizam alguma tarefa
+        para o usuário
+
+-Serviços
+    Informações multmídia - www ( world wide web )
+    Correio eletrônico (email)
+    Colaboração interativa
+    Busca de informações
+    Transferência de arquivos
+    Emulação de terminais
+            O símbolo @ significa at ( em algum lugar)
+
+----------------WEB
+-World Wide Web
+    A World Wide Web (WWW) É UM SISTEMA DE SERVIDORES INTERNET
+    Protolo principal: HTTP ( HyperText Transfer Portocol)
+    Web
+    Confundida com a própria internet
+
+-Web
+    O termo web se deve à informação não ser organizada de forma linear, mas sim
+        no formato de uma teia
+
+-ínicio da www
+    -1980 Tim Berners-Lee 
+    projeto baseado no conceito de hipertexto
+    facilitar compartilhamento e atualização de informações entre os pesquisadores
+
+    -1989 Desenvolvida
+    Tim Berners-Lee
+    Hypertexto + Internet = www
+
+    -1991 Lançamento
+    Tim Berners-Lee
+    Serviço para facilitar o acesso e apresentação de documentos acadêmicos na internet
+
+    -1993 Marc Andressen
+    Mosaic:
+        primeira aplicação com interface gráfica de acesso a Web ( Browser)
+
+-Páginas Web
+    Webpage
+    Informação apresentada em páginas hospedadas em servidores  wwww
+    Documento escrito em HTML (hypertext markup language)
+    Hyperxlinks ou hypertextos: permitem que o usuário acesse outro documento
+
+-Site ou website:
+    Conjunto de páginas relacionadas
+    Hospedado em servidor web
+    Possui endereço único
+    Associado a um nome de domínio
+        exemplo: www.mec.gov.br
+
+-------Computação em Nuvem
+    Nuvem: computador localizado em algum lugar acessado via Internet e usado
+    Web services
+    Cloud computing
+        (imagem salva na pasta)
+
 -Computação em nuvem
--Cloud computing
-		Definição:
-	A computação em nuvem é a entrega sob demanda de poder computacional,
-	armazenamento de banco de dados, aplicativos e outros recursos de TI por meio
-	de uma plataforma de serviços de nuvem via Internet com definição de preço
-	conforme o uso
-		Fonte: AWS
+ANTES  | Compra e manutenção de computadores, principalmente servidores
+DEPOIS | Recursos de armazenamento e de processamento compartilhados
 
-Motivos da nuvem ser importante hoje:
+ANTES  | Pensamento da infraestrutura como hardware ( gasto maior, compra de servidores)
+DEPOIS | Considerar e utilizar infraestrutura como software
 
-	-Uma tendência que foi ressaltada pela pandemia é a da virtualização, conteinerização
-		e computação em borda
+Como surgiu a computação em Nuvem
+-1960 J.C.R Licklider Utilização de recursos computacionais por meio da internet
+    John Mccarthy computação deveria ser organizada na forma de um serviço de utilidade
+        em que os usuário só pagam pelo que usam
+-1997 Ramnath Chellapa
+    Usa pela primeira vez o termo computação em nuvem
+-1999 Salesforce
+    Primeira empresa que disponibiliza aplicações pela internet
+-2002 Amazon 
+    começa a oferecer serviços para outros sites
+-2006 AWS
+    Populariza a computação em nuvem
 
-	-A criação de um ambiente de desenvolvimento pode ser árdua e demorada...
+--------Modelos de computação em nuvem
+-Os serviços de computação em nuvem oferecem:
+    Infraestrutura de TI remota
+    Acesso a utilização de aplicativos on-line
+    Plataforma de desenvolvimento de software para criar e testar aplicativos via web
 
-Solução:
+Serviços prestados em computação em nuvem
+-IaaS
+    Usuário gerencia o servidor e o sistema operacional
+    Oferece capacidade de hardware ao usuário por meio de Software
+    Exemplo: EC2 da AWS
+    Windows Azure
+    Você não tem o hardware físico, mas a capacidade via software
 
-	-Hospedar códigos e criar, testar e implantar seus aplicativos na nuvem
+-PaaS
+    Outra pessoa gerencia o hardware e o sistema operacional
+    Ambiente de desenvolvimento remoto para que o usuário possa desenvolver uma 
+    aplicação
+    Exemplo: Elastic Beanstalk e RDS
 
-	-Disponibilizar softwares com mais rapidez
+-SaaS
+    Usuário não precisa se preocupar com a intalação, manutenção ou atualização
+    Usuário só precisa se preocupar com o software e como deseja usá-lo
+    Exemplo: Facebook, dropox, office 365 e etc
 
-	-Equipe mais produtiva
+-Modelo de implantação
+(imagem salva na pasta)
 
-Computação em nuvem
+    -All In Cloud
+    Totalmente implantada na nuvem
+    Exemplo: Você tem uma empresa, você contrata serviços de nuvem na nuvem
 
-	Houve um crescimento da utilização de serviços na nuvem durante a pandemia
+    -Modelo híbrido
+    Conectar infraestrutura e aplicações entre web e recursos atuais que não se
+    encontram na nuvem
+    Ocorre conexão entre a nuvem e a infraestrutura local
+    Exemplo: na empresa vão ter os servidores de banco de dados, para dados confidenciais
+        e as outras aplicações normais, como site por exemplo, ficam localizadas em 
+        serviços da nuvem
 
-	-2020 - Destaques de crescimento para software na Nuvem com 165,8% e 
-		infraestrutura na nuvem com 127,8%
-			(Relatório Setorial 2020 Macrossetor de TIC - Brasscom)
+    -Nuvem privada
+    Infraestrutura de nuvem por meio do próprio datacenter
+    Benefícios: segurança dos dados
 
-Exemplo: AWS
-	-Amazon Web Services
-	-Plataforma de serviços de computação em nuvem:
-		IaaS
-		PaaS
-		SaaS 
-	-Foco implacável no cliente
-	-Dogfooding
+-Benefícios da nuvem
+    Agilidade
+        Recursos adicionais de TI estão ao alcance de apenas um clique
 
---------------------------------------------
+    Elasticidade
+        Não precisa provisionar recursos em excesso
+        Em outras palavras, não preciso necessariamente me preocupar com o pico do 
+        servidor, se aumenta, só eu utilizar mais recursos em nuvem e pagar por isso
 
-Virtualização
-	-Máquina física que emula várias máquinas virtuais
-	-Cada máquina virtual roda uma cópia do sistema operacional
-	-Cria um ambiente virtual de computação ao invés de um ambiente físico.
-		Exemplo: WMWare e VirtualBox
-	-Conceito não é novo (1960)
-	-Tendência ressaltada com a popularização da computação em nuvem
+    Economia de custo
+        Pare de gastar dinheiro com infraestrutura
+        Pague apenas pelo que usarem (despesa variável)
 
-Contêineres
-	-Método de virtualização do sistema operacional
-	-Permite executar um aplicativo e suas dependências em processos
-		isolados de recursos
-	-Simplificando: contêineres empacotam o código, as configurações e as
-		dependências de um aplicativo em um único objeto
-			Exemplo: Docker
-
-Computação em borda
-	-Aproxima os equipamentos de onde os dados são gerados
-	-Evolução da computação em nuvem
-	-Origem: 1990 com o surgimento das CDNs que armazena conteúdo próximo dos locais
-		de entrega (exemplo de utilizador: Netflix e Disney Plus)
-		(Os dados ficam proximo do cliente, muiti utilizado em on demmand)
-
-	-Tendência ressaltada com o aparecimento do conceito de IoT
-	-IoT: possibilidade de conectar internet com objetos que utilizamos no dia
-		a dia, como eletrodomésticos, carros, babá eletrônica
-
----------------------------
-
-Mitos e Verdade do Desenvolvimento de Software
-	-Crenças comuns, sem fundamento científico sobre o software e o processo utilizado
-		para criá-lo
-	-De acordo com Pressman (2016) existem os mitos de gerenciamento, mitos do cliente
-		e mitos dos profissionais da área
-
------------Mitos de Gerenciamento
-	Mito
-	-Já temos um livro cheio de padrões e procedimentos
-	Realidade
-	-O livro é utilizado?
-
-	Mito
-	-Se o cronograma atrasar, acrescentaremos mais programadores
-	Realidade
-	-Acrescentar mais pessoal atrasa o projeto
-
-	Mito
-	-Ao terceirizar o projeto é possível relaxar
-	Realidade
-	-Acompanhamento contínuo
-
-----------Mitos do Cliente
-	Mito
-	-Uma definição geral dos objetivos é suficiente
-	Realidade
-	-Principal causa do fracasso: requisitos iniciais mal definidos
-
-	Mito
-	-Software é flexível: mudanças facilmente assimiladas
-	Realidade
-	-O impacto da mudança depende de quando ela é introduzida
-
-----------Mitos dos Profissionais da área
-	Mito
-	-Programa feito e colocado em uso: trabalho concluído!
-	Realidade
-	-Entre 60% e 80% de esforço é despendido após a primeira entrega
-
-	Mito
-	-Avaliação de qualidade: apenas quando em execução
-	Realidade
-	-Qualidade pode ser avaliada antes da implementação
-
-	Mito
-	-Único produto passível de entrega: programa funcionando
-	Realidade
-	-Outros artefatos necessários: modelos, documentos, planos, etc
-
-	Mito
-	-Engenharia de software: cria documentação volumosa e desnecessária
-	Realidade
-	-Objetivo: criar um modelo de qualidade. Melhor qualidade: redução do retrabalho
-
-		Kanashiro, 2022
-
-------------------------------------------------------
-Outros mitos
-	-Ser bom em matemática
-	-TI não é uma área para mulheres
-		Atualmente estão sendo feitas muitas pesquisas em relação à prodominância
-		de homens, não só na área de TI, mas na STEM (Science, Technology, Engineering
-		and Mathematics)
-
-Questões que influenciam as escolhas de mulheres jovens ao estudar STEM/TI Nível Individual
-	-Autoeficácia >
-		crença na própria capacidade de realizar uma tarefa ou um objetivo
-	-Atitudes e interesses > 
-		atitudes em relação aos computadores
-		interesses preveem busca por um diploma de TI
-	-Exposição prévia à computação >
-		experiência em computação: maior probabilidade de concluir um curso de TI
-		relação: acesso precoce ao computador reduz a intimidação e aumenta a percepção
-		familiaridade com computadores: estimula interesse e curiosidade
-	-Percepção de carreira >
-		Mais atrativo: trabalhos que envolvem interações sociais e valorizam 
-			recompensas sociais
-		Menos atrativo: profissões com objetos físicos e/ou mais focadas em alto salário 
-			e poder
-		Percepção errônia: carreira em STEM não é associada a objetivos comunitários
-
------Questões que influenciam as escolhas de mulheres jovens ao estudar STEM/TI 
-			Nível Interpessoal
-
-Influência dos pais e dos pares
-Modelos femininos "comuns" > professores, pessoas estudiosas, programadores, engenheiras
-	que as mulheres possam se espelhar
-Presença de mentores
-
-			Nível Estrutural
-Ambiente acadêmico
-	> Professores reforçam os estereótipos de gênero
-Indústria de games e filmes
-	> Proliferação das personagens sexualizadas
-	> Personagem principal não evoluiu ou se desenvolveu ao longo do tempo
-
-Verdades
-	-inglês é imprescindível
-	-Profissionais em constante aprendizado
-	-TI é uma área em expansão
-	
-	 
-	
+    Implantação global em minutos
+        Facilidade de implantação
 
 
 

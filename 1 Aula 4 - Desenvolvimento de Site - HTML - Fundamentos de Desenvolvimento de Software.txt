@@ -1,0 +1,64 @@
+Fundamentos de Desenvolvimento de Software - Prof. Leonardo Gomes
+
+---------------  Aula 4 ---------------------
+Fundamentos de Desenvolvimento de Software
+
+Assuntos abordados na Aula:
+    Teremos uma visão geral sobre o desenvolvimento de software na web:
+        -História da Internet
+        -Infraestrutura da Internet
+        -História do HTML
+        -Principais tecnologias
+        -Comandos HTML
+
+-----História da Internet
+-Arpanet 1969
+    Rede militar que conectava quatro computadores no Oeste Americano
+    Função: segurança de dados em posto de batalha - Guerra Fria
+    Protocolo NCP (Network Control Protocol)
+        FTP (File Transfer Protocol)
+            Usado para transferência de arquivos, de forma rápida e segura
+        DNS (Domain Name System)
+            Usado para ligar nomes nos endereços, sem precisar decorar números
+        SMTP (Simple Mail Transfer Protocol)
+            Usado para emails
+    (O que é um protocolo, conjunto de regras que estabelece uma comunicação)
+
+-Protocolo TCP/IP - 1973
+    (Protocolo de Transmissão mais importante de todos)
+    Bob Kahn e Vint Cerf - primeiros a publicarem o termo internet
+    TCP (Transmission Control Protocol) - vantagem quebra de mensagens em pacotes
+    IP (Internet Protocol) - endereçamento de máquinas
+    Tecnologias permitiram o aumento da rede
+    Substituir o NCP por completo em 1983
+
+    
+    
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
