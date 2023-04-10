@@ -1,0 +1,37 @@
+Projeto Aula 4 -Fundamentos de Desenvolvimento de Software - Prof. Leonardo Gomes
+
+-Desenvolvimento de Site - HTML
+
+Exercício 1
+    Desenvolva uma página com um formulário de cadastro (o tema fica à sua escolha)
+    que contenha todos os elementos de formulário apresentados (radio, select,
+    checkbox, text, date, email, textarea, submit). Utilize os atributos:
+        method= "get" action= "teste.jsp"
+
+Exercício 2
+    Crie uma tabela com tr~es linhas. A primeira deve possuir tr~es colunas;
+    a segunda, duas; e a terceira, apenas uma
+    Desafio: faça a tabela ficar no seguinte formato utilizando o atributo coolspan
+
+Exercício 3
+    Crie uma tabela com duas colunas ("Gatos" e "Cachorro") e crie três linhas
+    contendo fotos dos animais em suas respectivas colunas. Cada imagem deve ser um link
+
+Exercício 4
+    Mario é retratado como um encatador italiano baixinho rechonchudo e b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
