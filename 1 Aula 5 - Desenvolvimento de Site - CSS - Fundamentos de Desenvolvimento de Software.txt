@@ -1,0 +1,44 @@
+Fundamentos de Desenvolvimento de Software - Prof. Leonardo Gomes
+
+---------------  Aula 5 ---------------------
+Fundamentos de Desenvolvimento de Software - CSS
+
+Assuntos abordados na Aula:
+    Teremos uma visão geral sobre o desenvolvimento de software na web:
+        -Definição do CSS
+        -Sintaxe CSS
+        -Seletor
+        -Ordem da cascata de estilo
+        -Principais comandos CSS
+
+----------Definição do CSS
+
+    
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
