@@ -1,0 +1,14 @@
+.imagem {
+    background: url(
+        "https://res.cdn.office.net/officehub/officestartresources/chair_light.svg"
+        )
+    no-repeat;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+}
+
+.imagem:hover {
+    background-position: 0px 50px;
+}
