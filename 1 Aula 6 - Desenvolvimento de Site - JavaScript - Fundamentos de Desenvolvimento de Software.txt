@@ -4,9 +4,58 @@ Fundamentos de Desenvolvimento de Software - Prof. Leonardo Gomes
 Desenvolvimento de Site - JavaScript
 
 Assuntos abordados na Aula:
+    História do JavaScript
+    Configurações
+    Sintaxe
+    JSON
+    Principais comandos
 
-    
+--História do JavaScript
+    Desenvolvida em 1995 por Brendan Eich
+    Conexões 28.8 kbps faziam dos client-side scripts aliados inestimáveis
+    Desenvolvida para a Netscape
 
+-Longa história de nomes e versões
+    C-minus-minus (Cmm)
+    Scriptease
+    EspressoPages (primeiras versões com suporte web)
+    Mocha
+    LiveScript
+    JavaScript
+
+-Cada navegador possui uma versão própria do JavaScript
+    Exemplo: Jscript (clone feito para o Internet Explorer)
+A existência de muitas versões de JavScript era um problema    
+    European Computer Manufacturers Association (ECMA) - 1997
+    ESCMAScript é a base para as implementações de JavaScript hoje
+
+-JavaScript
+    Linguagem responsável pelo comportamento das páginas web
+    Simples
+    Baseada em C
+
+-----------------------
+--Configurações
+    Aprendizado feito no arquivo pagina.html e script.js dentro da pasta
+
+-Onde colocar seu código JavaScript
+    <script> </script> Tag
+    Podemos ter diversas <script>
+    Tanto <head> quanto <body>
+    Executam na ordem em que aparecem
+    Uma boa prática é colocar no final do código para evitar lentidão
+
+-----------------------
+--Sintaxe
+    Desenvolvido o aprendizado no arquivo pagina.html dentro da pasta
+
+-----------------------
+--JSON
+    Desenvolvido o aprendizado no arquivo pagina.html dentro da pasta
+
+-----------------------
+--Principais comandos
+        Desenvolvido o aprendizado no arquivo pagina.html dentro da pasta
 
 
 
