@@ -1,0 +1,129 @@
+Lógica de Programação e Algoritmos - Prof. Vinicius Pozzobon Borin
+
+---------------  Aula 1 - Vinicius Pozzobon Borin ---------------------
+O objetivo desta aula é introduzir os principais conceitos inerentes a esta 
+    disciplina de Programação
+Tais conceitos serão recorrentes ao longo das próximas aulas
+
+A estrutura de conteúdos desta aula é a seguinte:
+    O que é lógica?
+    O que são algoritmos?
+    Como representamos algoritmos?
+    Que sistema computacional usamos para executar programas?
+    O que são linguagens de programação?
+    Qual linguagem iremos adotar?
+
+
+
+-----------Tema 1 - Introdução à lógica e aos algoritmos
+
+O que é lógica?
+    Aristóteles (384 a 322 a.C.) - conceito de lógica (logos) - linguagem racional
+    Parte da filosofia que se ocupa das formas do pensamento e das operações
+        intelectuais (Michaelis, 2020)
+
+-Raciocínio lógico do nosso dia a dia para realizar atividades
+-Na computação: maneira pela qual instruções, assertivas e pressupostos são organizados
+    num algoritmo para viabilizar a implantação de um programa (Michaelis, 2020)
+ 
+ O que são algoritmos?
+    Um algoritmo é dado como uma sequência de passos a serem realizados para que
+        determinada tarefa seja concluída, ou um objetivo atingido
+
+
+-----------Tema 2 - Sistemas de computação
+
+Segunda Guerra mundial:
+    Cálculo de mísseis
+    Mensagens codificadas
+    Computadores construídos com milhares de válvulas e relés, pesando toneladas
+        e consumindo montantes de energia
+
+-ENIAC (Electronic Numerical Integrator and Computer)
+
+Percebeu-se a necessidade de mudar a maneira como computadores eram projetadas,
+    começando pela aritmética decimal para binária
+
+-John Von Neumann - Matemático húngaro. Propôs o primeiro computador de programa
+    armazenado e criado
+        imagem salva na pasta
+
+O bit
+    Base decimal - dígitos de 0 a 9
+    Base binária - digitos 0 e 1
+    Binary Digit - a menor unidade de armazenamento de dados
+    Todo e qualquer computador é binário
+
+-Imagem salva mostrando a quantidade bits e kbits
+
+-----------Tema 3 - Representação de Algoritmos
+
+Descrição Narrativa
+    Linguagem natural
+    Não utilizada em algoritmos computacionais
+
+Pseudocódigo
+    Português estruturado
+    Representação mais próxima de um programa computacional, mas sem se
+        preocupar com a linguagem de programação adotada
+    Regras definidas
+    Linguagem genérica
+
+Fluxograma
+    Representação gráfica de um algoritmo
+    Usado para passar a ideia do seu código e organizar o raciocínio lógico
+    Simbologia gráfica padrão ISO 5807:1985
+
+-----------Tema 4 - Linguagens de programação e compiladores
+
+Linguagens de programação
+    Resultam em instruções compreendidas pelo computador e não geram ambiguidades
+
+Software de compilação - compilador
+    Ele trnasforma o código que você escreveu (alto nível) em uma 
+     linguagem de máquina ( baixo nível) compreendida pelo hardware
+        Linguagem de Programação > Compilação > Linguagem de Máquina > Arquivo binário
+
+Software de Interpretador
+    Nunca perde o seu código-fonte, ele está sempre presente. O código não é
+        convertido de uma só vez, mas, sim, executado instrução por instrução à
+            medida que o programa vai requisitando.
+
+Imahgem salva linguagens de programação mais usadas em 2020 ( Desatualizado)
+Link atualizado para 2022 abaixo:
+> https://spectrum.ieee.org/top-programming-languages-2022#toggle-gdpr
+
+
+-----------Tema 5 - Linguagem de Programação Python
+
+www.pythom.org / www.pythom.org.br
+
+Python
+    Linguagem de propósito geral
+    Vasta quantidade de bibliotecas existentes
+    Linguagem simples, intuitiva. ótima para iniciantes
+    Linguagem multiplataforma
+    Comunidade ativa e atualizações constantes
+    Python Software Foundation (2001)
+
+Histórico da Linguagem
+    Linguagem criada em 1982 por Guido Van Rossum
+    Centrum Wiskunde & Informatica (CWI) Amsterdam
+    Inspiração. Linguagem ABC
+    Monty Python Flying Circus
+    Programa de televisão britânico (1969-1974)
+
+Exemplos de aplicações Python
+    Sistemas operacionais. Linux, macOS
+    RaspBarry BI
+
+O Zen do Python, por Tim Peters
+    Bonito é melhor que feio
+    Explícito é melhor que implícito
+    Simples é melhor que complexo
+    Complexo é melhor que complicado
+    Plano é melhor que aglomerado
+    Legibilidade faz diferença
+    Agora é melhor que nunca
+
+
