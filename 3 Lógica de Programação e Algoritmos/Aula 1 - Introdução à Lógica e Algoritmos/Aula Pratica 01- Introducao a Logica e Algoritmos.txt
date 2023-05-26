@@ -1,0 +1,46 @@
+Projeto Aula 1 - Introdução à Lógica e Algoritmos - Prof. Vinicius Pozzobon Borin
+
+--------------- Projeto Aula 1 ---------------------
+
+“Todos neste país deveriam aprender a programar um computador, pois isto ensina 
+a pensar”
+    Steve Jobs (1955-2011), ex-CEO da Apple, empresário e inventor
+
+Computadores, desktops, laptops 
+Sistemas operacionais
+Smartphones, aplicativos 
+Web
+Videogames e jogos 
+Sistemas inteligentes 
+Internet das Coisas 
+Sistemas embarcados
+Inteligência artificial 
+Ciência de dados 
+Big Data
+
+Alexa da Amazon:
+Sistema Operacional (Fire OS) Software embarcado
+Reconhecimento de voz
+Aplicativo mobile, desktop e webd Desenvolvimento de softwares terceiros 
+para conexão com a Alexa (skills) Backend, Big Data etc. (Amazon AWS)
+
+Resolução de exercícios em: 
+    linguagem Python 
+    pseudocódigo 
+    fluxograma
+
+    “Não é a linguagem de programação que define o programador, mas sim sua lógica” 
+    David Ribeiro Guilherme, Diretor de TI / CEO
+
+O que você precisa para praticar?
+    Google Colab / Jupyter Notebook
+    <https://colab.research.google.com/>
+
+Python requer instalação em ambientes Windows
+<https://www.python.org/downloads/> Nativamente instalado em ambientes Linux
+
+Junto ao Python vem instalado o IDLE
+
+PyCharm
+    Ambiente de Desenvolvimento Integrado (Integrated Development Environment [IDE])
+<https://www.jetbrains.com/pt- br/pycharm/>
