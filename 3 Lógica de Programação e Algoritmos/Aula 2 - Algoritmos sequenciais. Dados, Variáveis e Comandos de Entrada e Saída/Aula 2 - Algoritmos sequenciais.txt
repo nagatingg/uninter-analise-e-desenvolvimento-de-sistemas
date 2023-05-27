@@ -1,129 +1,211 @@
-Lógica de Programação e Algoritmos - Prof. Vinicius Pozzobon Borin
+Algoritmos sequenciais. Dados, Variáveis e Comandos de Entrada e Saída 
+- Prof. Vinicius Pozzobon Borin
 
----------------  Aula 1 - Vinicius Pozzobon Borin ---------------------
-O objetivo desta aula é introduzir os principais conceitos inerentes a esta 
-    disciplina de Programação
-Tais conceitos serão recorrentes ao longo das próximas aulas
+---------------  Aula 2 - Vinicius Pozzobon Borin ---------------------
+
+Objetivo desta aula é darmos os primeiros passos em programação
+Construção de nossos primeiros algoritmos
 
 A estrutura de conteúdos desta aula é a seguinte:
-    O que é lógica?
-    O que são algoritmos?
-    Como representamos algoritmos?
-    Que sistema computacional usamos para executar programas?
-    O que são linguagens de programação?
-    Qual linguagem iremos adotar?
+    Onde programar em Python?
+    Quais partes compõem um algoritmo computacional?
+    Como escrevermos algo na tela?
+    Como manipulamos dados e variáveis?
+    Como realizamos operações aritméticas?
+    Como lemos informações do teclado?
+
+-------------- Ciclo de processamento de dados
+
+ENTRADA   > PROCESSAMENTO > SAÍDA
+ER (x, y) > res < x + y   > ESCREVER (res)
+-Borin, 2020
+
+Olá, mundo!
+print("Olá, mundo!")
+
+Função de Saída
+-Print: comando, instrução, função
+
+Escrever     > print
+pseudocódigo > Python
+
+Concatenando mensagens e números:
+print("O resultado da soma de 2 + 3 é: ", 2 + 3)
 
 
+-------------- Variáveis, dados e seus tipos
 
------------Tema 1 - Introdução à lógica e aos algoritmos
+Dados
+    Sequência de símbolos quantificados ou quantificáveis (Puga,2009,p.18)
+    Valores fornecidos via entrada e manipulados ao longo do programa
 
-O que é lógica?
-    Aristóteles (384 a 322 a.C.) - conceito de lógica (logos) - linguagem racional
-    Parte da filosofia que se ocupa das formas do pensamento e das operações
-        intelectuais (Michaelis, 2020)
+Variáveis
+    Nome dado a uma região da memória do programa
+    Sempre que você invocar o nome de uma variável no programa, seu bloco de memória
+        será automaticamente carregado da RAM
 
--Raciocínio lógico do nosso dia a dia para realizar atividades
--Na computação: maneira pela qual instruções, assertivas e pressupostos são organizados
-    num algoritmo para viabilizar a implantação de um programa (Michaelis, 2020)
- 
- O que são algoritmos?
-    Um algoritmo é dado como uma sequência de passos a serem realizados para que
-        determinada tarefa seja concluída, ou um objetivo atingido
+Lê-se: a variável "nota" recebe o dado 8,5
+    nome = 8.5
+    = > símbolo de atribuição
 
+nota = 8.5
+disciplina = "Logica de programação e algoritmos"
 
------------Tema 2 - Sistemas de computação
+print(nota)
+print(disciplina)
 
-Segunda Guerra mundial:
-    Cálculo de mísseis
-    Mensagens codificadas
-    Computadores construídos com milhares de válvulas e relés, pesando toneladas
-        e consumindo montantes de energia
+Regras para nomes de variáveis
+    Nunca inicie o nome de uma variável com um número
 
--ENIAC (Electronic Numerical Integrator and Computer)
+Tipos primitivos de dados
+    Numérico (inteiro e ponto flutuante)
+    Caractere
+    Literal/booleana
 
-Percebeu-se a necessidade de mudar a maneira como computadores eram projetadas,
-    começando pela aritmética decimal para binária
+Variáveis numéricas
+    Quando queremos realizar operações aritméticas
+    Inteiro (int) - números sem casas decimais
+    Ponto flutuante (float) - números com casas decimais
 
--John Von Neumann - Matemático húngaro. Propôs o primeiro computador de programa
-    armazenado e criado
-        imagem salva na pasta
+Variáveis lógicas / booleanas
+    Armazena um bit. Dois estados:
+        Verdadeiro ou falso
+        Nível lógico ou falso
+        Nível lógico alto ou baixo
+        1 ou 0
 
-O bit
-    Base decimal - dígitos de 0 a 9
-    Base binária - digitos 0 e 1
-    Binary Digit - a menor unidade de armazenamento de dados
-    Todo e qualquer computador é binário
+Exemplo:
+a = 1
+b = 5
 
--Imagem salva mostrando a quantidade bits e kbits
+resposta = a == b
+print(resposta)
+    False > resultado
 
------------Tema 3 - Representação de Algoritmos
+---
 
-Descrição Narrativa
-    Linguagem natural
-    Não utilizada em algoritmos computacionais
+resposta = a != b
+print(resposta)
+    True > resposta
 
-Pseudocódigo
-    Português estruturado
-    Representação mais próxima de um programa computacional, mas sem se
-        preocupar com a linguagem de programação adotada
-    Regras definidas
-    Linguagem genérica
+Variáveis de cadeias de caracteres (strings)
+    Armazenam conjuntos de símbolos encadeados, incluindo acentuação, pontuação etc
 
-Fluxograma
-    Representação gráfica de um algoritmo
-    Usado para passar a ideia do seu código e organizar o raciocínio lógico
-    Simbologia gráfica padrão ISO 5807:1985
+Exemplo:
+    frase = "Olá, mundo"
+    print(frase[0])
+    O > resposta
 
------------Tema 4 - Linguagens de programação e compiladores
+-------------- Manipulações com strings
+Concatenação
+    Juntar/somar strings
 
-Linguagens de programação
-    Resultam em instruções compreendidas pelo computador e não geram ambiguidades
+s1 = "Lógica de Programação"
+s1 = s1 + " e Algoritmos"
+print(s1)
+    Lógica de Programação e Algoritmos > resposta
 
-Software de compilação - compilador
-    Ele trnasforma o código que você escreveu (alto nível) em uma 
-     linguagem de máquina ( baixo nível) compreendida pelo hardware
-        Linguagem de Programação > Compilação > Linguagem de Máquina > Arquivo binário
+s1 = "A" + "-" * 10 + "B"
+print(s1)
+    A----------B > resposta
 
-Software de Interpretador
-    Nunca perde o seu código-fonte, ele está sempre presente. O código não é
-        convertido de uma só vez, mas, sim, executado instrução por instrução à
-            medida que o programa vai requisitando.
+Composição
+    Juntar diferentes variáveis e strings
 
-Imahgem salva linguagens de programação mais usadas em 2020 ( Desatualizado)
-Link atualizado para 2022 abaixo:
-> https://spectrum.ieee.org/top-programming-languages-2022#toggle-gdpr
+Exemplo:
+    nota = 8.5
+    s1 = "Você %f " % nota
+    print(s1)
+        Você 8.5000000 > resposta
 
+    nota = 8.5
+    s1 = "Você %.2f " % nota > limitando apenas 2 casas decimais
+    print(s1)
+        Você 8.50 > resposta
 
------------Tema 5 - Linguagem de Programação Python
+    nota = 8.5
+    disciplina = "Algoritmos"
+    s1 = "Você %.2f " %s (nota, disciplina)
+    print(s1)
+        Você 8.50 > resposta
 
-www.pythom.org / www.pythom.org.br
+Porque usar f ou s
+    Composição
+        Lista de marcadores de posição
+        Marcador     Tipo
+        %d ou %i    Números inteiros
+        %f          Números de ponto flutuante
+        %s          Strings
 
-Python
-    Linguagem de propósito geral
-    Vasta quantidade de bibliotecas existentes
-    Linguagem simples, intuitiva. ótima para iniciantes
-    Linguagem multiplataforma
-    Comunidade ativa e atualizações constantes
-    Python Software Foundation (2001)
+Composição moderna
+    "Você tirou %d na disciplina de %d"
+    % (nota, disciplina)
 
-Histórico da Linguagem
-    Linguagem criada em 1982 por Guido Van Rossum
-    Centrum Wiskunde & Informatica (CWI) Amsterdam
-    Inspiração. Linguagem ABC
-    Monty Python Flying Circus
-    Programa de televisão britânico (1969-1974)
+    "Você tirou {} na disciplina de {}"
+    .format (nota, disciplina)
 
-Exemplos de aplicações Python
-    Sistemas operacionais. Linux, macOS
-    RaspBarry BI
+Fatiamento
+    Podemos recortar/fatiar um pedaço da string
+Exemplo:
 
-O Zen do Python, por Tim Peters
-    Bonito é melhor que feio
-    Explícito é melhor que implícito
-    Simples é melhor que complexo
-    Complexo é melhor que complicado
-    Plano é melhor que aglomerado
-    Legibilidade faz diferença
-    Agora é melhor que nunca
+s1 = "Lógica de Programação e Algoritmos"
+print(s1[0:6])
+    Lógica > pegou 5 caracteres que eu selecionei
 
+Tamanho (length)
+    Podemos descobrir o tamanho da cadeia de caracteres com uma função chamada len
+Exemplo:
+    s1 = "Lógica de Programação e Algoritmos"
+    tamanho = len(s1)
+    print(tamanho)
+        34 = tamanho da string
 
+-------------- Função de entrada e fluxo de execução do programa
+Função de entrada
+    input: comando, instrução, função
+
+    Ler          > input
+    Pseudocódigo > Python
+
+input("Mensagem")
+
+idade = input("Qual sua idade?")
+print(idade)
+    Qual sua idade? 50
+    50
+
+nome = input("Qual seu nome")
+print("Olá {}, sejam bem-vindo" .format(nome))
+    Qual seu nome? Wesley
+    Olá Wesley, seja bem-vindo!
+
+Convertendo dados de entrada
+    O input sempre retorna um dado do tipo string
+    Se quisermos um dado numérico, utilizamos a função int ou float antes do input
+
+Exemplo:
+idade = float(input("Qual sua idade?"))
+print(idade)
+    Qual sua idade? 50
+    50
+
+Exercício
+    Desenvolva um algoritmo que solicite ao usuário dois números inteiros.
+    Imprima a soma destes dois números na tela
+
+// Feito antes da correção
+numero1 = int(input("Digite o primeiro número: "))
+print(numero1)
+numero2 = int(input("Digite o segundo número: "))
+print(numero2)
+soma = numero1 + numero2
+print("A soma dos dois números é: " + soma)
+
+Resposta do professor
+x = int(input("Digite um número inteiro: "))
+y = int(input("Digite outro número inteiro: "))
+//Maneira clássica
+res = "O resultado da soma de %i com %i é %i." % (x, y, x + y)
+//Maneira moderna
+res = "O resultado da soma de {} com {} é {}." .format(x, y, x + y)
+print(res)

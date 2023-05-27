@@ -1,46 +1,105 @@
-Projeto Aula 1 - Introdução à Lógica e Algoritmos - Prof. Vinicius Pozzobon Borin
+Projeto Aula 2
+    Algoritmos sequenciais. Dados, Variáveis e Comandos de Entrada e Saída 
+    - Prof. Vinicius Pozzobon Borin
 
---------------- Projeto Aula 1 ---------------------
+--------------- Projeto Aula 2 ---------------------
 
-“Todos neste país deveriam aprender a programar um computador, pois isto ensina 
-a pensar”
-    Steve Jobs (1955-2011), ex-CEO da Apple, empresário e inventor
+Exercícios feito no PyCharm
 
-Computadores, desktops, laptops 
-Sistemas operacionais
-Smartphones, aplicativos 
-Web
-Videogames e jogos 
-Sistemas inteligentes 
-Internet das Coisas 
-Sistemas embarcados
-Inteligência artificial 
-Ciência de dados 
-Big Data
+Expressões algébricas
+Escreva as seguintes expressões algébricas  em linguagem Python:
+a) O somatório dos 5 primeiros números inteiros e positivos
+b) A média entre 23, 19 e 31
+c) O número de vezes que 73 cabe em 403
+d) A sobra quando 403 é dividido por 73
+e) 2 elevado à 10ª potência
+f) O valor absoluto da diferença entre 54 e 57
+g) O menor valor entre 34, 29 e 31
 
-Alexa da Amazon:
-Sistema Operacional (Fire OS) Software embarcado
-Reconhecimento de voz
-Aplicativo mobile, desktop e webd Desenvolvimento de softwares terceiros 
-para conexão com a Alexa (skills) Backend, Big Data etc. (Amazon AWS)
+Atribuição
+Escreva as expressões em Python para:
+a) Atribuir o valor inteiro 3 à variável a
+b) Atribuir o valor 4 à variável b
+c) Atribuir à variável c o valor da expressão a*a + b *b
 
-Resolução de exercícios em: 
-    linguagem Python 
-    pseudocódigo 
-    fluxograma
+Strings
+Execute as seguintes atribuições: 
+s1 = ‘ant’
+s2 = ‘bat’ 
+s3 = ‘cod’
 
-    “Não é a linguagem de programação que define o programador, mas sim sua lógica” 
-    David Ribeiro Guilherme, Diretor de TI / CEO
+Exercício 1
+Desenvolva um algoritmo que solicite 
+ao usuário o preço de um produto e um percentual de desconto a ser aplicado a ele. 
+Calcule e exiba o valor do desconto e o preço final do produto. 
+(exercício da apostila – aula 2)
 
-O que você precisa para praticar?
-    Google Colab / Jupyter Notebook
-    <https://colab.research.google.com/>
+Exercício 2
+Escreva um programa que pergunte a quantidade de km percorridos por um carro 
+alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi 
+alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e 
+R$ 0,15 por km rodado
 
-Python requer instalação em ambientes Windows
-<https://www.python.org/downloads/> Nativamente instalado em ambientes Linux
+Exercício 3
+Crie uma variável de string que receba uma frase qualquer. Crie uma segunda 
+variável, agora contendo a metade da string digitada. 
+Imprima na tela somente os dois últimos 
+caracteres da segunda variável do tipo string
 
-Junto ao Python vem instalado o IDLE
+Respostas dos exercícios feito em aula
 
-PyCharm
-    Ambiente de Desenvolvimento Integrado (Integrated Development Environment [IDE])
-<https://www.jetbrains.com/pt- br/pycharm/>
+somaA = 1 + 2 + 3 + 4 + 5;
+mediaB = ((23 + 19 + 31) / 3);
+divisaoC = 403 // 73;
+sobraD = 403 % 73;
+potenciaE = 2 ** 10;
+absoluteF = abs(54 - 57);
+menorG = min(34, 29, 31);
+
+a = 3
+b = 4
+c = a * a + b * b
+
+s1 = "ant"
+s2 = "bat"
+s3 = "cod"
+
+#print(s1 + " " + s2 + " " + s3);
+
+#print(10 * (s1 + " "));
+
+#print(s1 + " " + 2 * (s2 + " ") + 3 * (s3 + " "));
+
+#print(7 * (s1 + " " + s2 + " "));
+
+#print(5 * (s1 + s2 + s3 + " "));
+
+#preco = float(input("Qual o valor do produto? "));
+
+#p = float(input("Qual o valor do desconto? (0-100)%"));
+
+# = preco * (p / 100);
+
+#final = preco - desconto;
+
+#print("O preço final do produto é: {}" .format(final));
+
+#Exercicio 2
+#quantidadeKm = float(input("Qual foi a quantidade de km percorridos? "));
+#quantidadeDias = int(input("Qual foi a quantidade de dias que o carro foi alugado?"));
+
+#valorKm = quantidadeKm * 60;
+#valorDias = quantidadeDias * 0.15;
+
+#print("O carro foi alugado por {} dias, sendo percorrido a distancia de {} km"
+#      .format(quantidadeDias, quantidadeKm));
+#print("Sendo cobrado o valor de R$ {} pelo kms rodados. Além de R$ {} pela quantidade de dias alugados."
+#      " O valor total é R$ {}" .format(valorKm, valorDias, valorDias + valorKm));
+
+#Exercicio 3
+
+fraseQualquer = input("Digite sua frase: ");
+tam = len(fraseQualquer) /2;
+fraseMetade = fraseQualquer[:int(tam)]
+
+print(fraseMetade[-2:]);  #Começa de trás para frente
