@@ -1,105 +1,227 @@
-Projeto Aula 2
-    Algoritmos sequenciais. Dados, Variáveis e Comandos de Entrada e Saída 
+Projeto Aula 3
+    Algoritmos sequenciais. Estruturas de seleção ou decisão 
     - Prof. Vinicius Pozzobon Borin
 
---------------- Projeto Aula 2 ---------------------
+--------------- Projeto Aula 3 ---------------------
 
 Exercícios feito no PyCharm
 
-Expressões algébricas
-Escreva as seguintes expressões algébricas  em linguagem Python:
-a) O somatório dos 5 primeiros números inteiros e positivos
-b) A média entre 23, 19 e 31
-c) O número de vezes que 73 cabe em 403
-d) A sobra quando 403 é dividido por 73
-e) 2 elevado à 10ª potência
-f) O valor absoluto da diferença entre 54 e 57
-g) O menor valor entre 34, 29 e 31
+Condicional simples
+    Condição > V Instruções > Objetivo
+        > -----   F  ----  >
 
-Atribuição
-Escreva as expressões em Python para:
-a) Atribuir o valor inteiro 3 à variável a
-b) Atribuir o valor 4 à variável b
-c) Atribuir à variável c o valor da expressão a*a + b *b
+Condicional Composta
+        >    V   >  Instruções ( A )
+    Condição            ----            Objetivo 
+        >    F   >  Instruções ( B )
 
-Strings
-Execute as seguintes atribuições: 
-s1 = ‘ant’
-s2 = ‘bat’ 
-s3 = ‘cod’
+Expressões booleanas
+Escreva as seguintes expressões booleanas  em linguagem Python:
+a) O somatório de 2 com 2 é menor do que 4
+b) O valor 7 // 3 é igual a 1 + 1
+c) A soma de 3 elevado ao quadrado com 4 elevado ao quadrado é igual a 25
+d) A soma de 2, 4 e 6 é maior do que 12
+
+-a
+print(2 + 2 < 4)
+
+-b
+print(7 // 3 == 1 + 1);
+
+-c
+print((3 ** 2 + 4 ** 2) == 25);
+
+-d
+print((2 + 4 + 6) > 12);
+
+---
+
+Escreva as seguintes expressões boleanas em linguagem Python:
+a) 1387 é divisível por 19
+b) 31 é par
+c) O menor valor entre: 34, 29 e 31 é menor do que 30
+
+-a
+print(1387 // 19);
+
+-b
+print(31 % 2 == 0);
+
+-c
+valores = [34, 29, 31]
+menorValor = min(valores);
+print(menorValor < 30);
+
+-------
+
+Condicional simples
+Traduza as afirmações a seguir para condicionais em Python:
+a) Se idade é maior que 60, escreva: “Você tem direitos aos benefícios”
+b) Se dano é maior do que 10 e escudo é igual a 0, escreva: “Você está morto!”
+c) Se pelo menos uma das variáveis booleanas norte, sul, leste e oeste 
+    resultarem em True, escreva: “Você escapou!”
+
+-A
+if(idade > 60):
+    print("Você tem direito aos beneficios")
+
+-B
+if(dano > 10 and escudo == 0):
+    print("Você está  morto!")
+
+-C
+if(norte == True or sul == True or leste == True or oeste == True):
+    print("Você escapou!")
+
+alternativa do professor>
+if(norte or sul or leste or oeste):
+    print("Você escapou!")
+
+-------
+
+Condicional composta
+Traduza as afirmações a seguir para condicionais em Python:
+
+a) Se ano é divisível por 4, escreva: “Pode ser um ano bissexto”. 
+Caso contrário, escreva: “Definitivamente não é um ano bissexto”
+
+b) Se ambas as variáveis booleanas cima e baixo forem True, escreva: 
+“Decida-se!”, caso contrário, escreva: “Você escolheu um caminho!”
+
+-a
+if(ano / 4):
+    print("Pode ser um ano bissexto")
+    else:
+        print("Definitivamente não é um ano bissexto")
+
+-b
+if(cima or baixo == True):
+    print("Decida-se");
+    else:
+        print("Você escapou!");
+
+---------
 
 Exercício 1
-Desenvolva um algoritmo que solicite 
-ao usuário o preço de um produto e um percentual de desconto a ser aplicado a ele. 
-Calcule e exiba o valor do desconto e o preço final do produto. 
-(exercício da apostila – aula 2)
+Faça um algoritmo que receba três valores, representando os lados de um triângulo
+    fornecidos pelo usuário. Verifique se os valores formam um triângulo e 
+    classifique como:
+a) Equilátero (três lados iguais)
+b) Isósceles (dois lados iguais)
+c) Escaleno (três lados diferentes)
+
+Lembre-se de que, para formar um triângulo, nenhum dos lados pode ser igual a zero,
+    e um lado não pode ser maior do que a soma dos outros dois (exercício da 
+    apostila – aula 3)
+
+-A
+Minha resolução:
+x = int(input("Digite o valor número 1: "))
+y = int(input("Digite o valor número 2: "))
+z = int(input("Digite o valor número 3: "))
+
+if(x and y and z < 0 and x >= y + z and y >= z + x and z >= x + y):
+    print("Você não pode criar um triangulo")
+# Conferindo se o triangulo é Equilátero:
+elif(x != y and  y != x and z != y and y != z and x != z and z != x):
+    print("O triangulo é Escaleno")
+# Conferindo se o triangulo é Equilatero:
+elif(x == y and y == z):
+    print("O triangulo é Equilatero")
+# Conferindo se o triangulo é Isósceles:
+elif(x == y or x == z or z == y):
+    print("O triangulo é Isósceles")
+
+
+Resolução do professor:
+A = int(input("Digite o 1° lado do triangulo: "))
+B = int(input("Digite o 2° lado do triangulo: "))
+C = int(input("Digite o 3° lado do triangulo: "))
+
+if (A > 0) and (B > 0) and (C > 0):
+    if (A + B + C) and (A + C > B) and (B + C > A):
+    # Se você chegou até aqui, é porque o triangulo é valido!
+
+    if A != B and A != C and B != C:
+        print("Triangulo escaleno")
+    else:
+        if A == B and A == C and B == C:
+            print("Triangulo é equilatero")
+            else:
+                print("Triangulo isósceles!")
+    else:
+        print("Ao menos um dos valores indicados não servem para formar um triangulo.")
+else:
+    print("Ao menos um dos valores indicados não servem para formar um triangulo.")
+
+-----
 
 Exercício 2
-Escreva um programa que pergunte a quantidade de km percorridos por um carro 
-alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi 
-alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e 
-R$ 0,15 por km rodado
+Escreva um algoritmo que leia dois valores numéricos e que pergunte ao usuário 
+    qual operação ele deseja realizar: adição (+), subtração (-), multiplicação
+    (*) ou divisão (/). Exiba na tela o resultado da operação desejada 
+    (exercício da apostila – aula 3) 
+
+
+print("Calculadora")
+print("+ Adição")
+print("- Subtração")
+print("* Multiplicação")
+print("/ Divisão")
+print("Pressione outra tecla para sair...")
+
+operacao = input("Qual operação deseja fazer? ")
+if(operacao == "+" or operacao == "-" or operacao == "*" or operacao == "/"):
+    x = float(input("Digite o valor número 1: "))
+    y = float(input("Digite o valor número 2: "))
+
+if (operacao == "+"):
+    res = x + y
+    print("Resultado: {} + {} = {}" .format(x, y, res))
+elif(operacao == "-"):
+    res = x - y
+    print("Resultado: {} - {} = {}" .format(x, y, res))
+elif(operacao == "*"):
+    res = x * y
+    print("Resultado: {} x {} = {}" .format(x, y, res))
+elif(operacao == "/"):
+    res = x / y
+    print("Resultado: {} / {} = {}" .format(x, y, res))
+else:
+    print("Você digitou uma operação inválida.")
+
+print("Encerrando o programa...")
+
+------
+
 
 Exercício 3
-Crie uma variável de string que receba uma frase qualquer. Crie uma segunda 
-variável, agora contendo a metade da string digitada. 
-Imprima na tela somente os dois últimos 
-caracteres da segunda variável do tipo string
+Escreva um programa que calcule o preço a pagar pelo fornecimento de energia 
+    elétrica. Pergunte a quantidade de kWh consumida e o tipo de instalação: 
+    R para residências, I para indústrias e C para comércios
 
-Respostas dos exercícios feito em aula
+print("Calculadora de kwh consumidos")
+kwh = float(input("Quantos khw foram consumidos?"))
+print("R para residências")
+print("I para indústrias")
+print("C para comércios")
+tipo = input("Digite o tipo de instalação:")
+if (tipo == "R"):
+    if kwh <= 500:
+        preco = 0.4
+    else:
+        preco = 0.65
+elif (tipo == "C"):
+    if khw <= 100:
+        preco = 0.55
+    else:
+        preco = 0.6
+elif (tipo == "I"):
+    if khw <= 5000:
+        preco = 0.55
+    else:
+        preco = 0.6
+else:
+    print("Instalação inválida!")
 
-somaA = 1 + 2 + 3 + 4 + 5;
-mediaB = ((23 + 19 + 31) / 3);
-divisaoC = 403 // 73;
-sobraD = 403 % 73;
-potenciaE = 2 ** 10;
-absoluteF = abs(54 - 57);
-menorG = min(34, 29, 31);
-
-a = 3
-b = 4
-c = a * a + b * b
-
-s1 = "ant"
-s2 = "bat"
-s3 = "cod"
-
-#print(s1 + " " + s2 + " " + s3);
-
-#print(10 * (s1 + " "));
-
-#print(s1 + " " + 2 * (s2 + " ") + 3 * (s3 + " "));
-
-#print(7 * (s1 + " " + s2 + " "));
-
-#print(5 * (s1 + s2 + s3 + " "));
-
-#preco = float(input("Qual o valor do produto? "));
-
-#p = float(input("Qual o valor do desconto? (0-100)%"));
-
-# = preco * (p / 100);
-
-#final = preco - desconto;
-
-#print("O preço final do produto é: {}" .format(final));
-
-#Exercicio 2
-#quantidadeKm = float(input("Qual foi a quantidade de km percorridos? "));
-#quantidadeDias = int(input("Qual foi a quantidade de dias que o carro foi alugado?"));
-
-#valorKm = quantidadeKm * 60;
-#valorDias = quantidadeDias * 0.15;
-
-#print("O carro foi alugado por {} dias, sendo percorrido a distancia de {} km"
-#      .format(quantidadeDias, quantidadeKm));
-#print("Sendo cobrado o valor de R$ {} pelo kms rodados. Além de R$ {} pela quantidade de dias alugados."
-#      " O valor total é R$ {}" .format(valorKm, valorDias, valorDias + valorKm));
-
-#Exercicio 3
-
-fraseQualquer = input("Digite sua frase: ");
-tam = len(fraseQualquer) /2;
-fraseMetade = fraseQualquer[:int(tam)]
-
-print(fraseMetade[-2:]);  #Começa de trás para frente
+print("Total a pagar é: {}" .format(kwh * preco))

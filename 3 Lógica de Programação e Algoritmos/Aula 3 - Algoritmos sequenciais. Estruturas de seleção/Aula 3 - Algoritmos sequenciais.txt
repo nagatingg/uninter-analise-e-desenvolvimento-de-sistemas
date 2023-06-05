@@ -3,4 +3,251 @@ Algoritmos sequenciais. Estruturas de seleção ou decisão
 
 ---------------  Aula 3 - Vinicius Pozzobon Borin ---------------------
 
+O objetivo desta aula é construir algoritmos com estruturas de condução/decisão
 
+Aprenderemos:
+    Condicional simples
+    Condicional composta
+    Condicionais aninhadas
+    Condicional de múltipla escolha (elif)
+
+-----------Estrutura Condicional
+
+Imagem salva na pasta
+
+
+-----------Condicional simples e composta
+
+Python
+    if (x > y );
+
+    se ( #condição)
+        #instrução
+        fim-se
+
+    if(#condição)
+        #instrução
+
+Exercício
+    Desenvolva um programa que lê dois valores numéricos inteiros e compara se o
+    o primeiro é maior do que o segundo, utilizando uma condicional simples
+    Caso seja (resultado verdadeiro), ele imprime na tela a mensagem informando
+    que o primeiro valor digitado é maior do que o segundo
+
+x = int(input("Digite um valor inteiro: "));
+y = int(input("Digite outro valor inteiro: "));
+
+if(x > y):
+    print("Verdadeiro")
+
+
+se (condição)
+    #Instrução A
+    senão
+    #Instrução B
+    fim-se
+
+if(condição)
+    #Instrução A (Verdadeiro)
+    else:
+    #Instrução B ( False)
+
+Exercício
+    Dsenvolva um programa que lê um valor inteiro e descobre se ele é par ou impar
+
+x = int(input("Digite um valor inteiro: "));
+
+if(x % 2 == 0):
+    print("O número é par!");
+else:
+    print("O número é impar");
+
+-----------Expressões algebras e lógicas
+
+Operadores lógicas
+Python   | Pseudocódigo | Operação
+not      | não          | negação
+and      | e            | conjunção
+or       | ou           | disjunção
+
+Operador not
+    Serve para negar um resultado lógico ou o resultado de uma expressão booleana
+    Na prática, isso significa que o resultado final de uma expressão será invertido
+
+    v       not V
+    True    False       | Fazendo inversão
+    False   True
+
+Operador and
+    Este operador irá prover um resultado verdadeiro se, e somente se, ambas as
+    entradas forem verdadeiras
+
+    V1      | V1     |  V1 and V2
+    False   | False  | False
+    False   | True   | False
+    True    | False  | False
+    True    | True   | True
+    Necessita de dois valores.
+
+Operador or
+    Este operador irá prover um resultado verdadeiro se ao menos uma das entradas
+    for verdadeiro
+
+    V1      | V1     |  V1 and V2
+    False   | False  | False
+    False   | True   | True
+    True    | False  | True
+    True    | True   | True
+
+Exemplos:
+# not
+x = True
+y = False
+print(not x) > False
+print(not y) > True
+    Inverteram os resultado
+
+# and
+x = True
+y = False
+print(x and y) > False
+
+# or
+x = True
+y = False
+print(x or y)
+
+Precedência dos operadores
+    1 Parênteses
+    2 Operadores aritméticos de potenciação ou raiz
+    3 Operadores aritméticos de multiplicação, divisão e módulo
+    4 Operadores aritméticos de adição e subtração
+    5 Operadores relacionais
+    6 Operadores lígicos not
+    7 Operadores lógicos and
+    8 Operadores lógicos or
+    9 Atribuições
+
+Exemplo:
+    x = 10
+    y = 1
+    res = not x > y
+    print(res)
+        False
+
+    x = 10
+    y = 1
+    z = 5.5
+    res = x > y and z == y
+    print(res)
+
+Exercício
+    Um aluno, para passar de ano, precisa ser aprovado em todas as matérias que
+        está cursando
+    Assuma que a média para aprovação é a partir de 7, e que o aluno cursa 3
+    matérias, somente. Escreva um algoritmo que leia a nota final do aluno em cada
+    matéria e informe, na tela, se ele passou de ano ou não
+    
+Minha resolução sem correção:
+    materia1 = int(input("Digite a nota final da primeira matéria: "));
+    materia2 = int(input("Digite a nota final da primeira matéria: "));
+    materia3 = int(input("Digite a nota final da primeira matéria: "));
+    aprovacao = materia1 >= 7 and materia2 >= 7 and materia3 >= 7;
+    print(aprovacao);
+
+Correção:
+    materia1 = float(input("Digite a nota final da primeira matéria: "));
+    materia2 = float(input("Digite a nota final da primeira matéria: "));
+    materia3 = float(input("Digite a nota final da primeira matéria: "));
+    if materia1 >= 7 and materia2 >= 7 and materia3 >= 7:
+        print("O aluno foi aprovado de ano!");
+    else:
+        print("O aluno não passou de ano");
+
+-----------Condicionais aninhadas
+
+    Podemos inserir condicionais dentro de outra condicional
+    Não existe limite para quantas condicionais podemos colocar dentro da outra
+
+Condicionais aninhadas com dois níveis
+    Imagem salva na pasta
+
+Exercício
+    Escreva um algoritmo em python em que o usuário se quer comprar maçãs, laranjas
+        ou bananas. Deverá ser apresentado na tela um menu com as opções: 1 para maça,
+        2 para laranja e 3 para banana
+    Após escolhida a fruta, deve-se digitar quantas unidades se quer comprar. O
+        algoritmo deve calcular o preço total a pagar do produto escolhido e mostrá-lo
+        na tela
+    Considere que uma maça custa R$ 2,30. Uma laranja, R$ 3,60. Banana R$ 1,85
+
+print("Escolha o que deseja comprar: ");
+print("1 - Maça");
+print("2 - Laranja");
+print("3 - Banana");
+produto = int(input("Qual sua escolha?"));
+qtd = int(input("Quantas unidades?"));
+if (produto == 1):
+    pagar = qtd * 2.3;
+    print("Você comprou {} maças. Total à pagar: {}" .format(qtd, pagar));
+else:
+    if (produto == 2):
+        pagar = qtd * 3.6;
+        print("Você comprou {} laranjas. Total à pagar: {}".format(qtd, pagar));
+    else:
+        if(produto == 3):
+            pagar = qtd * 1.85;
+            print("Você comprou {} bananas. Total à pagar: {}".format(qtd, pagar));
+        else:
+            print("Produto inexistente!");
+
+
+-----------Condicional de múltipla escolha (elif)
+
+Refazendo o exercício anterior:
+
+    Escreva um algoritmo em python em que o usuário se quer comprar maçãs, laranjas
+        ou bananas. Deverá ser apresentado na tela um menu com as opções: 1 para maça,
+        2 para laranja e 3 para banana
+    Após escolhida a fruta, deve-se digitar quantas unidades se quer comprar. O
+        algoritmo deve calcular o preço total a pagar do produto escolhido e mostrá-lo
+        na tela
+    Considere que uma maça custa R$ 2,30. Uma laranja, R$ 3,60. Banana R$ 1,85
+
+print("Escolha o que deseja comprar: ");
+print("1 - Maça");
+print("2 - Laranja");
+print("3 - Banana");
+produto = int(input("Qual sua escolha?"));
+qtd = int(input("Quantas unidades?"));
+if (produto == 1):
+    pagar = qtd * 2.3;
+    print("Você comprou {} maças. Total à pagar: {}" .format(qtd, pagar));
+elif (produto == 2):
+        pagar = qtd * 3.6;
+        print("Você comprou {} laranjas. Total à pagar: {}".format(qtd, pagar));
+elif (produto == 3):
+            pagar = qtd * 1.85;
+            print("Você comprou {} bananas. Total à pagar: {}".format(qtd, pagar));
+else:
+            print("Produto inexistente!");
+
+Exercício 2
+    Escreva um algoritmo que lê um nome e uma idade
+    Caso o nome digitado seja Vinicius, escreva isso na tela
+    Caso o usuário digite qualquer outro nome, verifique sua idade. Se for menor que
+        18 anos, informe que é de menor. Se for maior que 100 anos, informe que esta
+        pessoa possivelmente não existe.
+
+nome = input("Digite um nome: ");
+idade = int(input("Digite uma idade: "));
+if(nome == "Vinicius"):
+    print("Vinicius");
+elif idade < 18:
+    print("Você não é Vinicius.");
+elif idade > 100:
+    print("Você não existe!");
+
+
+
+    
