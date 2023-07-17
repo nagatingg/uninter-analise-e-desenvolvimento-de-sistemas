@@ -109,7 +109,12 @@ Otimizações da JVM
 
 ---------- Versões do Java e primeiro código
 
+IDE Eclipse
+	NetBeans - Oracle
+	Intellij IDEA - JetBrains
+	Eclipse - IBM (software livre)
 
+---------- Visão geral sobre código Java
 
 
 
