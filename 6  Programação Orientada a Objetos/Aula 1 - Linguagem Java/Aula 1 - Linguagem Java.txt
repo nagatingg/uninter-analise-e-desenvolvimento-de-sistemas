@@ -57,6 +57,38 @@ Exemplo - Aplicativo de vendas
 
 ----------- História do Java
 	
+Primeiros anos
+	Surgiu em 1990
+
+	Sun Microsystems
+
+	Green Project
+		Projetava um aparelho chamado StarSeven
+		Linguagem Oak
+
+	James Gosling
+
+
+Java e Internet
+	Mesmo programa
+		Diversas plataformas
+		Applet
+	
+	Casamento perfeito com navegadores
+
+	Popularização de internet e Java
+
+	Java não é JavaScript!!!
+
+Java moderno
+	Opportunity - Marte, 2004
+	Licença de software livre GPL V3, 2006
+	Sun Microsystems comprada pela Oracle
+	Java versão 18 - 2022
+
+------------- Organização do Java
+
+
 
 
 
