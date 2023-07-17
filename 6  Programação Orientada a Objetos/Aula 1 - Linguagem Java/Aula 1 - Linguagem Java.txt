@@ -88,6 +88,27 @@ Java moderno
 
 ------------- Organização do Java
 
+Java
+	Código Fonte > Bytecode > Código de máquina > Programa executando
+
+Principais soluções
+	Java Virtual Machine
+
+	Java Development Kit
+		Ambiente para programar em Java
+
+	Java Runtime Environment
+		Ambiente de execução Java 
+
+Otimizações da JVM
+	Just in Time Compilation
+		Melhorias que foram feitas, para deixar o Java mais rápido
+
+	Gargabe Collection
+		Verificação de blocos de memoria que é alocada / entrada / saída
+
+---------- Versões do Java e primeiro código
+
 
 
 
