@@ -17,6 +17,45 @@ Visão geral sobre o código Java
 
 ------------ Paradigmas de Programação e História da Oerientação a Objetos
 
+Paradigma procedural
+	Linguagem C
+
+Paradigma funcional
+	Linguagem Scala > Baseado no conceito de funções
+
+Paradigma lógico
+	Linguagem Prolog > Inteligência Artificial
+
+Paradigma Orientado a Objetos
+	Linguagem Java
+
+Python
+ > Híbrido
+	Procedural
+	Orientado a Objetos
+
+POO - Auxilia na manutibilidade do código
+
+POO
+	Alan Kay - Xerox
+		Biólogo e matemático
+		Simula 67, Smalltalk
+
+Programação mais intuitiva
+Abstração com objetos
+Classificamos a declaramos
+Linguagens puras e mistas
+	C++, C#, PHP, Python e Java
+
+Exemplo - Aplicativo de vendas
+	Exemplo estruturado
+		Função comprar()
+
+	Exemplo Orientado a Objeto
+		cliente.comprar()
+			Foco no objeto (cliente)
+
+----------- História do Java
 	
 
 
