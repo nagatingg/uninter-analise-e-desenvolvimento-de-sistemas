@@ -116,7 +116,10 @@ IDE Eclipse
 
 ---------- Visão geral sobre código Java
 
+System.out.printlm("Texto"); / ln pula a linha / sem ln não pula linha
 
+float = economico na memoria
+double = mais memoria, mais completo, mostra todos os valores
 
 
 
