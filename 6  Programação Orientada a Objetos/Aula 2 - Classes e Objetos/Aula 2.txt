@@ -10,6 +10,23 @@ Construtores
 
 ----------Classes e Objetos
 
+    -Classificação de objetos
+    -Abstração para modelar o mundo
+    -Aproximação da lógica da programação com a da linguagem falada
+        Objeto = cliente / cliente compra carrinho / 
+
+--------Métodos
+
+    Atributos
+        Do que o objeto é composto
+
+    Métodos
+        O que o objeto faz
+
+    Estado
+        Em que situação o objeto está
+
+
 
 
 
