@@ -2,6 +2,13 @@ Programação Orientada a Objetos - Dr. Leonardo Gomes
 
 ---------------  Aula 2 - Classes e Objetos ---------------------
 
+Classes e atributos
+Métodos
+Padrões e modificar static
+Interação entre Objetos
+Construtores
+
+----------Classes e Objetos
 
 
 
