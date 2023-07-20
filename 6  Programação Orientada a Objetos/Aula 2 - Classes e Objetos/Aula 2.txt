@@ -26,6 +26,8 @@ Construtores
     Estado
         Em que situação o objeto está
 
+-------Padrões e modificador static
+
 
 
 
