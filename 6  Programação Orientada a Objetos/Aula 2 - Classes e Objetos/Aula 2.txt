@@ -28,6 +28,30 @@ Construtores
 
 -------Padrões e modificador static
 
+junta palavras, sempre a primeira palavra com letra maiscula
+    PrimeiraPalavra -> Classes
+
+Nomenclatura
+    -Pacotes: 
+        são descritos inteiramente em letras minúsculas
+    -Classes: 
+        Inicia com letra maiúcula e segue o camel case
+    Métodos, atributos e variáveis:
+        Inicia com letra minúscula e segue o camel case
+    Constantes:
+        Inteiramente com letras maiúsculas separadas por underline
+
+        Curiosidade: CamelCase > vem dos camêlos
+
+Método static
+    Método é executado sem estar associado a uma instância
+Atributo static
+    O atributo se torna global. É acessada a mesma variável, mesma posição de memória, por todas as instâncias
+
+-------- Interação entre objetos
+
+
+
 
 
 
