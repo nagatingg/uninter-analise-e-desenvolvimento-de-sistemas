@@ -1,0 +1,34 @@
+Programação Orientada a Objetos - Dr. Leonardo Gomes
+
+---------------  Aula 1 - Classes e Objetos ---------------------
+
+Exercício 1
+    Crie uma classe Avaliacao, com três atributos reais chamados nota1, nota2, nota3, e crie dois métodos para calcular e tornar diferentes tipos de média
+    -Média aritmética
+    -Média ponderada  (pesos 2, 3 e 4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
