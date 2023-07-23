@@ -7,7 +7,23 @@ Exercício 1
     -Média aritmética
     -Média ponderada  (pesos 2, 3 e 4)
 
+-
+Exercício 2
+    Crie uma classe aluno com atributos string nome, curso. Crie também um atributo da classe Avaliacao. Cada aluno deve ter uma Avaliacao associada. Crie uma mensagem que imprima as informações completas desse aluno.
 
+-
+Exercício 3
+    Crie uma classe Conta para administrar contas correntes de um banco
+        int numero
+        string titular
+        float saldo
+        float limite
+    Crie os métodos
+        bool sacar (float)
+        bool deposita(float)
+        void info()
+
+    
 
 
 
