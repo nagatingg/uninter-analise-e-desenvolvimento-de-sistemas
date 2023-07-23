@@ -50,6 +50,27 @@ Atributo static
 
 -------- Interação entre objetos
 
+UML
+    Unified Modeling Language
+    -Define padrões para diversas etapas do desenvolvimento de softwares
+    Muitos conhecido pelo diagrama de classes
+
+Diagrama de classe
+
+    Aluno > Classe
+
+    Nome: String
+    CPF: String   > Atributos
+    matricula:int
+
+    void info() > Métodos
+
+Relação de classes
+    0..1 > DE 0 A 1
+    0_* > DE 0 A Muitos
+
+---------- Construtores
+
 
 
 
