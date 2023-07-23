@@ -71,6 +71,11 @@ Relação de classes
 
 ---------- Construtores
 
+    Código que executa no momento da instanciação
+    Semelhante a um método
+    Não tem valor de retorno
+    Não pode ser invocado sem ser durante a instanciação
+
 
 
 
