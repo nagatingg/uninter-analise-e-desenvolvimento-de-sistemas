@@ -1,8 +1,13 @@
-Análise de Sistemas - Guilherme Patriota
+Análise de Sistemas - Adriana Bastos
 
 ---------------  Aula 1 - Processos de negócio ---------------------
 
+    Modelagem de processos de negócio
+        É fundamental para todo profissional que deseje desenvolver um software, pois permite traduzir as necessidades de negócio do cliente em um projeto técnico de software
 
+------- Entendendo o que são processos de negócios
+
+    
 
 
 
