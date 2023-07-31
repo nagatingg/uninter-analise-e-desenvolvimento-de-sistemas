@@ -16,6 +16,19 @@ Análise de Sistemas - Adriana Bastos
         Modelagem orientada a objetos
 
 ------Análise Estruturada
+    O objetivo principal da análise estruturada é a construção de um modelo lógico, e não de um modelo físico de sistema. Ou seja, a análise estruturada busca compreender a lógica por trás de cada funcionalidade que precisa ser desenvolvida no software.
+        Graficos, diagramas, fluxos ou modelos
+
+    Análise x Projeto
+        O principal objetivo da análise é produzir uma especificiação do sistema que defina a estrutura do problema a ser resolvido, de acordo com a visão do usuário e na linguagem que possa ser entendida pela equipe técnica. Isso para definir a estrutura do problema com os requisitos do usuário, estruturando a implementação que será dada para a solução.
+
+    A análise estruturada, mesmo sendo um método mais antigo, ainda é encontrada principalmente, em empresa que possuem sistemas legados e que precisam ser mantidos e evoluídos
+
+    Gerar documentação sempre que necessário e agregue valor ao software
+
+-----Diagrama de Fluxo de Dados (DFD)
+    
+
 
 
 
