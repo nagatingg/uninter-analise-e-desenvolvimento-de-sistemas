@@ -36,7 +36,20 @@ Análise de Sistemas - Adriana Bastos
 
 ----Níveis de um DFD
 
+    Para evitar que tudo seja definido em um único diagrama, o qual geralmente é diíficil de ser entendido e mantido, criam-se DFDs que detalham um processo de um nível mais alto para o mais baixo
 
+    Esse é o DFD de nível mais alto, é o que ´da a visão das principais funções do sistema
+        Visão geral do software, e como se relaciona com outros software ou departamentos
+
+    DFD de nível zero
+        Após ter a visão macro do sistema, é preciso analisar os principais processos do software e colocar uma lupa nos fluxos e nas entidades envolvidos nesses processos. Detaçhes das prnicpais funcionalidades
+
+DFD de nível intermediário
+    Os DFDs de nível intermediário são os que mostram a decomposição, ou melhor, o detalhamento ou a explosão de cada processe de nível mais alto. Portanto, cada nível detalha mais o nível imediamente melhor
+
+------Analisando um exemplo de DFD
+
+    
 
 
 
