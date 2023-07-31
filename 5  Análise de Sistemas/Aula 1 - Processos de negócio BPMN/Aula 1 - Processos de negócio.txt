@@ -52,6 +52,12 @@ Processo TO BE
 
 -------Conhecendo e aplicando a notação BPM em Processos de Negocios
 
+    BPMN é a notação utilizada quando se modela processos de negócios seguindo a disciplina do BPM
+
+    BPM é uma disciplina de gestão própria para entender o funcionanmento dos processos de negócios
+
+------ Aprofundando a notação BPMN
+
     
 
 
