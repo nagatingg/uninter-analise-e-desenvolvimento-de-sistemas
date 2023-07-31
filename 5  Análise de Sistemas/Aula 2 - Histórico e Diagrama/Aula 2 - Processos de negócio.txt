@@ -27,8 +27,14 @@ Análise de Sistemas - Adriana Bastos
     Gerar documentação sempre que necessário e agregue valor ao software
 
 -----Diagrama de Fluxo de Dados (DFD)
-    
+    O diagrama de fluxo de dados, ou DFD, é uma das ferramentas mais utilizadas na análise estruturada, como forma de compreender e analisar o fluxo de dados dentro do próprio sistema, e o fluxo entre o mundo exterior com o sistema. Quando falamos de fluxo exterior, precisamos detalhar tanto os dados que entram no sistema quanto os que saem dele.
 
+    Escolha de nomes significativos para os seus componentes, de forma a facilitar o entendimento sobre o DFD e o que ele faz
+    Numerar os processos, para facilitar a referência a eles em uma documentação escrita
+    Criar o diagrama e ajustá-lo visando a uma boa estética e comunicação adequada
+    Evitar DFDs muito complexos.
+
+----Níveis de um DFD
 
 
 
