@@ -2,8 +2,14 @@ Análise de Sistemas - Adriana Bastos
 
 ---------------  Aula Prática 1 - Processos de negócio ---------------------
 
+    Uma rede social para a faculdade
+        Postar informações de vagas
+        Oportunidades para alunos e professoras de treinamentos ou cursos
+        Qualquer aluno ou professor pode postar
 
+Como não temos uma versão anterior, iremos ir direto para o TO BE
 
+    
 
 
 
