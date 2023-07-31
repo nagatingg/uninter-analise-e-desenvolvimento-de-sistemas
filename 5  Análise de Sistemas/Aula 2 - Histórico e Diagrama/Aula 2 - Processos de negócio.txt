@@ -4,6 +4,18 @@ Análise de Sistemas - Adriana Bastos
 
 ------Análise de Sistemas
 
+    Processo de desenvolvimento de Software
+
+    Segundo Pressman (2016) a análise de sistemas é uma prática baseada em modelos, com o objetivo de obter um melhor entendimento da entidade real a ser construída.
+
+    A modelagem do software precisa mostrar a solução a ser construída em diferentes níveis de abstração. Ou seja, é preciso mostrar o software do ponto de vista dos clientes e do ponto de vista técnico, de forma a permitir analisar a viabilidade de implementação dos requisitos de negócio.
+    A evolução da análise de sistemas propôs três grandes métodos de modelagem de sistemas, sendo eles:
+        Modelagem estruturada
+            Emtemder a fimcionalidade como um tudo, do inicio ao fim
+        Modelagem essencial
+        Modelagem orientada a objetos
+
+------Análise Estruturada
 
 
 
