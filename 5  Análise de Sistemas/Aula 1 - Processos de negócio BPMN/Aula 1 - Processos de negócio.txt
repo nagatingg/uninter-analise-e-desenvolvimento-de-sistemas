@@ -33,6 +33,28 @@ Processo de negócio
 
 ------- Mapeando os processos AS IS e elaborando o processo TO BE
 
+AS IS > Processo como é atualmente
+
+TO BE > Processo depois das atualizações
+
+Processo AS IS
+    Depois de identificar o processo, precisando estender o passo a passo
+    Mapeamento AS IS
+    Processo atual
+    Documentanção
+
+    Se preocupar com:
+        Requisitos mal explicados
+        Falta de interesse dos envolvidos
+
+Processo TO BE
+    As melhorias que você encontrar, vão entrar aqui
+
+-------Conhecendo e aplicando a notação BPM em Processos de Negocios
+
+    
+
+
 
 
 
