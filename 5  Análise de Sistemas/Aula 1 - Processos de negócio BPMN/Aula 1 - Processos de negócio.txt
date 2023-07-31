@@ -58,8 +58,53 @@ Processo TO BE
 
 ------ Aprofundando a notação BPMN
 
-    
+    Notação:
+        Inicio de um processo > Circulo 
+        Acrescentando no processo > Retangulo
+        Direções do processos > setas
+        Tomadas de decisão > losango
+        Final de processo > circulo
 
+    De ferramenta para ferramentas, pode mudar a cor. Mas a notação básico se mantém
+
+Tipos de tarefa
+    Tarefa comun
+        Serviço - indica uma tarefa automarizada
+        receber - espera por uma mensagem extrema de um participante
+        envio - envia uma mensagem para um participante externo
+        usuário - realizada por um usuário com ajuda de um aplicativo de software
+            exemplo: formulários, etc
+        script - é um código executado automaticamente
+        manual - atividade executada manualmente, sem nenhuma automatização
+
+    Venda de produtos
+        Receber cotação ( evento início )
+            > Elaborar uma proposta
+                > Recebe aprovação
+                    > Gera fatura 
+                        > Despacha Pedido
+                            > Código de rastreamento ( evento fim ) 
+
+    Você pode incluir um tempo determinado entre os processos:
+        Exemplo:
+            > Prazo de 2 dias úteis
+
+
+    Tarefas vs Eventos
+
+        Tarefas - Ocorrem ao longo do processo, em que o ator executante é conhecido
+            Cadastrar cliente
+            Cadastrar produto
+            Emitir fatura
+
+        Eventos são ações que acontecem com um est´mulo direto do ambiente externo
+            Início
+
+------ Analisando um exemplo de modelagem de processo
+    -Fomos contratados por nosso cliente para modelar o processo de vendas on-line de livros
+    -O nosso cliente tem uma livraria virtual, que vende produtos diretamente em um site próprio
+    -O diferencial desta livraria é ter um estoque próprio, o que garante uma entrega mais rápida a seus clientes, e aceitar vários tipos de pagamento, como cartão de crédito, cartão de débito e boleto bancário
+    -A livraria possui um programa de fidelidade, que permite desconto de 10% aos clientes que comprarem R$ 500,00 ou mais em 1 ano
 
 
 
