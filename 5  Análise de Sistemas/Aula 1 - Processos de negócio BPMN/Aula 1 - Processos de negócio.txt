@@ -7,7 +7,35 @@ Análise de Sistemas - Adriana Bastos
 
 ------- Entendendo o que são processos de negócios
 
+    Os processos ajudam a implementar a estratégia do negócio
+    Qual é a visão, a missão e os valores da empresa
+    Cada empresa tem o seu processo
+    Os processo agregam valor a empresa
+    Os papéis e resposabilidades precisam estar definidos e publicos
+    Atividades objetivas e fluxos de trabalho claro
     
+Pontos importantes de um processo
+    Sempre tenho entradas > pode ser
+        Serviços
+        Produtos
+        Informações
+    Passo que podem ser informações, 
+        transformando esses passos em resultado > saída
+
+Organização executa um conjunto de atividades para alcançar seus objetivos
+    Atender aos pedidos de compras
+    Recrutar funcionários
+    Fabricar produtos
+    Contratar fornecedor
+
+Processo de negócio
+    É um conjunto completo e dinamicamente corrdenado de atividades colaborativas e transacionais que entrega valor aos clientes.
+
+------- Mapeando os processos AS IS e elaborando o processo TO BE
+
+
+
+
 
 
 
