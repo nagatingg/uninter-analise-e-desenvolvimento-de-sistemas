@@ -2,7 +2,14 @@ Análise de Sistemas - Adriana Bastos
 
 ---------------  Aula 3 - Engenharia de Requisitos e Casos de Uso ---------------------
 
+    Análise de sistemas
+        Projetar e construir um programa de computador não é uma tarefa trivial, pois envolve conhecer bem o problema do cliente e definir a solução ideal para atender ás suas necessidades.
 
+    O detalhamento claro e direto dos requisitos facilita o entendimento do que o software deve fazer
+
+----- Engenharia de requisitos
+
+    
 
 
 
