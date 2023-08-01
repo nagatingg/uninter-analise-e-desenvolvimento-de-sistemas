@@ -49,7 +49,8 @@ DFD de nível intermediário
 
 ------Analisando um exemplo de DFD
 
-    
+    O nosso estudo de caso será: Fomos contratados pelo cliente para modelar o processo de vendas on-line de livros. Nosso cliente tem uma livraria virtual, que vende produtos diretamente em um site próprio. O diferencial dessa livraria é ter um estoque próprio, o que garante uma entrega mais rápida, e aceitar vários tipos de pagamento, como cartão de crédito;
+
 
 
 
