@@ -9,7 +9,39 @@ Análise de Sistemas - Adriana Bastos
 
 ----- Engenharia de requisitos
 
-    
+    Transformer os processos do negocios em formato de requisitos, entendido tanto pelo tipo de negocio ( usuarios ) e a equipe técnica, que vai transformar isso em código.
+
+    Segundo Pressman (2016)
+        Entender os requisitos de um problema está entre as tarefas mais difíceis enfrentadas por um engenheiro de software.
+
+    Os requisitos definem o que as partes interessadas em um novo sistema necessitam e também o que o sistema deve fazer para satisfazer às suas necessidades
+
+Ciclo de vida da engenharia de software
+    Concepção
+        O objetivo desse passo é compreender o problema a ser resolvido, entendendo o cenário de atuação e as necessidades do cliente no nível macro
+
+    Levantamento
+        Esse passo é o momento em que os analistas de requisitos começam a entrevistar os usuários e a compreender, em detalhes, como os requisitos deverão funcionar
+
+    Elaboração
+        Nesse passo, as informações obtidas durante a concepção e levantamento são expandidas e refinadas. O objetivo principal dessa etapa é desenvolver um modelo técnico refinido das funcionalidades.
+
+    Negociação
+        É o momento em que os requisitos levantados e detalhados nos passos anteriores são revisados e validados ou não pelos usuários
+            Regra de negócio, como a empresa define
+
+    Especificação
+        Nessa fase, o projeto de construção de software já pode ser desenvolvido, baseado dos requisitos priorizados e detalhados
+
+    Saímos, então, da fase de Análise dos Requisitos para a fase de projeto técnico da solução, que vai implementar e transformar os requisitos em um software usual
+
+    Validação
+        Esse passo examina a especificação que foi feita com o objetivo de garantir que todos os requisitos necessários para o software foram identificados e especificados, estando claros e coerentes entre si
+
+    Gestão de requisitos
+        É composta por um conjunto de atividades que ajudam na identificação, controle, rastreamento e modificação dos requisitos ao longo do tempo
+
+------- Requisitos funcionais e não funcionais
 
 
 
