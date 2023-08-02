@@ -120,9 +120,24 @@ Caso de uso - exemplo
 
 ------Estórias de Usuário
 
-    a
+    O foco das metodologias ágeis está nos indivíduos, a escrita de uma estória de usuário utiliza a linguagem do negócio, pois o software é feito para um usuário
 
+    A estória de usuário deve ser escrita com base na perspectiva do usuário final.
 
+    * Descrevo pequenas partes, na visão de um usuário descrevendo os processos *
+
+    Épico
+        Épico é uma grande estória, ou um conjunto de estórias. Quando uma funcionalidade é muito extensa, ela necessita ser quebrada em partes menores para que seja melhor compreendida
+
+    Estória de usuário 
+        Uma estória de usuário pode ser caracterizada como uma curta e simples descrição de uma funcionalidade ou parte de uma funcionalidade
+
+        Para criar uma estória de usuário, pode-se seguir o seguinte formato: 
+            Como/Sendo <quem> 
+            eu quero/gostaria/devo/posso <oque>
+            Para que/de/para <porque/resultado>
+
+-----Analisando um Exemplo de Descrição de Caso de Uso
 
 
 
