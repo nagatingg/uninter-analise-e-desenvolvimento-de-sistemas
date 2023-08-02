@@ -60,11 +60,67 @@ Ciclo de vida da engenharia de software
 
 ------- Documentando Requisitos Funcionais por meio de casos de uso
 
-    
+    Caso de uso > documentação escrita dos passos que devem ser executados, para entender logicmente como funciona um requisito
 
+    Caso de uso possui >
+        Fluxos Alternativos > saem do caminho principal > é a critica dos dados
+        Fluxos Principal >  caminho se mantém apenas em 1 fluxo
+        Fluxos de Exceção > nem sempre eu preciso executar > exemplo: help online
 
+        Fluxo Principal (FP)
+            Também é conhecido como "caminho feliz". É o caminho que documenta o passo a passo do que o caso de uso tem que fazer, de acordo com seu objetivo principal.
 
+        Fluxo Alternativo (FA)
+            É o tratamento de tudo que não é o caminho normal ou esperado. O fluxo alternativo descreve qual o passo a passo para o tratamento de problemas ou situações fora do normal.
 
+        Fluxo de Exceção ()
+            São funções que não fazem parte do fluxo principal, mas estão disponíveis para o usuário executar, caso queira
+
+Caso de uso - exemplo
+    Nome: 
+        UC01 - Comprar produto
+
+    Descrição breve do caso de uso: 
+        Objetivo deste caso de uso é possibilitar ao cliente realizar a compra de produtos.
+
+    Pré-condições: 
+        O cliente precisa ser um usuário válido e estar logado no sistema.
+
+    Fluxo Principal:
+        1. Cliente seleciona itens para comprar
+        2. Cliente clica no botão de mais informações - chamar FEO1
+        3. Cliente clica no botão de Finalizar Compra
+        4. Sistema verifica se o cliente pode efetuar compra, chamando UC03
+        5. Crédito liberado, sistema habilita campos para compra
+        6. Cliente informa CEP de entrega
+        7. Cliente escolhe a forma de entrega
+        8. Sistema aparesenta o preço total, conforme RN01
+        9. Cliente seleciona a forma de pagamento, e sistema desvia para o UC02
+        10. Compra aprovada, sistema confirma compra enviando a MSG001
+        11. Sistema chama UC04
+        12. Sistema finaliza caso de uso
+
+    Fluxo Alternativo:
+        5.a: Crédito não liberado
+            Sistema mostra MSG002
+            Retorna para o passo 12 do fluxo principal
+        6.a: CEP informado é inválido
+            Sistema apresenta a MSG003
+            Retorna para o passo 6 do fluxo principal
+
+    Fluxo de Exceção:
+        FE01: sistema apresenta informações adicionais sobre o produto, em uma ideia separada (pop-up)
+
+    Mensagens:
+        MSG001 - Compra finalizada com Sucesso
+        MSG002 - Identificamos um Problema, favor entrar em contato com a Central de Atendimento (...)
+
+    Regra de Negocio:
+        RN01 - com o CEP utilizado, verificar a distância a partir da central de distribuição e calcular o custo, sendo R$ 0,65 por cada quilômetro rodado. Com o valor obtido, acrescentar mais R$ 7,00 se a opção escolhida for Entrega Normal ou acrescenta mais R$ 10,00 se a opção escolhida for Entrega Expressa
+
+------Estórias de Usuário
+
+    a
 
 
 
