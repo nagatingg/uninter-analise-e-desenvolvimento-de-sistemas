@@ -7,6 +7,28 @@ Análise de Sistemas - Adriana Bastos
 
 ----- O que é UML
 
+    A Unified Modelling Language (UML)
+        É uma linguagem ou notação de diagramas para especificar, visualizar e documentar modelos de software desenvolvidos sob os preceitos da orientação por objetos
+
+        Como a UML não é método de desenvolvimento, ela não diz o que fazer primeiro, o que fazer depois ou como desenhar o sistema, mas ajuda a visualizá-lo e a comunicá-lo para os outros.
+
+    O que são modelos?
+        Um modelo de processo de desenvolvimento de software, ou simplesmente modelo de processo, pode ser visto como uma representação, ou abstração dos objetos e atividades envolvidas no processo de Software
+
+        Dessa forma, um modelo é uma simplificação ou uma abstração da realidade que é construído para compreender melhor o sistema que será desenvolvido e codificado
+
+    Tipos de Modelo
+        Na UML, os modelos expressam duas visões diferentes, porém complementares
+            Visão Estrutural
+                Os modelos criados tentam capturar a estrutura do sistema, ou seja, quais elementos compõem a estrutura do sistema e como eles se relacionam
+
+            Visão comportamental
+                Os modelos criados tentam capturar a dinâmica do sistema, ou seja, como os elementos que compõem o sistema se comunicam e como se comportam e respondem aos diversos estímulos
+
+----- Modelo orientado a objetos
+
+    
+
 
 
 
