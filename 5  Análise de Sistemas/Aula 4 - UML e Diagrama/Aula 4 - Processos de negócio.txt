@@ -2,7 +2,10 @@ Análise de Sistemas - Adriana Bastos
 
 ---------------  Aula 4 - UML e Diagrama ---------------------
 
+    Análise de Sistemas
+        Projetar e construir um programa de computador não é uma tarefa trivial, pois envolve conhecer bem o problea que se quer resolver e traduzir a solução ideal para o problema em linhas de código, portanto, entender bem os requisitos ou o que o software precisa fazer para atender às necessidades do cliente é a base de tudo
 
+----- O que é UML
 
 
 
