@@ -49,12 +49,64 @@ Análise de Sistemas - Adriana Bastos
 
 ------- Técnicas de Construção do Diagrama de Casos de Uso
 
+    O diagrama de caso de uso normalmente é o primeiro diagrama a ser construído, após o levantamento de requisitos
 
+    O diagrama de casos de uso é bastante utilizado em projeto por vários motivos, tais como:
+        São utilizados para expressar a fronteira do sistema, mostram a visão estática do caso de uso, pois a visão dinãmica do caso de uso é especificada através da descrição dos cenários, além disso, por serem representações gráficas, permitem uma visão geral dos relacionamentos entre os casos de uso e os atores de um sistema
 
+    Os leemtnos que aparecem no diagrama de caso de uso do exemplo anterior são:
+        Os atores, que são representados pelos bonecos
 
+        Os caso de uso, que são representados pelas circuferências
 
+        Os relacionamentos, que são representados por linhas retas ou pontilhadas, dependendo do tipo de relacionamento
 
+    UML Características
+        Utiliza um padrão fácil de ser compreendido mesmo por quem não é de TI
 
+        O foco é o problema e não a solução computacional, por isso o diagrama de caso de uso representa os requisitos funcionais do software
+
+        Permite registrar de fato o que sistema deve fazer, e como as funcionalidades do software
+
+-------- Componentes de um Diagrama de Caso de Uso
+
+        Os componentes de um diagrama de caso de uso também são chamados de elementos, e compõem a identidade visual do modelo UML
+
+        Para entender um diagrama, é preciso entender a linguagem utilizada na sua construção
+
+        A linguagem apresenta a seguir é a linguagem UML
+
+    Ator
+
+        O ator representa o papel executado por uma entidade que interage com o sistema em questão
+            Um ator troca informações com o sistema, e pode ser um indivíduo ou outros sistemas, ou seja, o ator interage com o sistema, ele não faz parte do sistema
+
+        Um usuário pode executar o papel de vários atores diferentes e um determinado ator pode ser representado por vários usuários
+
+    Relacionamentos
+        Mostram a ligação entre os elementos de um diagrama de caso de uso, ou seja, mostram a ligação dos atores com os casos de uso e dos casos de uso entre si
+
+        Mostram quais atores têm acesso a cada caso de uso e como os casos de uso se relacionam, apresentando dinâmica de interação entre eles, focando no entendimento do funcionamento dos processo de negócio
+
+    Relacionamento entre atores
+        A generalização é identificada quando temos dois atores semelhantes, mas com um deles realizando algo a mais
+
+        Ela deve ser identificada e validade com cuidado para não modelar relacionamentos desnecessários a um determinado ator, ou mesmo não demonstrar relacionamentos que devem ocorrer para garantir o bom funcionamento do software
+
+    Relacionamento entre casos de uso
+        Include
+            Um relacionamento include de um caso de uso A para um caso de usbo B, indica que B é essencila para o comportamento de A
+
+            pode ser dito também que B is_part_of A
+
+        Extend
+            Um relacionamento extend de um caso de uso B para um caso de uso A indica que o caso de uso B pode ser acrescentado para descrever o comportamento de A ( não é essencial )
+
+            Ponto de extensão em um caso de uso é uma indicação de que outros casos de uso poderão ser adicionados a ele
+
+            Quando o caso de uso for invocado, ele verificará se suas extensões devem ou não ser invocadas
+
+-------- Analisando um exemplo de Diagrama de Caso de Uso
 
 
 
