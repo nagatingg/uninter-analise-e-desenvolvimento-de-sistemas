@@ -43,11 +43,24 @@ Ciclo de vida da engenharia de software
 
 ------- Requisitos funcionais e não funcionais
 
+    Requisitos funcionais
+        Os requisitos funcionais definem funções e funcionalidades que o sistema de software deve executar
 
+        É por meio dos requisitos funcionais que todo o projeto é desenvolvido. Se um requisitos funcional não estiver correto, todo o funcionamento do software estará comprometido
 
+        Requisito funcional define uma função particular de um sistema ou algum dos seus componentes; eles representam "o que o software faz", em termos de tarefas e serviços ( funcionalidades )
 
+    Requisitos não funcionais
+        Os requisitos não funcionais se referem aos critérios que qualificam os requisitos funcionais
 
+        Esse critérios podem ser de qualidade para o software, ou seja, os requisitos de performance, usabilidade, confiabilidade, robustez, etc
 
+    Requisito funcionais > funcionalidades de como elas devem funcionar
+    Requisitos não funcionais > complementa mostrando o comportamento esperado
+
+------- Documentando Requisitos Funcionais por meio de casos de uso
+
+    
 
 
 
