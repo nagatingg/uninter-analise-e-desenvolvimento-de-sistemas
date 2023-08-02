@@ -27,8 +27,27 @@ Análise de Sistemas - Adriana Bastos
 
 ----- Modelo orientado a objetos
 
-    
+    A orientação a objetos é um processo conceitual independente de uma linguagem de programação, pois tem como foco visualizar o domínio do problema a ser automatizado como uma coleção de objetos e métodos associados
 
+    Todo objetivo é identificável e deve ter um nome claro e direto, que identifique o real objetivo do objeto
+        Ou seja, as coisas do mundo real são denominadas de objetos. Um objetovo é, portanto, uma entidade real ou abstrata, que modela um conceito presente na realidade humana, ocupando espaço físico ou lógico
+            Objetivo fícos ou lógico
+
+        Abstração
+            A abstração consiste em se concentrar nos aspectos essenciais, próprios de uma entidade e em ignorar suas propriedades acidentais
+                Ou seja, dar foco em aspectos relevantes para um determinado propósito
+                    Focar naquele determinado objetivo, naquela funcionalidade
+        
+        Encapsulamento
+            Consiste na separação dos aspectos externos de um objeto, acessíveis por outros objetos, dos detalhes internos da implementação daquele objeto, que ficam ocultos dos deamsi objetos
+                Ou melhor, significa separar o software em partes, o mais isoladas possível
+
+        Herança
+            É o compartilhamento de atributos e operações entre objetos com base em um relacionamento hierárquico
+            
+            Permite que a estrutura comun seja compartilhada por diversos outros objetos relacionados, sem redundâncias
+
+------- Técnicas de Construção do Diagrama de Casos de Uso
 
 
 
