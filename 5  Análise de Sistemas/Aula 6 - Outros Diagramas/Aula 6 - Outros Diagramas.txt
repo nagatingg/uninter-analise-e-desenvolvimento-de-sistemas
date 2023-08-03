@@ -81,7 +81,12 @@ Elementos do Diagrama de Sequência
 
 ----- Analisando um Exemplo de Diagrama de Componente
 
-    
+    Finalizando
+        A análise de Sistemas é a fase do ciclo de vida de desenvolvimento de um software que busca compreender o que ele deve fazer e como deve fazer para que as necessidades do cliente sejam atendidas
+
+        A análise e o projeto de software mostram uma visão lógica das funcionalidades que devem ser atendidas pelo software e uma visão física de como elas serão implementadas
+
+        
     
 
 
