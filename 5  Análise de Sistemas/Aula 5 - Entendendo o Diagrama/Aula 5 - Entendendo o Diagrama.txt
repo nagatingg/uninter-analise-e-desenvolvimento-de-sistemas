@@ -65,7 +65,20 @@ Análise de Sistemas - Adriana Bastos
 
 ------ Técnicas de molagem de Diagramas de Classes
 
+    Modelando um diagrama de classe
+        Fazer a análise de um software não é algo trivial e envolve uma lógica complexa para transformar as necessidades de um cliente, que é algo ainda intangível e abstrato, em algo mais objetivo, que ajude a compreender como o software deverá ser implementado para gerar uma solução efeiciente para resolver, da melhor forma possível, o problema que o cliente precisa resolver com a automarização e construção de um software..
 
+    Passos a serem seguidos
+        Levantar os requisitos
+        Modelar o diagrama de caso de uso
+        Descrever os casos de uso
+        Identificar as classes
+        Identificar os atributos e métodos
+        Modelar o diagrama de classes
+
+------- Analisando um exemplo de Diagrama de Caso de Uso
+
+    
 
 
 
