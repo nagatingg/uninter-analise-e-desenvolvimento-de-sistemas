@@ -78,11 +78,27 @@ Análise de Sistemas - Adriana Bastos
 
 ------- Analisando um exemplo de Diagrama de Caso de Uso
 
-    
+    Classes identificadas
 
+    Classes Principais
+        CLIENTE, FIDELIDADE, PEDIDO e PRODUTO DO PEDIDO
 
+            atributos CLIENTE
+                Nome (texto), CPF (inteiro), Telefone (inteiro) e Endereço (texto)
 
+            atributo FIDELIDADE
+                Status Fidelidade (boolean), cliente tem ou não direito à fidelidade
+                CPF (inteiro)
 
+            atributo PEDIDO
+                Numero (inteiro) CPF (inteiro), Data do Pedido (data), 
+                    Valor do PEDIDO (real)
+
+            Foi necessário criaru ma classe de produto do pedido para evitar repetir os dados do cliente e do pedido em si.
+
+                atributos dessa classe:
+                    NUMERO (INTEIRO), PRODUTO (inteiro), QUANTIDADE (inteiro),
+                    VALOR UNITÁRIO (real)
 
 
 
