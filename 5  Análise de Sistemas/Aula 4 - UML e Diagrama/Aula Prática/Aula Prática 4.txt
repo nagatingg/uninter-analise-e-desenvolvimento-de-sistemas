@@ -2,6 +2,112 @@ Análise de Sistemas - Adriana Bastos
 
 ---------------  Aula Prática 4 - UML e Diagrama ---------------------
 
+   Requisitos Funcionais - Lista de Casos de Uso:
+
+        UC01 - Acesso ao Sistema
+        UC02 - Cadastro de Usuário
+        UC03 - Postar Vagas
+        UC04 - Postar Treinamentos
+        UC05 - Consultar Postagens
+        UC06 - Obter informações de postagens
+        UC07 - Cadastro do Curso do Aluno
+
+    Requisitos não funcionais:
+
+        1 - O software deve funcionar na web
+        2 - O Software deve funcionar em tablets e mobile
+
+    Descrição dos casos de uso:
+
+        Nome:
+            UC02 - Cadastro de Usuário
+
+        Breve descrição:
+            O caso de uso deve incluir, permitir, alterar, consultar ou excluir usuário
+            
+            A exclusão do usuário deve ser uma exclusão lógica, alterando status para "inativo"
+
+        Pré-condição:
+            Inclusão - ele não pode ter sua matrícula cadastrada. 
+            Consulta, alteração ou exclusão - usuário deve estar logado no sistema.
+
+        Fluxo Principal:
+        
+            Inclusão de Usuário Novo
+
+                1 - Usuário informa matrícula
+
+                2 - Sistema verifica se matrícula contém 6 dígitos.
+
+                3 - Se matrícula não possui 6 digito, chamar FA01
+
+                3.2 - Verificar se matrícula é existente na tabela USUÁRIO
+
+                3.3 - Se matricula existente, enviar  msg: "Usuário já Cadastrado", chamar UC01
+
+                4 - Usuário informar senha
+
+                5 - Sistema verifica RN01
+
+                6 - Se senha não estiver OK, chamar FA02
+
+                7 - Usuário informa e-mail
+
+                8 - Se e-mail não possui @, chamar MSG01
+
+                9 - Usuário informa número celular
+
+                9.2 - Gravar "ATIVO" no campo status.
+
+                10 - Se número de celular não tem 8 digitos e não tem código de área, chamar MSG02
+
+            Consultar Usuário:
+
+                1 - Apresentar tela com dados do usuário, filtrando na tabela de Usuário através matrícula.
+
+                2 - Verificar se status do usuário =a "INATIVO"
+
+                3 - Se sim, mostrar a msg: "Usuário INATIVO"
+
+            Alterar dados do usuário:
+
+                1 - Alterar senha
+
+                2 - Sistema verifica RN01
+
+                3 - Se senha não estiver OK, chamar FA02
+
+                4 - Usuário altera e-mail
+
+                5 - Se e-mail não possui @, chamar MSG01
+
+                6 - Usuário informa número celular
+
+                7 - Se número de celular não tem 8 digitos e não tem código de área, chamar MSG02
+
+                8 - Salvar novo usuário
+
+            Excluir usuário:
+
+                1 - Enviar msg: "Deseja realmente excluir o usuário (S/N)"
+
+                2 - Se "S", usuário recebe status "INATIVO"
+
+                3 - Salvar exclusão do usuário
+
+
+
+        Fluxo Alternativo:
+            FA01 - Enviar mensagem: "Matrícula inválida."
+
+            FA02 - Enviar mensagem: "Senha incorreta. Defina uma senha que contenha: no mínimo 8 dígitos, sendo pelo menos 1 letra maiúscula, 1 caractere especial e 1 número."
+
+            Volta para tela UC02
+
+        Mensagens:
+
+        Regras de Negócio:
+            RN01 - Senha deve conter no mínimo 8 dígitos, sendo pelo menos 1 letra maiúscula, 1 caractere especial e 1 número.
 
 
 
