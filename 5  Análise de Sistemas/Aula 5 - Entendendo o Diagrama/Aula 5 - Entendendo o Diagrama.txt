@@ -1,10 +1,32 @@
 Análise de Sistemas - Adriana Bastos
 
----------------  Aula 5 - Entendendo o Diagrama ---------------------
+---------------  Aula 5 - Entendendo o Diagrama de Classes ---------------------
 
+------ Entendendo o Diagrama de Classes - UML
 
+    Os diagramas de classes são fundamentais para o processo de modelagem de objetos e modelam a estrutura estática de um sistema. Dependendo da complexidade de um sistema, é possível utilizar um único diagrama de classes para modelar um sistema inteiro ou vários diagramas de classes para modelar os componentes de um sistema.
 
+    A modelagem das classes está totalmente relacionada com os conceitos de orientação a objetos.
+        Abstração 
+            > utilizo apenas informação necessária
 
+        Encapsulamento 
+            > permite utilizar uma tal ferramenta de uma classe, sem saber como foi construida
+
+        Herança
+            > Aproveito carateriscas de uma classe em uma sub classe 
+
+    Diagrama de Classe
+        O diagrama de classes modela o entendimento sobre quais são as classes relacionadas com o escopo do software, assim como o relacionamento entre elas, mostrando como as informações se encaixam e se comunicam entre si para que o software faça tudo o que precisa ser feito para atender às necessidades do cliente.
+
+    Classe X Objeto
+        Imagine que temos uma classe ALUNO e, dentro dessa classe, temos uma instância para cada aluno da escola, ou seja, "Jose da Silva", é um objeto da classe ALUNO, assim como a "Maria dos Santos" é outro objeto da classe ALUNO
+
+        Dessa forma, seguindo os conceitos da orientação a objetos, toda vez que crio um novo objeto dentro da classe dizemos que criamos uma nova instância da classe ou instanciamos
+
+----- Classes, atributos e métodos
+
+    
 
 
 
