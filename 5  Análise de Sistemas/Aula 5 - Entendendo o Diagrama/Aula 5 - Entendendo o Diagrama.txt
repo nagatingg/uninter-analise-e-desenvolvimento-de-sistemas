@@ -26,6 +26,29 @@ Análise de Sistemas - Adriana Bastos
 
 ----- Classes, atributos e métodos
 
+    Classes
+        As classes podem ser entendidas como uma abstração de um conjunto de coisas que possuem características e operações em comum
+
+    Atributos
+        Os atributos representam o conjunto de caracteristicas ou estados dos objetos de uma determinada classe. Os atributos podem também ser entendidos como propriedades semelhantes que os objetos de uma classe possuem
+
+    Métodos
+        Os métodos representam o conjunto de operações ou comportamento que a classe fornece ao software ou que a classe é responsável por executar
+
+        Por exemplo, em uma classe ALUNO, é preciso executar ações como consultar aluno, alterar dados do aluno, entre outras.
+
+    Funcionamento do método
+        Um método pode ou não retornar um valor
+        Um método pode ou não aceitar argumentos
+        Um método, após ecerrar sua execução, retorna o fluxo de controle do programa para quem o chamou
+
+    Características dos atributos e métodos
+        Definido como + público, é visível em qualquer classe de qualquer pacote
+        Definido como # protegido, é visível para classes do mesmo pacote
+        Definido como - privado, é visível somente para a classe onde foi definido
+
+------- Relacionamentos
+
     
 
 
