@@ -6,9 +6,26 @@ Análise de Sistemas - Adriana Bastos
 
 ---- Conhecendo o diagrama de estado
 
+    O diagrama de estado, para a UML,´e entendido como um diagrama dinâmico, pois mostra a evolução de estados em um objeto, ao longo da sua vida no software, ou seja, mostra o comportamento de um objeto a partir de determinados eventos
+
+    É importante ressaltar que sua construção é recomendada apenas quando existir certo grau de complexidade na transição de um estado para outro de um ou mais objetos envolvidos no processo de negócio que está sendo modelado.
+
+    Elemento de um Diagrama de Estado
+        Objeto: 
+            É o elementos que sofre a mudança de estado a partir de um evento
+
+        Evento: 
+            É uma ocorr~encia que gera uma mudança de estado
+
+        Estado: 
+            É a condição de um objeto em determinado momento no tempo - o tempo entre os eventos
+
+        Transição:
+            É um relacionamento entre dois estados, indicando que, quando um evento ocorre, o objeto muda do estado anterior para o estado seguinte
+
+---- Conhecendo o Diagrama de Atividades
+
     
-
-
 
 
 
