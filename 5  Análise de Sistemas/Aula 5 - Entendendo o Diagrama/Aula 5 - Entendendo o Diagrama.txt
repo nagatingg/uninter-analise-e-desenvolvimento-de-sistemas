@@ -49,8 +49,21 @@ Análise de Sistemas - Adriana Bastos
 
 ------- Relacionamentos
 
-    
+    O objetivo dos relacionamentos entre as classes é garantir a comunicação e o compartilhamento de informações entre elas, mostrando em detalhes como ocorre a colaboração de umas com as outras
 
+    Nome: descrição dada ao relacionamento
+
+    Sentido de leitura: mostra qual classe é a origem e qual classe é o destino do relacionamento
+
+    Navegabilidade: é indicada por uma seta no fim do relacionamento e está relacionada com o sentido da leitura que será feito para compreender o relacionamento
+
+    Multiplicidade: indica como o relacionamento poderá ser verificado na classe e é muito importante para entender as regras de negócio de um requisito do software
+
+    Tipo: representa o tipo do relacionamento modelado de uma classe com a outra
+
+    Papéis: desempenhados pela classe em um relacionamento
+
+------ Técnicas de molagem de Diagramas de Classes
 
 
 
