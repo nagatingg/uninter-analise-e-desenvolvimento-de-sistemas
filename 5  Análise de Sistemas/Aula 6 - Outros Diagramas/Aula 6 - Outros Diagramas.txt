@@ -54,6 +54,26 @@ Elementos do Diagrama de Atividades
 
 ----- Diagrama de sequência
 
+    Um diagrama de sequência mostra a sequência de mensagens trocadas entre objetos e, além disso, mostra as estruturas de controle entre objetos do software.
+
+    Um diagrama de sequência é representado por meio de duas dimensões: uma dimensão horizontal, que representa o conjunto de objetos, e uma dimensão vertical, que representa o tempo de vida de um objeto
+
+Elementos do Diagrama de Sequência
+    Ator:
+        É o usuário que inicia a interação e a troca de mensagens. Um ator pode ser um usuário de sistema, uma funcionalidade ou um componente de um sistema externo.
+
+    Linha de vida:
+        É uma instância ou uma ocorrência de um componente, onde chegam mensagens e de onde partem mensagens. É o tempo de vida de um componente desde o momento em que ele é chamado até quando é finalizado, concluindo seu objetivo 
+
+    Fragmento:
+        É onde tratamos as estruturas condicionais que fazem parte do fluxo de vida da mensagem em um objeto ( os if/ else, for / while e qualquer tratamento de exceção ). O fragmento no meio do fluxo de mensagem
+
+    Mensagem:
+        É a mensagem que, "de fato", trafega pela linha de vida. A mensagem é representada por uma seta, que segue a direção do fluxo das interações
+
+---- Diagrama de Componentes
+
+    
     
 
 
