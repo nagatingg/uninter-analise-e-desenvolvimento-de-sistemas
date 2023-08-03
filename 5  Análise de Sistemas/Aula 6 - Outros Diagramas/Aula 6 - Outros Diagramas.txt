@@ -25,6 +25,35 @@ Análise de Sistemas - Adriana Bastos
 
 ---- Conhecendo o Diagrama de Atividades
 
+    Os Diagramas de Atividades mostram as atividades que compõem um processo do sistema e seu fluxo de controle
+
+    Para modelar o Diagrama de Atividades, é preciso decompor um processo em suas atividades, compreendendo quais delas são sequenciais, quais são concorrentes equais são executadas paralelamente em fluxo de negócio
+
+    O Diagrama de Atividades possui uma notação diferente por conta da UML, porém ele tem o mesmo objetivo da modelagem BPM, que já estudamos em outro momento
+
+    Com o diagrama de atividades, é possível entender o conjunto de ações que compõe uma funcionalidade, bem como o funcionamento de um requisito, isto é, a funcionalidade do software
+
+Elementos do Diagrama de Atividades
+    Estado inicial e final:
+        Todos os diagramas de atividades possuem pelo menos um estado inicial e pelo menos um estado final, mas podem existir vários estados, dependendo do fluxo de processo que se está modelando
+
+    Atividades:
+        São ações que vem ser executadas. Quando uma atividade é finalizada, a execução do fluxo do processo é transferida para a próxima atividade. Essa transferência é chamada de transição
+
+    Transição:
+        É o caminho a ser seguido ao longo de todo o fluxo do processo, até sua conclusão do processo
+
+    Decisões:
+        Tem como objetivo controlar os desvios ao longo do fluxo do processo de negócio
+
+    Bifurcação e união:
+        São a junção ou a separação de atividades executadas ao longo de um fluxo de negócio. A bifurcação é a divisão do fluxo de controle, enquanto a união é a sincronização ou junção das atividades realizadas paralelamente, em um único fluxo
+
+    Rais:
+        São uma forma de organização lógica das atividades. Essa organização pode estar associada a objetos, a usuários, a atores ou a outra organização lógica que agregue valor para compreender o fluxo das atividades em um diagrama de atividades 
+
+----- Diagrama de sequência
+
     
 
 
