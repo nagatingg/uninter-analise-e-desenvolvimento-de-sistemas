@@ -2,7 +2,11 @@ Análise de Sistemas - Adriana Bastos
 
 ---------------  Aula 6 - Outros Diagramas ---------------------
 
+    Se os requisitos não forem bem analisados o software não for projetado de maneira adequada, fica mais difícil projetar uma solução que realmente resolva o problema do cliente.
 
+---- Conhecendo o diagrama de estado
+
+    
 
 
 
