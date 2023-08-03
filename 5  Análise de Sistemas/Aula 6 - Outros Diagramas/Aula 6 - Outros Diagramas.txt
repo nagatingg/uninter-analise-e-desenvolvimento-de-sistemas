@@ -73,6 +73,14 @@ Elementos do Diagrama de Sequência
 
 ---- Diagrama de Componentes
 
+    O diagrama de componentes tem como jbetivo apresentar a visão dos pacotes que compõem o sistema e suas dependências. Apresenta a visão de camadas da forma como o software foi projetado, ou seja, é um diagrama relacionado com a arquitetura definida como solução técnica para o software.
+
+    O diagrama de componentes, pode ser visto como um diagrama de aspecto físico do software, baseia-se na abordagem de desenvolvimento em torno de componentes, também conhecido como desenvolvimento baseado em componentes
+
+    O desenvolvimento baseado em componentes é um conceito atrelado à análise e ao desenvolvimento de software orientado a objetos
+
+----- Analisando um Exemplo de Diagrama de Componente
+
     
     
 
