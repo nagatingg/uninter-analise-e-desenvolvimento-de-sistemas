@@ -21,7 +21,83 @@ Profª Neusa Grando
 
 ---- Tema 3 - Orientações para Proposta de Tema e Trabalho Final
 
+Desenvolvimento:
+    Individualmente; ou, em equipe de 3 alunos
+
+    Duração: 4 meses.
+
+    Etapas:
+        1° Etapa - Validação da proposta;
+        2° Etapa - Trabalho final.
+
+Tema:
+    1. Escolher 1 dos seguintes tema:
+            Erradicação da Pobreza
+            Fome Zero e agricultura sustentável
+            Saúde e bem-estar
+            Educação de qualidade
+            Igualdade de gênero
+            Água potável e saneamento
+            Energia limpa e acessível
+            Trabalho decente e crescimento econômino
+            Indústria, inovação e infraestrutura
+            Redução das desigualdades
+            Cidades e comunidades susténtaveis
+            Consumo e produção responsáveis
+            Ação contra a mudança global do clima
+            Vida na Água
+            Vida terrestre
+            Paz, justiça e instiuições eficazes
+            Parcerias e meios de implementação
+
+    2. Considerar os 7 princípios do Desenha universal
+        1. Igualitário 
+        2. Adaptável
+        3. Intuitivo
+        4. Informação de fácil percepção
+        5. Tolerância ao erro
+        6. Baixo esforço físico
+        7. Dimensão e espaço para aproximação e uso
     
+    3. Desenvolver o tema considerando as seguintes premissas:
+        - Viés de inclusão digital com uso de Tecnologia da Informação
+
+        - Aplicação ou proposta de aplicação em algum setor da sociedade, como:
+            Comunidades carentes;
+            Casa de apoio a crianças ou idosos;
+            Grupo religioso;
+            Escolas;
+            Bairro;
+            Cidade;
+            Entre outros.
+
+        - Foco em pelo menos um dos 17 Objetivos de Desenvolvimento Sustentável (ODS) da Organização das Nações Unidas (ONU).
+
+Proposta de Tema - Escrita:
+    Escrever a proposta de tema utilizando o arquivo "Atividades Extensionistas - Modelo de Proposta de Tema e Trabalho Final".
+
+Entrega:
+    Entregar apenas em PDF
+
+Trabalho FInal - Escrita
+    Escrever o trabalho final utilizando o arquivo "Atividades Extensionistas" com no máximo 10 páginas
+        3 itens adicionais para adicionar
+            CursosDisciplina
+            Etapa
+            Aluno
+            Título
+            Setor de aplicação
+            Objetivos de Desenvolvimento Sustentável
+            Objetivos
+            Metodologia
+            Resultados esperados / obtidos
+            Considerações finais
+
+----- Tema 4 - Avaliações
+
+    
+
+
 
 
 
