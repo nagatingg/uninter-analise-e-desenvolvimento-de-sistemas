@@ -1,6 +1,119 @@
-Design de Interação
+Design de Interação - Prof: Margarete Klamas
 
----------------  Aula 1 ---------------------
+---------------  Aula 1 - Design de Interação e UI/UX ---------------------
+
+-------Conversa inicial
+
+Como designer, pensar no contexto de todas as plataformas ( web, mobile, etc)
+
+Assunrtos abordados na aula:
+    ConceitosUsabilidade
+    Contexto atual
+    Design Responsivo
+    Design Adaptativo
+
+-----Conceitos
+
+Interação > 
+    Conceito de que, em todo o tempo, desde quando acordamos até o horário que vamos dormir, estamos em interação com objetos que possuem design de interação.
+
+Definições 
+    Quando estamos desenvolvendo uma aplicação, devemos estar atentos a esses requisitos:
+        Segundo Norma Técnica 9241-11
+            - Usabilidade
+                Quanto menas etapas o usuário precisar realizar para chegar no objetivo, melhor será a usabilidade da aplicação
+            - Eficácia
+            - Eficiência
+                Recursos e tempo gasto do usuário para realizar as etapas.
+            - Satisfação
+            - Contexto de Uso
+            - Usuário?
+            - Significado de UX
+                Experiência do Usuário
+
+Linha do tempo da evolução em UX
+    1900s Machine Age / Taylorism
+    1920s Toyota Production System
+    1960s Cognitive Science / Xerox PARC / HCI
+    1980s Personal Computing / Don Noman at Apple
+    2000s Mobile. The Network of Things, and Beyond / The WEB
+
+Definições
+    UI - User Interface > Perspectiva da Interface
+
+--------Usabilidade
+
+Colmeia da Usabilidade
+    Useful > Existe um problema, estou apresentando uma solução?
+    Usable > É fácil de utilizar? O usuário tem razão. Intuitivo, etc
+    Findable > Disponível? Possui suporte aos questionamentos
+    Valuable > Agrega valor ao usuário? Tem credibilidade?
+    Accessible > Programa pode ser utilizado por várias pessoas?
+    Desirable > É desejável pelos usuários ?
+
+Hierarquia das necessidades de Maslow
+    Autorealização > Sucesso nos objetivos
+    Autoestima > Reconhecimento, valorização      
+    Sociais > Relacionamento
+    Segurança > Segurança
+    Fisiológicas > Fome      
+
+Realizando na representação de UX
+    Individualização
+    Experiência prazerosa
+    Usabilidade
+    Funcionalidade
+    Segurança                       
+
+        Hedonomia
+            Individualização
+            Experiência prazerosa
+            Usabilidade
+
+        Ergonomia
+            Funcionalidade
+            Segurança
+
+        -Hancock, 2005
+
+Hierarquia das necessidades do consumidor
+    Prazer
+    Usabilidade
+    Funcionalidade
+
+        -Jordan, 2000
+
+---------Contexto atual
+
+Séculos XX e XXI
+    Telecomunicações
+
+Dispostivos
+    Desktops e laptops
+    Tablets
+    Smartphones
+
+Ambiente do Design Móvel
+    iOS
+    Android
+
+----------Design Responsivo
+
+Layout Desktop
+Mobile
+
+Responsividade > Mesma experiência em todos os dispotivos
+CSS > projetar para os diversos layouts disponíveis
+
+----------Design Adaptativo
+
+O design adaptativo tem vários tamanhos de layouts fixos 
+    Usuários terão experiências diferentes, pois não um design responsivo para todas as plataformas
+
+Desenvolvimento específico para smartphones
+    O usuário é transferido para uma palicação especifica de mobile
+
+
 
 
 
