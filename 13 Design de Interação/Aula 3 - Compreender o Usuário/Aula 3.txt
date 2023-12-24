@@ -1,9 +1,123 @@
-Design de Interação
+Design de Interação - Prof: Margarete Klamas
 
----------------  Aula 3 ---------------------
+---------------  Aula 3 - Compreender o Usuário e Desenvolver Ideias -----------------
 
+-----Conversa inicial
+    Dispositivos móveis ou usuários móveis
+    Heurísticas
+    Usuários móveis
+    Desenvolvendo a ideia
+    Deisgn Sprint
 
+------Dispositivos móveis ou usuários móveis
 
+Contexto de uso - compreensão
+    Culturais
+        Quais as condições econômnicas?
+    Ambientais
+        Escritório, reunião, etc
+    A atividade
+        Objetivo do dispositivo
+    As metas do usuário
+
+    O período de atenção que o usuário tem disponível
+    As tarefas que o usuário deseja realizar
+    Os recursos com os quais o usuário intrage
+    A conexão disponível
+
+-----Heurísticas
+
+Visibilidade
+    O objetivo do usuário precisa estar claro e disponível para ele
+
+Correspondência com o mundo real
+    ícones de que são fáceis associar
+
+Estética e design minimalista
+
+Saídas claras - liberdade de controle fácio ao usuário
+    Botão fechar / Cancelar / etc
+
+Consistência - consistência e padrões
+    Paleta de cores durante todo o layout / padrões de ajustes de enquadramento, etc
+
+Prevenções de erros
+
+Flexibilidade e eficiência de uso (atalhos)
+
+Ajuda os usuários a reconhecerem, diagnosticarem e recuperarem os erros
+    Alertas de sucesso ou insucesso 
+
+Ajuda e documentação
+    Documentação sobre o sistema desenvolvido
+
+------Usuários móveis
+
+    Josh Clark (2010) define três categorias para acesso à web móvel
+        Microtarefa
+        Local
+        Entediado
+
+Dimensões da interação
+    Palavras
+
+Dimensões da interação
+    Representações visuais
+        ícone claro independente do idioma da pessoa
+
+Objetos físicos e espaço
+
+Tempo de interação
+
+-Kevin Silve (2007) adicionou a quinta dimensão
+    Comportamento: como o usuário reage e interage com o produto
+
+------Desenvolvendo a ideia
+    Modelo da IDEO, empresa que criou o mouse da Applew
+
+Inspiração
+    Tenho um desafio de design
+        Como eu:
+            Começo?
+            Conduzo uma entrevista?
+            Permaneço centrado no humano?
+
+Ideação
+    Oportunidade de design
+        Como eu:
+            Interpreto o que aprendi?
+            Torno minhas ideias tangíveis?
+            Faço um protótipo?
+
+Implementação
+    Tenho uma solução inovadora
+        Como eu:
+            Torno meu conceito real?
+            Avalio se funciona?
+            Planejo para sustentabilidade?
+
+-Modelo da Universidade de Standford
+    Empatia > Definição > Ideias > Protótipo > Teste
+
+---------Design Sprint
+
+    O método usado no Google para testar e aplicar novas ideias em apenas cinco dias. A metodologia Design Sprint foi utilizada por Jake Knapp no período em que trabalhou no Google
+
+Desafio
+Equipe
+Definidor
+
+Feito em 5 dias
+    1 - Compreensão
+            Olhar para o fim
+    2 - Esboços
+        1 - Anotações indivíduais / 2 Esboço ideias / 3 Loucuras - melhor ideia / 4 Solução para a ideia
+    3 - Gerar solução
+        Dia da decisão / ideias apresentadas / escolha da melhor ideia
+    4 - Protótipos
+         A melhor ideia, será desenvolvido protótipo em cima dela   
+    5 - Teste
+        Testar o protótipo
 
 
 
