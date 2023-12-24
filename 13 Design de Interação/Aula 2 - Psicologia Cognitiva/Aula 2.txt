@@ -1,7 +1,102 @@
-Design de Interação
+Design de Interação - Prof: Margarete Klamas Marzani
 
----------------  Aula 2 ---------------------
+---------------  Aula 2 - Psicologia Cognitiva ---------------------
 
+-------Conversa inicial
+    Aspectos cognitivos
+    Percepção, atenção e memória
+    Princípios da Gestalt
+    Modelos mentais
+    Tipos de interação
+
+- Aspectos Cognitivos
+    Como funciona a nossa percepção, alguns detalhos:
+        -A chance de guardarmos algo na memória, é maior por aúdio do que visualmente
+        -Quanto maior a repetição, mais rápido iremos guardar aquilo na memória de longo prazo
+
+Analogia mente x Computador
+    Tipos de processamento
+        Processamento bottom-up
+        Processamento top-up
+
+Apresetnar consistências nas aplicações, para não causar stress no uso pelo usuários
+    Dica da professora: não colocar objetos próximo ao topo da tela
+
+-------Percepção, Atenção e Memória
+
+-Tipos de percepção
+    Percepção visual
+        Constraste, tamanho dos objetos, design, etc
+    Percepção auditiva
+        Decanta de forma maior em nosso processo cognitivo
+
+Nossa mente, se precoupa primeiro com o Texto do que as Cores
+
+-Ao protejar a interação, facilite a percepção
+    As representações de informações precisam estar perceptíveis
+        -Os ícones devem ser reconhecíveis
+        -As bordas e os espalamentos são formas visuais eficazes no agrupamento de informação
+        -Os sons devem ser entendíveis
+
+-Atenção
+    A informação para a realização da tarefa deve estar destacada
+    Evite inserir informação demais
+        Inserar muitas imagens, cores, gráficos, distrai a não ajuda a prestar atenção nas informações que são importantes
+    Atenção limita o número de atividades que podemos desenvolver ao mesmo tempo
+
+Menos é mais
+
+------Príncipios da Gestalt
+    -A Gestalt é uma escola de psicologia experimental. O austríaco Christian Von hrenfels, filósofo, foi o precursor da Gestalt no final do século XIX
+    -Contribuíram também Max Wertheimer, Wolfgang Kohler e Kurt Kaffka, da Universidade de Frankfurt
+
+-Unidade
+    As unidades são percebidas por meio de verificação de relações
+        (formas, dimensão, cor e etc)
+    
+-Segregação
+    Segregar é a capacidade perceptiva de separar, reconhecer, evidenciar ou destacar unidades
+    Para segregar, pode-se utilizar o contrastre de cores, pontes, linhas, volumes e outros
+
+    Maior contraste > maior estimulação
+    Menor contraste > menor estimulação
+
+-Unificação
+    Pode-se perceber a unificação, por meio de estímulos produzidos pelo campo visual
+    Dois princípios contribuem para unificação
+        A proximidade
+        A semelhança
+
+-Fechamento
+    A mente completa (fecha) contorno para completar figuras regulares
+
+-Continuidade
+    Exemplo do arrastar para mais informações (netflix)
+
+-Proximidade
+
+-Similaridade
+    Mantendo um visual de cores padrão
+
+---------Modelos mentais
+    O que são modelos mentais
+        Segundo Craik, 1943, a mente constrói "modelos da realidade em pequena escala" e usa esses modelos para antecipar eventos, raciocinar e fundamentar a explicação
+
+--------Tipos de interação
+
+-Instrução
+    Linhas de comando
+    Instruções não tão agradaveis, mas que funcionam
+    exemplo: caixa eletrônico
+
+-Conversação
+    Alexa, Siri
+
+-Manipulação
+    Telas, manipulação de aplicativos, etc 
+
+-Exploração
+    AR / VR
 
 
 
