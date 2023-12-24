@@ -1,9 +1,31 @@
-Aula Prática 1
+Aula Prática 1 - Margarete Klamas
 
 ---------------  Aula Prática 1 ---------------------
 
+-Lei de Jacob
+    Usuários já possuem experiências anteriores, dessa forma, buscam familiaridade 
+    Evitar modificações desnecessárias
 
-	
+-Lei de Fits
+    Tempo que o usuário irá demorar para interagir com o objeto ( distancia na tela, etc)
+
+-Lei de Hick
+    Menos informação, apenas o necessário
+
+    ícones, sua função é conhecida por todos?
+    ícone com nome da função descreve melhor
+
+-Lei de Miller
+    Aplicação de chunking, separar os objetos de forma mais clara
+    Sexo, idade, departamentos de noticias diferentes ( tudo na página )
+
+-Lei de Postel
+    Utilizar métodos tradicionais já conhecidos pelos usuários, trazer facilidade para o usuário
+    Mesma experiência, independente da plataforma
+
+-Regra do Pico Final
+    Persona do usuário
+    
 
 
 
