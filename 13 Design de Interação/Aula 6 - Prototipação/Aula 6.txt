@@ -1,8 +1,36 @@
-Design de Interação
+Design de Interação - Prof: Margarete Klamas
 
----------------  Aula 6 ---------------------
+---------------  Aula 6 - Prototipação ---------------------
 
+------Conversa inicial
+    Prototipação
+    Prototipação com Quant-UX - parte 1
+    Prototipação com Quant-UX - parte 2
+    Ferramentas para Design e temas afins
+    Recursos para Design
 
+-----Prototipação
+
+Wireframes
+    Posição dos Textos na Tela
+
+Mockups
+    Mais detalhes do produto final
+    Testado de maneira estática
+
+Protótipos
+    Permitem a interação e simulação, com isso podemos verificar a usabilidade
+
+-----Prototipação - Quant-UX Parte 1 && Prototipação - Quant-UX Parte 2
+    Demonstrando o funcionamento da ferramentas, mas ainda prefiro o FIGMA
+
+-----Ferramentas para Design
+    Comentando sobre outras ferramentas
+
+-----Recursos para Design
+    Fontes do Google
+    Material.io/components
+    
 
 
 
