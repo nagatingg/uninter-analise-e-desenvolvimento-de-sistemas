@@ -1,8 +1,9 @@
-Aula Prática 6
+Aula Prática 6 - Prof: Margarete Klamas
 
 ---------------  Aula Prática 6 ---------------------
 
-
+Estilos do Figma
+    Como realizar o protótipo no Figma
 	
 
 
