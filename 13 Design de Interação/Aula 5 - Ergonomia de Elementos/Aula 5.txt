@@ -1,6 +1,92 @@
-Design de Interação
+Design de Interação - Prof: Margerete Klamas
 
----------------  Aula 5 ---------------------
+---------------  Aula 5 - Ergonomia de Elementos ---------------------
+
+Informações do site material.io/components
+
+-----Conversa inicial
+    Componentes comuns
+    Menu suspenso e menu lateral
+    Listas
+    Elementos para entrada de dados
+    Sugestões para cores
+
+------Componentes comuns
+
+Altura da barra de status: 24dp
+Altura da barra do aplicativo: 56dp
+Altura da lista: 88dp
+
+Barra do aplicativo
+    Regular / Com ação
+
+Botões
+
+    Botões de texto - text button
+    (ênfase baixa) [1]
+
+    Botão com contorno - outlined  button
+    (ênfase média) [2]
+
+    Botão contido - contained button
+    (alta ênfase) [3]
+
+    Botão de alternância - toggle button
+    [4]
+
+Estados de botões
+    Quando estiver desabilitado, mude a cor
+
+    Imagem adicionanda na pasta
+
+-----Menu Suspenso e Menu Lateral
+
+Fazer divisão nas listas conforme as ações
+
+Associar texto com ícone
+    O usuário pode perceber melhor a ação com TEXTO + ÍCONE
+
+Quando for montar um aplicativo, seguir os padrões informados
+
+-----Listas
+
+Listas com textos
+    As listas podem ter no máximo três linhas
+    A primeira linha tem um destaque (negrito), as outras não
+    Imagem também pode ser colocado ao lado das linhas
+
+Lista
+    Listas podem ter transição
+
+-----Elementos para Entrada de Dados
+    text field
+
+Princípios dos campos de texto
+    Detectável
+    Claro
+    Eficiente
+
+Tipos de campos de textos
+    Campos de textos preenchidos
+    Campos de texto destacados
+
+Checkbox
+    Para multiplas seleção
+
+Botões de rádio
+    Apenas uma seleção
+
+Switches ou comutas
+    Desativar ou ativar seleções
+
+-------Sugestões sobre Cores
+
+Cor primária
+Cor secundária
+    Variantes claras e escuras
+
+Ferramentas de cor em material.io
+    Mostra as cores selecionadas, como elas ficariam dentro do projeto
 
 
 
