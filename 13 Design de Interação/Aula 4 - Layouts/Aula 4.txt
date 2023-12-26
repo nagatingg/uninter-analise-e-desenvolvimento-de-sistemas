@@ -1,12 +1,100 @@
-Design de Interação
+Design de Interação - Prof: Margarete Klamas
 
----------------  Aula 4 ---------------------
+---------------  Aula 4 - Layouts ---------------------
 
+------Conversa inicial
 
+    Evolução de layouts
+    Mobile First
+    Fases do projetos - protótipos
+    Ambiente Móvel
+    Na prática
 
+-------Evolução de layouts
 
+Iíncio da história
 
+1982 - Mosaic - FIRST IMAGE
 
+Tabelas - 1997
+    Criação do elemento table
+
+-CSS1 - 1996
+    Lançado no Brasil em 2003
+    Feito em camadas
+        Estático (HTML, CSS) / Dinâmico (Banco de Dados, JavaScript )
+
+    Web Design Responsivo
+        Baseado em porcentagem >>%
+    
+A partir de 2010 baseado em colunas
+    Maior visibilidade
+
+------Mobile First
+
+    Luke Wroblewski - 2009
+
+Diferenças Desktop / Mobile
+    Teclado-padrão / Teclado pequeno
+    Mouse / Dedo, sem curso
+    Banda Larga / 3G, 4G, 5G e Wifi
+    Energia abundante / Energia limitada
+    Maior espaço de memória / Menor espaço
+    Uso em casa / Uso em qualquer local
+    etc
+
+-------Fase do projeto - Protótipos
+
+Esboço - Entendimento do que será desenvolvido
+    Pode ser feito à lapiz
+
+Protótipo Papel
+
+Protótipo Wireframes
+    Preocupação maior com o posicionamento dos objetos
+        ( sem textos )
+
+Protótipo de Alta Fidelidade
+    Não é o resultado final, mas possue telas inteiras, com cores, informações, demonstrações em si
+
+------Ambiente móvel
+    Recomendações do Design Móvel - Google
+        Utilizar elemtnos e espaçamentos uniformes para manter a consistência entre dispositivos, ambientes e tamanho de tela
+
+Previsível:
+    use à vontade layouts intuitivos e previsíveis
+
+Consistente: 
+    Utilize grids
+
+Responsivo:
+    Construa layouts adaptáveis
+
+------Na prática
+
+Protótipo no Photoshop
+    Dependendo da empresa, o protótipo pode ser realizado no photoshop
+
+1. Altura da barra de status: 24 dp
+2. Altura da barra de aplicativos: 56 dp
+3. Altura do item da lista: 88 dp
+
+No Photoshop existe uma ferramenta que pode auxiliar o usuário, Pixplicity ( web )
+
+Alguns valores
+Valor em dp  /  Valor em pixel   /   Elemento 
+16dp            64px                 Margens
+24dp            96px                 Barra de status
+56dp            224px                Barra do aplicativo
+88dp            352px                Altura da lista
+36dp            144px                Altura do botão
+64dp            256px                Largura mínima do botão
+
+Ferramenta MyDevice.io para auxiliar as dimensões
+
+Ferramenta DPI LV, mostra o pixel por poelgada
+
+Ferramentas 960.gs
 
 
 
