@@ -2,7 +2,12 @@ Design de Interação
 
 ---------------  Aula 6 ---------------------
 
+    Você deverá escolher um aplicativo de compras para desenvolver o protótipo
+    Informar o nome do aplicativo que você escolheu
+    Escolher 4 funcionalidades para apresentar do aplicativo escolhido
+    Colocar seu nome e RU na 1° tela do protótipo
 
+    
 
 
 
