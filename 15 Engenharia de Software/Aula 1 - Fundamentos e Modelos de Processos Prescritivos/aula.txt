@@ -1,0 +1,192 @@
+Engenharia de Software                          - Prof: Alex Mateus Porn
+    "...existem muitos tipos diferentes de sistemas de software, variando de sistemas embarcados simples até sistemas de informação complexos"
+
+Serviços públicos nacionais
+Indústrias completamente informatizadas
+Setores de entretenimento
+Telefonia
+Entre outros
+
+Os sistemas de software podem rapidamente se tornar bastante complexos, difíceis de entender e caros de modificar.
+
+Engenharia de Software se destina a apoiar o desenvolvimento de software profissional em vez da programação individual. Sommerville, 2018
+
+Cabe ao Engenheiro de Software identificar quais os melhores processos para ser utilizado naquele projeto. Não tendo um método padrão que seja universal para todos os projetos.
+
+Os processos devem incluir quatro atividades fundamentais:
+    Especificação
+        A funcionalidade do software e as restrições sobre sua operação devem ser definidas
+    Desenvolvimento
+        O Software deve ser produzido para atender a especificação
+    Validação
+        O software deve ser validado para garantir que atenda o que o cliente deseja
+    Evolução
+        O software deve evoluir para atender as mudanças nas necessidades dos clientes
+
+Modelos de processos de software
+    Processos prescritivos
+        Modelos de processos tradicionais, que surgiram com o propósito de organizar e direcionar as atividades inerentes ao desenvolvimento de software.
+    Processos ágeis
+        Possuem iterações curtas, nas quais o resultado é medido através do produto pronto, ao contrário dos modelos prescritivos, em que o desenvolvimento é dividido em etapas bem definidas.
+
+-----Modelo cascata
+Desenvolvido na década de 1970
+Derivado dos modelos utilizados na engenharia de grandes sistemas militares
+Apresenta o processo de desenvolvimento de software como uma série de fases
+
+    Analise > 
+    Projeto > 
+    Implementação > 
+    Teste > 
+    Manutenção
+
+    Definição dos requisitos >
+    Projeto do sistemas e do software >
+    Implementação e teste de unidade >
+    Integração e teste de sistema >
+    Operação e manutenção
+
+Vantangens
+    Fases bem definidas ajudam a detectar erros mais cedo
+    Procura promover a estabilidade dos requisitos
+    Funciona bem quando os requisitos são conhecidos e estáveis
+    É adequado para equipes tecnicamente fracas ou inexperientes
+
+Desvantagens
+    Não produz resultados tangíveis até a fase de codificação 
+    É difícil estabelecer requisitos completos antes de começar a codificar
+    Desenvolvedores sempre reclamam que os usuários não sabem expressar aquilo de que precisam
+    Não há flexibilidade com requisitos
+
+------Modelo cascata dupla
+    Procurando resolver o problema do modelo cascata, surge o modelo cascata dupla, onde visa que um problema sendo encontrado na fase anterior, você possa voltar para solucionar, unida diferença
+
+
+Também existem o Modelo V e W
+
+-----Modelo espiral
+    Criado em 1986
+    Apresenta a ideia em ciclos iterativos
+    O projeto é dividido em subprojetos
+    "Cada subprojeto aborda um ou mais elementos de alto risco, até que todos os riscos identificados tenham sido tratados" Wazlawick, 2013
+
+Iterações do modelo espiral
+    Primeira iteração
+        Concenpção das operações
+
+    Segunda iteração
+        Requisitos de Software
+
+    Terceira iteração
+        Desenvolvimento do Sistema
+
+    Quarta Iteração
+        Testes
+
+--Vantagens e desvantagens do modelo espiral
+    As primeiras iterações são as mais baratas do ponto de vista de investimento de tempo e de recursos
+
+    Também são as que resolvem os maiores problemas do projeto
+
+    Esse modelo não provê a equipe com indicações claras sobre a quantidade de trabalho esperada a cada ciclo
+
+    Pode tornar o tempo de desenvolvimento nas primeiras fases bastante imprevisível
+
+------Modelo de desenvolvimento em fases
+    O sistema é projetado de modo que possa ser entregue em partes, possibilitando aos usuários dispor de alguns recursos enquanto o restante do sistema está sendo desenvolvido. Pfleeger, 2004
+
+Sistema em produção
+    É o sistema que está sendo atualmente utilizado pelo cliente
+
+Sistema em desenvolvimento
+    É a versão seguinte que está sendo desenvolvida para substituir o sistema em produção
+
+Abordabens do modelo de desenvolvimento em fases
+Desenvolvimento incremental
+    O sistema é dividido por funcionalidades e cada versão entregue corresponde a uma delas ou a um conjunto dessas funcionalidades
+        Exemplo:
+            Versão 1: função de criação de textos
+            Versão 2: criação e organização de textos
+            Versão 3: criação, organização e formatação de textos
+
+
+Desenvolvimento iterativo
+    A primeira versão entregue corresponde ao sistema complewto, porém, com funcionalidades limitadas. Cada versão posterior corresponde a mudanças realizadas nas funcionalidades limitadas.
+        Exemplo:
+            Versão 1: 
+                Corresponde a todo o projeto, porém, as funcionalidades são limitadas. Podemos criar textos, mas não podemos recortar ou colar.
+                Podemos formatar o texto, mas não podemos mudar a cor e o tamanho da fonte.
+            Versão 2: 
+                As funções para recortar e colar são implementadas.
+            Versão 3:
+                As funções para mudar a cor e o tamanho da fonte são implementadas.
+
+-------Prototipação evolucionária
+
+Permite que todo o sistema, ou parte dele, seja construído rapidamente
+Tem o mesmo objetivo de um protótipo de engenharia
+Auxilia na definicação dos requisitos
+Facilita para garantir que desenvolvedor, usuário e cliente cheguem a um consenso sobre o que é necessário e o que é proposto
+
+Métodos de desenvolvimento
+    Throw aeay
+    Cornerstone
+
+Concepção inicial > 
+    Projeto e implementação do protótipo inicial >
+        Aceitavel 
+        Não aceitável
+            Refinamento do protótipo
+            Finalização e liberação do produto
+                Wazlawick, 2013
+
+Também existem o modelo de Pfleeger, 2004
+
+Exemplificando
+O desenvolvimento do sistema pode começar com
+    Requisitos fornecidos pelos clientes e usuários
+        Examinam-se: telas, tabelas, relatórios e outras saídas do sistema
+    Assim que os clientes e usuários decidem o que querem, os requisitos são revisados
+    Finalmente o sistema é codificado, com uma possível iteração entre requisitos e projeto
+
+------------Processo unificado da rational RUP
+Esses modelo abrange 4 etapas:
+    Concenpção
+        Elabora-se um plano de negócios para o sistema, com o objetivo de identificar as entidades externas e os requisitos, a fim de avaliar a contribuição do sistema para o negpocio
+    Elaboração
+        São desenvolvidos os requisitos e a arquitetura do sistema
+    Construção
+        Implementação e testes
+    Transição
+        Implantação em ambiente real
+
+Reúne os elementos de todos modelos de processos estudados
+Apoia a prototipação e a entrega incremental de software
+
+Disciplinas de projeto
+    Modelagem de negócios
+        Compreender a empresa e seus processo
+    Requisitos
+        Elicitação dos requisitos e design da interface
+    Análise e design
+        Detalhamento dos requisitos para modelagem
+    Implementação
+        Desenvolvimento e teste de unidade
+    Testes
+        Testes de integração e interação
+    Implantação
+        As versões para serem entregues
+
+Disciplinas de apoio
+    Ambiente
+        Ambiente de desenvolvimento, configuração do processo para desenv0olver o projeto. Ferramentas de apoio
+    Gerenciamento de mudança e configuração
+        Mantém a integração dos artefatos produzidos
+    Gerência de projeto
+        Planeja o projeto inteiro e cada iteração individualmente. Gerencia os riscos e monitora o progresso
+
+
+
+
+
+
