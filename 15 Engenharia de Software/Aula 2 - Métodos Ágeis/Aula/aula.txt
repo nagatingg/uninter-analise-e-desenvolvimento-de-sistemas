@@ -1,0 +1,16 @@
+Engenharia de Software - Aula 2 - Aula Prática
+Prof: Alex Mateus Porn
+
+Conversa Inicial
+    Métodos Ágeis de desenvolvimento de software
+        Entrega de software com maior frequencia
+
+1 > Desenvolvimento Ágil
+2 > Método Ágil Extreme Programming (XP)
+3 > Métodos Ágeis FDD e DSDM
+4 > Métodos Ágeis Crystal Clear e ASD
+5 > Método Ágil SCRUMM
+
+-----------------------
+
+Desenvolvimento Ágil
