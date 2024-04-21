@@ -1,0 +1,173 @@
+Engenharia de Software - Aula 1 - Aula Prática
+Prof: Alex Mateus Porn
+
+Proposta de Software para todos os modelos
+Software de processamento de textos
+    Criat textos
+    Organizar textos (recortar, colar e copiar)
+    Formatar textos
+
+Modelo cascata
+    1 > Definição dos requisitos
+    2 > Projeto do sistema e do software
+    3 > Implementação e teste de unidade
+    4 > Integração e teste de sistema
+    5 > Operação e manutenção
+
+Fase 1 ( Definição dos requisitos )
+    Elencamos todos os requisitos do usuário, como criar textos, copiar, colar, recortar ( tarefas que já tinhamos em mente antes de iniciar o projeto )
+    Também a ordem das tarefas a serem desenvolvidas, e sua descrição de pré-requisitos
+    ( imagem salva )
+
+Fase 2 ( Projeto do sistema e do software )
+Requisitos de Hardware:
+    Realizamos o requisitos de hardware necessários para o funcionamento desse projeto
+    ( exemplo: Processador recomendável, memória recomendável, espaço livre, etc)
+
+Requisitos de Software:
+    Especificados na fase 1 do projeto
+
+Fase 3 ( Implementação e teste de unidade )
+Implementação:
+    Implementação dos requisitos já definidos anteriormente
+    Com as sequencia que já foram definidas
+
+Teste de Unidade:
+    Testamos a unidade implementada por primeiro, seguindo a ordem definida anteriormente, antes de prosseguir para a próxima funcionalidade a ser desenvolvida.
+
+Fase 4 (Integração e teste de sistema)
+Integração: 
+    Integração de todas as unidade no sistema
+
+Teste de sistema:
+    Todas as unidades do sistema serão testadas em conjunto, diferente de realizar o teste individual ( da fase anterior )
+
+Fase 5 (Operação e manutenção)
+    Entrega e operacionalização do sistema
+    Melhorar a implementação das unidades
+    Descoberta de erros não identificados previamente
+    Participação ativa dos usuários
+    Descoberta de novos requisitos
+        Usuário não definidiu anteriormente quais são as funções necessárias
+    Aperfeiçoar os serviços
+
+------------------------
+
+Modelo V
+
+Fase de requisitos(1) ------------ Fase de teste de sistema(7)
+
+Fase de Design Arquitetural(2) --- Fase de teste de integração(6)
+
+Fase de Design detalhado(3) ------ Fase de teste de unidade (5)
+
+                    Implementação(4)
+
+
+Fase 1 ( Fase de Requisitos )
+Segue o mesmo modelo anterior
+    Elencamos todos os requisitos do usuário, como criar textos, copiar, colar, recortar ( tarefas que já tinhamos em mente antes de iniciar o projeto )
+    Também a ordem das tarefas a serem desenvolvidas, e sua descrição de pré-requisitos
+    ( imagem salva )
+
+Fase 2 (Fase de Design Arquitetural)
+    Definição dos requisitos em unidades
+        Copiar, recortar e colar uma única unidade
+    ( podendo ser alterado dependendo da equipe, experiencia, etc)
+
+Fase 3 (Fase de Design detalhado)
+    Definição da prioridade de cada unidade
+
+Fase 4 (Fase de implementação)
+    Implementação do software conforme definições da etapa anterior
+
+Fase 5 (Teste de unidade)
+    Testar a funcionalidade
+        Criar textos antes de implementas as funcionalidades seguintes
+
+Fase 6 (Fase de teste de integração)
+    Integração de todas as unidades no sistema
+
+Fase 7 (Fase de teste de sistema) || (teste de aceitação junto ao cliente)
+    Testar todas as funcionalidades em conjunto
+        Ao criar um texto, testar se é possível copiar e colar (etc)
+
+--------------------
+
+Modelo W
+Requisitos          > Preparar > Teste de Sistemas
+Design Arquitetural > Preparar > Teste de Integração
+Design detalhado    > Preparar > Teste de Unidade
+
+--------------
+
+Modelo Espiral
+
+Primeira Iteração
+    Concepção das operações
+        Análise do problema
+        Especificação de orçamento e prazo
+        Especificação de restrições de pessoal, ambiente e riscos
+        (Não precisamos considierar todas para serem utilizadas em nosso software, assim eliminando etapas que não fazem sentido)
+        Possibilidade de implementação de protótipos
+        Elaboração de um documento de alto nível
+
+Segunda Interação
+    Levantamento de requisitos
+        Sendo utilizamos a mesma que já utilizamos anteriormente
+        (imagem salva)
+
+Terceira Iteração
+    Desenvolvimento do Sistema
+        Em conjunto com o cliente, podemos realizar versões períodicas do projeto, atualizando conforme sendo necessário e realizando os testes
+
+Quarta Iteração
+    Teste
+        Testes de unidade
+        Testes de Integração
+    
+-----------------
+
+Modelo de Desenvolvimento em Fases (incremental)
+    Software é produzido em versões, conforme que cada versão não se refera a versão final, mas versões reduzidas de funcionalidades, que já podem ser utilizadas pelo cliente. Dessa forma,  o cliente não precisa esperar o término do projeto para realizar o funcionamento do sistema.
+
+    Desenvolvimento  ||  Usuários
+    Construir versão 1 > Utilizar versão 1
+    Construir versão 2 > Utilizar versão 2  > Tempo
+    Construir versão 3 > Utilizar versão 3
+
+    Terminou a versão 1, entrega ela para o cliente. O cliente irá começar a utilizar a versão 1, em seguida, inicia a construção da versão 2. Conforme o tempo, for diagnosticado pelo cliente, um erro especifico na versão 1, ou algum tipo de erro, essas configurações incrementais podem ser inseridas na versão 2.
+
+    Sistema em produção:
+        Fichários em papel
+        Relatórios manuais
+
+    Sistema em desenvolvimento:
+        Software de processamento de textos
+
+Desenvolvimento no modelo iterativo (iterativo)
+    A primeira versão ela é entrege de forma completa, porém de forma primitiva das funções. Exemplos, as funções não funcionam de forma perfeita com todos os requisitos, mas algumas partes das funcionalidades acabam funcionando
+
+--------------------------
+
+Modelo de prototipação evolucionária
+
+--------------------------
+
+Precesso Unificado da Rational (RUP)
+
+Iteração de fase
+    Concenpção
+        Fichários em papel
+        Relatórios manuais
+
+    Elaboração
+        Requisitos anterior já utilizado (imagem salva)
+
+    Construção
+        Desenvolvimento do software
+
+    Transição
+        Testes de unidade e integração
+            Primeira versão entregue ao cliente
+
