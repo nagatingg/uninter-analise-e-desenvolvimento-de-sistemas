@@ -14,3 +14,238 @@ Conversa Inicial
 -----------------------
 
 Desenvolvimento Ágil
+    Devido as desvantagens dos modelos anteriores, foram criados os métodos ágeis.
+    Algumas desvantagens dos modelos tradicionais:
+        Rigidez e inflexibilidade
+            Por conta dos métodos tradicionais serem rígidos, proporcionalmente dificuldade de lidar com mudanças que possam acontecer no desenvolvimento do software.
+        Falta de feedback constante
+            Por precisar desenvolver o software por completo, existe a falta de feedback constante no decorrer das etapas do desenvolvimento de software. Dificultando assim, serem encontrados problemas que poderiam ser resolvidos no decorrer do desenvolvimento
+        Vantagens:
+            Scrumm e Kanban
+                Métodos como esses são desenvolvidos para lidar facilmente com mudanças no decorrer do desenvolvimento do software, totalmente diferente dos modelos tradicionais
+            Entrega incremental | Envolvimento do cliente
+                Podemos ter uma participação ativa do cliente do desenvolvimento do software, encontrando assim problemas anteriores e resolvendo com uma maior eficácia
+                    (Assume o cliente como parte da equipe de desenvolvimento)
+
+    1990 > Começaram os métodos ágeis
+    2001 > Criado o Manifesto para o Desenvolvimento Ágil de Software (Agile Alliance)
+
+-------------------
+
+Método Ágil Extreme Programming (XP)
+    1990 > EUA
+        Preconiza mudanças incrementais e feedback;
+        Considera a mudança como parte do processo;
+        Considera que pequenos ganhos a curto prazo pelo sacrifício da qualidade não são compensados pelas perdas a médio e longo prazo
+
+    Práticas XP
+        Jogo de planejamento > Fase inicial
+        Metáforas > Contato com o cliente
+        Equipes coesas > Todos os desenvolvedores tendo compartilhamento entre todos
+        Reuniões em pé > Mais rápido possível
+        Design simples > Facilitar o uso do projeto
+        Versões pequenas > Unidades menores para serem mais rápido de testar
+        Ritmo sustentável > Evitar ritmo exagerado de trabalho
+        Posse coletiva > Ninguém é dono de nada no projeto
+        Programação em pares > 2 programadores em um único PC (+ experimente, -experimente)
+        Padrões de codificação > Constantes, código fonte seguindo um padrão
+        Teste de aceitação > Cliente validando o projeto
+        Desenvolvimento orientado a teste
+        Refatoração
+        Integração contínua
+
+Ciclo de etapas
+    Selecionar as histórias do usuário para este lançamento
+    Decompor as histórias em tarefas
+    Planejar o lançamento
+    Avaliar o sistema
+    Lançar a versão do software
+    Desenvolver / Integrar / testar o software
+
+-------------------------
+Métodos Ágeis Feature Driven-Development (FDD) e Dynamic Systems Development Method (DSDM)
+
+Desenvolvimento dirigido por funcionalidade - FDD
+    1997 > Criação
+        Enfatiza o uso de orientação a objetos
+        Foca no desenvolvimento por funcionalidades
+        Planejamento incremental e iterativo
+        Integração contínua das funcionalidades
+        Teste de software
+
+    2 Fases
+        1 > Concepção e planejamento (Prazo de 1 e 2 semanas)
+        2 > Construção ( Ciclos iterativos de 1 a 2 semanas)
+
+    Concepção e planejamento
+        Desenvolver modelo abrangente - DMA
+        Construir lista de funcionalidades - CLF
+        Planejar por funcionalidade - PPF
+
+    Construção
+        Detalhar por funcionalidade - DPF
+        Construir por funcionalidade - CPF
+
+Levantamento de Requisitos ( Concepção e planejamento)
+    DMA > CLF > PPF
+
+(Construção)
+    DPF > CPF
+
+
+-----
+
+Desenvolvimento de sistemas dinâmicos - DSDM
+    Planejamento incremental e iterativo
+    Integração contínua das funcionalidades
+    Teste de Software
+    Participação ativa do usuário
+
+    Dividido em três fases
+        Pré-projeto
+        Ciclo de vida
+        Pós-projeto
+
+    Princípios do método DSDM
+        Envolvimento do usuário
+        Autonomia dos desenvovledores
+        Entregas frequentes
+        Eficácia das entregas
+        Feedback dos usuários
+        Reversibilidade de ações
+        Ritmo sustentável
+        Previsibilidade das ações
+        Ausência de testes no escopo
+        Comunicação entre os envolvidos
+
+    4 Etapas sendo compostos
+        Base de viabilidade
+        Exploração
+        Engenharia
+        Desenvolvimento
+    
+--------------------------
+
+Métodos Ágeis Crystal Clear e Adaptive Software Development - ASD
+    1997 > Criado
+    Adequado para equipes pequenas (máximo 8)
+    Equipes compostas por um designer líder e entre dois a sete programadores
+    Uso de "readiadores" de informação
+        Quadros ou desenhos do que precisa ser desenvolvido, o que já foi desenvolvido (situação atual do projeto para entendimento de todos)
+    Fácil acesso para especialistas de domínio
+        Acesso a documentos da empresa, informações para facilitar o entendimento do projeto, além de pessoa mais capacitada para ajudar no projeto
+    Eliminação de distrações
+    Cronograma de desenvolvimento e ajuste do método quando necessário
+
+    3 Fases
+        Iteração > Estimação, desenvolvimento e celebração (poucas semanas)
+        Entrega > Várias iterações (máximo 2 meses)
+        Projeto > entregas
+
+    Sete pilares do método > Crystal clear
+        Entregas frequentes
+        Melhoria reflexiva
+        Comunicação osmótica
+        Segurança pessoal
+        Foco
+        Acesso fácil a especialistas
+        Ambiente tecnologicamente rico
+
+---
+Desenvolvimento de software adaptativo - ASD
+    Tem como base sistemas adaptativos complexos
+    Enxerga o processo de desenvolvimento de software com Agentes e Ambientes
+
+    3 Fases
+        1 > Especular
+        2 > Colaborar
+        3 > Aprender
+
+    1 - Especulação
+        O projeto é iniciado
+        Ciclos adaptáveis, com foco em:
+            Tempo de duração do projeto
+            Tempo de cada ciclos
+            Objetivos de cada ciclo
+            Componentes a serem desenvolvidos, tecnologias necessárias e listas de tarefas
+
+    2 - Colaboração
+        Realizar as atividsade que podem ser mais previsíveis
+        Realizar as atividades que são naturalmente mais incertas
+
+    3 - Aprendizado
+        Revisão de qualiddade
+        Exige repetidas revisões da qualidade
+        Repetidos teste de aceitação
+        Necessária a presença do cliente e de especialistas do projeto
+
+----------------------------
+
+Método Ágil SCRUM
+    Tem como foco a gestão de projetos de software
+    Tem como um dos conceitos mais importantes o sprint
+    Pode ser integrado a outros métodos ágeis com facilidade
+    Por isso, pode-se dizer que é um dos métodos ágeis mais utilizados
+
+    3 Fases de Projeto
+        Primeira fase
+            Planejamento geral
+                Definidos quais equipes farão partes do projeto, quantas sprint, quais métodos utilizados no sprint, tempo, pessoas, etc
+        
+        Segunda fase
+            Execução dos ciclos do sprint
+    
+        Terceira fase
+            Encerra-se o projeto
+                Integradas todas as versões do projeto (priorizar o que é mais necessário ao cliente primeiro)
+
+    Papéis do SCRUM
+        Scrum Master
+            Facilitador e solucionador de conflitos
+                Eliminar conflitos, auxilio ao demais membros da equipe, organizador de reuniões, etc
+
+        Product Owner
+            Representa a voz do cliente
+                Indica os requisitos mais importantes a serem tratados em cada sprint
+
+        Scrum Team
+            Trata-se a todo equipe de desenvolvimento
+
+PRODUCT BACKLOG
+    Realizado a primeira fase do Projeto (Planejamento geral)
+    Geramos a PRODUCT BACKLOG
+        A ordem de importância das tarefas que vai determinar a ESTIMATIVA DE ESFORÇO e a QUANTIDADE DE MEMBROS NECESSÁRIOS para o desenvolvimento
+
+Sprints
+    Ciclos de desenvolvimento (2 semanas a 1 mês)
+    Os elementos do product backlog a serem implementados são priorizados e transferidos para o sprint backlog
+    Mantém atualizados o sprint backlog atualizado
+        ( tarefas concluídas - em desenvolvimento)
+
+Reuniões
+    Diarias
+        Cada 24 horas > Informar o time a respeito do sprint (possiveis problemas, etc)
+    
+    Revisão
+        Realizada ao final de cada sprint
+        Avalia o produto do trabalho
+
+    Retropesctiva
+        Tem como objetivo avaliar os sprint do projeto
+
+Ciclo de Scrum
+    Product Owner
+    Product Backlog
+    Sprint Backlog
+        Execução do Sprint 2 a 4 semanas
+        Revisões diarias - etc
+    Produto (entrega)
+        { sendo que versões anteriores já estavam sendo entregadas anteriormente }
+
+----------------------
+
+Finalizando
+
+
+            
+        
