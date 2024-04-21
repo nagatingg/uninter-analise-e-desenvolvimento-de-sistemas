@@ -1,0 +1,92 @@
+Engenharia de Software - Aula 2 - Aula Prática
+Prof: Alex Mateus Porn
+
+Método de Desenvolvimento SCRUM
+
+Proposta de Software
+    Criar textos
+    Organizar textos
+    Formatar textos
+
+Papéis do Scrum (que se destacam)
+    Scrum Master
+    Product Owner
+    Development Team
+
+Scrum executado em ciclos - Sprint
+    Semanal - 7 dias (não é uma regra)
+        Equipe estima
+        Cliente prioriza as histórias
+            Todas as funcionalidades a serem desenvolvidas de uma forma natural
+                Formato: Quem - O quê - Por quê
+        Desenvovledores constroem tarefas
+        Desenvolvedores implementam
+        Cliente aprova o resultado
+        Retropestiva
+
+Cerimônias Scrum
+    Sprint Planning
+        Definição de quais tarefas são necessárias no ciclo, se todas as funcionalidades encontradas na história podem ser construídas no sprint
+    Daily Meeting
+        A cada 24 hrs (exemplo, definido o tempo)
+    Sprint Review
+        Somente pelos membros da equipe de desenvolvimento
+    Sprint Retropesctive
+        Retropesctiva após a entrega da versão, com todos os membros anaálisando o processo e o produto entregue
+
+Exemplos
+    Estimativas - Sprint Planning
+    Produtc Backlog
+        Criar textos
+        Copiar texto
+        Recortar texto
+        Colar Texto
+        Formatar Texto
+
+    Sprint Backlog
+        Criar Texto
+        Formatar Texto
+
+    (Tarefas que faltam, serão colocadas nas próximas SPRINT)
+
+Técnicas:
+    Planning Poker (cartas com significados apresentada pelos membros das equipes)
+    Fist of Five
+
+Foram defnidos as etapas, agora precisamos definir a PRIORIZAÇÃO
+    Técnica dos 100 pontos
+        Cada membro do time recebe 100 fichas ou 100 pontos e deve distrui-los entre as histórias do usuário
+        O objetivo é dar mais peso às histórias do usuário que têm maior prioridade
+        Após a conclusão do processo de votação, é determinado um calculo da soma total de pontos atribuídos a cada história
+
+Cliente prioriza as histórias
+Técnica MoscOw
+    M > Must have - Deve ter
+    O
+    S > Should have - Deveria ter
+    C > Could have - Poderia ter
+    O
+    W > Would have - Não terá
+
+Ambiente de trabalho
+    Quadros brancos / Kanban
+        Fazer / Desenvolvimento / Pronto para implantar / Aprovado / FInalizado
+    Post-it
+    Cadeiras giratórias
+    Café
+    Folhas em branco
+    Privacidade    
+
+Reuniões diárias
+    O que eu fiz ontem
+    O que farei hoje
+    Existem impedimentos
+
+    Exemplo:
+        Implementei 30% da funcionalidade de copiar texto
+    O que farei hoje:
+        Implementarei, no mínimo, mais 30% da funcionalidade copiar texto
+    
+Retropesctiva
+    Técnica da Estrela do Mar
+
