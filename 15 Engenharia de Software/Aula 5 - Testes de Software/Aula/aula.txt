@@ -1,2 +1,83 @@
 Engenharia de Software - Aula 5
 Prof: Alex Mateus Porn
+
+Fundamwentos do Teste de Software
+    Erro(error)
+        Diferença detectada entre o resultado obtido e o resultado esperado
+    Defeito(fault)
+        Linha de código ou conjunto de dados incorretos que provocam um erro
+    Falha(failure)
+        Não funcionamento do software, geralmente ocorre por um defeito
+    Engano
+        Ação que produz um defeito no software
+
+--------------
+Teste de funcionalidades
+    Testes que visão validar as funcionalidades do software
+        Unidade, integração, sistema e aceitação
+
+    Teste Unidade
+        Visa identificar se um componente individual do software foi implementado corretamente
+
+    Teste de Integração
+        É feito quando unidades estão prontas, são testadas isoladamente e precisam ser integradas para gerar uma nova versão do sistema
+
+    Teste de Sistema
+        Verifica se a atual versão do sistema permite executar processo ou casos de uso completos do ponto de vista do usuário, sendo capaz de obter os resultados esperados
+        Se cada uma das operações do sistema jpa estiver testada e integrada corretamente, então, deve-se verificar se o fluxo principal do caso de uso pode ser executado corretamente, bem como os lfuxos alternativos
+
+    Teste de aceitação
+        Teste realizado pelo cliente ou usuário do sistema, que conssite na aceitação da aplicação desenvolvida
+
+-----------------
+
+Teste Estrutural
+    Conhecido como teste de caixa branca, pois todos os testes são executados com conhecimento do código-fonte
+    É capaz de detectar uma quantidade de ter executado pelo menos uma vez todos os comandos e condições do programa
+    Destacam-se entre os possíveis critérios de teste os critérios baseados na complexidade e no fluxo de contrfole
+
+Complexidade ciclomática
+    Métrica que porpociona uma medida quantitativa da complexidade lógica de um programa
+
+Caminhos linearmente independentes
+    Refere-se a qualquer caminho do programa que introduza pelo menos um novo conjunto de instruções de processamento ou uma nova condição
+    Para analisar os caminhos de um programa, sugere-se usar o Grafo de Fluxo de Controle (GFC)
+    Todos os comandos são representados em nós
+        Fluxos de controle em arestas
+
+    Código fonte / Grafo de Fluxo de Controle
+
+-------------------
+Teste funcional
+    É executado sobre as entradas e saídas do programa sem que se tenha conhecimento do seu código-fonte, sendo, portante, identificado como teste de caixa preta
+
+Particionamento em classes de equivalência
+    Entrada especificada como um intervalo de valores
+        Um conjunto válido e dois inválidos
+    Entrada especificada como uma quantidade de valores
+        Um conjunto válido e dois inválidos
+
+Análise de valor limite
+    Entrada especificada com um intervalo de valores
+        Trata-se os limites desse intervalo e os imediatamente subsequentes
+    Entrada esoecufucada com uma quantidade de valores
+        Testa-se com nenhum valor de entrada, somente um valor, o limite de valores e um acima do limite
+    Se entrada ou saída for um conjunto ordenado
+        Maior atenção ao primeiro e ao último elemento
+    Usar a intuição para definir outras condições limites
+
+Error guessing
+    Supondo por intuição e experi~encia alguns tipos prováveis de erro e, a partir disso, definem-se casos de teste que poderiam detectá-los
+
+--------------------
+
+Teste baseado em defeitos
+    Teste de Mutação
+        Geração dos mutantes
+        Execução do programa em teste
+        Execução dos mutantes
+        Análise dos mutantes vivos
+
+    Operadores de mutação, eles que geram os mutantes (cada linguagem tem a sua especifica)
+
+
