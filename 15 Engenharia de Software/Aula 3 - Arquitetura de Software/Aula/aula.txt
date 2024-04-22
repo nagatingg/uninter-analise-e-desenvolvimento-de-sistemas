@@ -1,2 +1,156 @@
 Engenharia de Software - Aula 3
 Prof: Alex Mateus Porn
+
+Conversa inicial
+    Arquitetura de Software
+
+---------
+
+Projeto de Arquitetura de Software
+    Para desenvolver um software, partimos do contexto geral desse sistema, para depois separarmos os processos em cada fase, de acordo com o modelo de processos (prescritivos ou ágeis) escolhido.
+
+Etapas de Arquitetura de Software (Pressman)
+    1. Projeto de dados
+        Fundação do projeto
+    2. Derivação da estrutura da arquitetura do sistema
+    3. Análise de estilos ou padrões de arquitetura alternativos
+    4. Implementação da arquitetura utilizando-se um modelo de processo
+
+1. Projeto de dados
+    Levantamento de requisitos
+    Definição das entidades externas com as quais o software irá interagir
+        Diagrama entidade-relacionamento
+
+2. Derivação da estrutura da Arquitetura do Sistema
+    Identificação de arquétipos arquiteturais
+    Abstrações de elementos do Sistema
+    Definição de classes e objetos
+        Linguagem UML
+        Diagrama de classes
+
+3. Análise de estilos ou padrões de arquitetura alternativos
+    Define-se o padrão de arquitetura de software a ser implementado
+
+4. Implementação da arquitetura utilizando-se um modelo de processo
+    Implementação da arquitetura
+
+Basicamente todo projeto é composto por 2 etapas:
+    1. Projeto conceitual
+    2. Projeto técnico
+
+1. Projeto conceitual (visão do cliente)
+    Apresenta ao cliente exatamente o que o sistema fará
+    Sendo aprovado, é traduzido, dando origem ao projeto técnico
+        Linguagem UML
+        Diagrama de casos de uso
+
+2. Projeto técnico
+    Determinar o hardware necessário
+    Bibliotecas, plugins, etc (tudo necessário para o desenvolvimento do software)
+
+----------------
+
+Padrões de arquitetura de Software
+
+Arquitetura centralizada em dados
+    Banco de dados reside em um servidor central e todo deamsi computadores daquela rede, se conectam naquele servidor.
+        Desvantagem logo de cara:
+            Um problema afetou o servidor central, todos os software dos computadores conectados deixam de funcionar. ExemplO: "Já ouviu a frase, sistema fora do ar?"
+
+Arquitetura de fluxo de dados
+    Refere-se para projetos em programação estruturadas, pois baseia-se em numa sequencia no fkuxo de informações do início ao fim.
+        Exemplo:
+            (Imagem salva)
+
+Arquitetura em camadas
+    Divide o sistema em várias sub-camadas
+    Exemplo: Sistema de ensino on-line (cliente-servidor)
+    Algumas camadas que dividem esse sistema (imagem salva)
+    Não existe uma definição do máximo de camadas, varia de acordo com o projeto
+
+Arquitetura cliente-servidor
+    Sites de filmes (netflix, youtube, etc)
+
+Arquitetura orientada a objetos
+
+Arquitetura modelo, visão e controlador (MVC)
+    Aplicação Web
+
+---------------------------
+Levantamento de requisitos
+    Restrições que o sistema deve fazer. Serviços que oferecem e as restrições do seu funcionamento
+
+Requisitos funcionais
+    Declarações dos serviços que o sistema deve fornecer
+    Como o sistema deve agir com relação a determinadas entradas
+    Como o sistema deve se comportar em determinadas situações
+    O que o sistema não deve fazer
+    (Requisitos elencados pelo clientes)
+
+Requisitos não funcionais
+    Restrições sobre os serviços ou funções oferecidas pelo sistema
+        Restrições de tempo
+        Restrições sobre o processo de desenvolvimento
+        Restrições impostas por padrões
+    Aplicam-se ao sistema como um todo, em vez de às características individuais ou aos serviços
+    (Necessários e adequados para os requisitos funcionais)
+
+Técnicas para elicitação de requisitos
+    Entrevistas
+        Formais ou informações, com usuários e demais partes envolvidas no sistema
+    Cenários
+        Podem ser escritos como texto, sumplementados por diagramas, telas, entre outros
+
+Casos de uso
+    Abordagem mais estruturada de cenários
+    (São as próprias funcionalidades do sistema que são representadas por casos de uso e são acossiadas aos atores (usuários do sistema) identificando no sistema, quais usuários podem realizar determinadas funcionalidades do software)
+
+Etnografia
+    Técnica de observação que pode ser usada para compreender os processo operacionais e ajudar a extrair os requisitos de apoio para esses processos.
+
+Elicitações de requisitos
+    Setenças em linguagem natural
+        Frases numeradas em linguagem natural
+        Cada frase deve expressar um requisito
+    Linguagem natural estruturada
+        Linguagem natural em um formulário ou template
+        Cada campo fornece informações sobre um aspecto do requisito
+    Notações gráficas
+        Modelos gráficos suplementados por anotações em texto
+        Diagramas de casos de uso e de sequ~encia da UML
+    Especificações matemáticas
+        Conceitos matemáticos como as máquinas de estados finitos ou conjuntos
+
+--------------------
+Gerenciamento de configuração e mudança
+    4 Atividades Básicas
+        1. Controle de versão
+            Controlar as várias versões dos componentes do sistema
+            Garantir que as mudanças feitas não interfiram nas outras
+        2. Construção de sistema
+            Reunir componentes, dados e bibliotecas do programa, compilando-os e ligando-os para criar um sistema executável
+        3. Gerenciamento de mudanças
+            Manter o controle das solicitações de mudança de clientes e desenvolvedores no software já entregue
+            Elaborar os custos e o impacto dessas mudanças, bem como decidir se e quando as alterações devem ser implementadas
+        4. Preparar o software para o lançamento externo e acompanhar as versões lançadas para uso do cliente
+
+Uma das ferramentas mais utulizadas
+    Git
+
+-------------------
+Manutenção e evolução de software
+    Uma vez desenvolvido, um software terá um valor necessariamente descrecente com o passar do tempo, uma vez que não seja feito a manuntenção com o passar do tempo
+        Falhas são descobertas
+        Requisitos mudam
+        produtos menos complexos, mais eficientes ou tecnologicamente mais avançados são disponibilizados
+
+    Três diferentes tipos de manutenção
+        Correção de defeitos
+        Adaptação ambiental
+        Adição de funcionalidade
+
+------------------
+
+
+
+    
