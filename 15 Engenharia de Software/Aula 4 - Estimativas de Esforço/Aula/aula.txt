@@ -1,2 +1,81 @@
 Engenharia de Software - Aula 4
 Prof: Alex Mateus Porn
+
+Análise de pontos de função
+    Técnica de medição do tamanho funcional de um software
+    Possibilita estimar o esforço para implementação do sistema
+    Tem por definição medir o que o software faz, e não como foi construído
+
+    1. Determinar o tipo de contagem
+        Se é um projeto que já foi implantando, se já está em uso, ou se será feito do zero;
+
+    2. Identificar o escopo da contagem e a fronteira da aplicação
+
+    3. Contar funções do tipo dados > Como os dados são armazenados
+    Contar funções do tipo transação > Todas as funcionalidades que o sistema terá
+
+    4. Determinar a contagem de pontos de função não ajustados
+
+    5. Determinar o valor do fator de ajuste
+
+    6. Calcular o número dos pontos de função ajustado
+
+1. Determinar o tipo de contagem
+    Projeto de desenvolvimento
+    Projeto de melhoria
+    Aplicação
+
+2. Identificar o escopo da contagem e a fronteira da aplicação
+    Identificar o escopo refere-se a determinar se a contagem estará concentrada em um ou mais sistemas ou mesmo em parte de um sistema
+    A fronteira da aplicação aponta que ela estebelece um divisor entre os componentes do aplicativo e os componentes de outros aplicativos
+
+3. Contar funções do tipo dados | Contar funções do tipo transação
+    Funções tipo dados
+        Arquivos lógicos internos (ALI)
+        Arquivos de interface externa (AIE)
+            Atribuimos a pontuação a cada uma:
+                ALI (Simples = 7 / Média = 10 / Complexo = 15)
+                AIE (Simples = 5 / Média = 7 / Complexo = 10)
+
+    Funções
+        Entradas externas (EE)
+        Saídas externas (SE)
+            SE > Tem como função apresentar informação ao usuário por meio de lógica de processamento que não seja apenas a recuperação de dados ou informações de controle
+        Consultas externas (CE)
+            CE > Tem como principal intenção apresentar informação ao usuário por meio de uma simples recuperação de dados ou informação de controle de ALIs e/ou AIEs. A lógica de processamento não deve conter fórmulas matemáticas ou cálculos;
+
+6. Calcular o número dos pontos de função ajustado
+    Exemplo:
+        Java - 15 horas por ponto de função
+        PHP - 11 horas por ponto de função
+        Python - 7 horas por ponto de função
+
+---------------------
+
+Pontos de Casos de uso
+
+----------------------
+
+Pontos de histórias
+    Mais importante descobrir quanto tempo o software levará para ser desenvolvido, do que o tamanho em si do software.
+
+-----------------------
+
+SLOC e KSLOC
+    SLOC > Número de linhas que o software terá
+    KSLOC > Uma unidade KSLOC vale mil unidades SLOC
+
+    KSLOC otimista
+    KSLOC pessimista
+    KSLOC esperado
+
+------------------------
+
+COCOMO
+    Implementação básica
+    Implementação intermediária
+    Imeplementação avançada
+
+
+
+
