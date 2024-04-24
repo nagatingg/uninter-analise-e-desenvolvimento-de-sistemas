@@ -1,0 +1,12 @@
+Engenharia de Software - Aula 6
+Prof: Alex Mateus Porn
+
+DevOps
+
+Fundamentos DevOps
+Integração Contínua
+Recursos de DevOps
+Implantando o DevOps
+Equivocos de DevOps
+
+
