@@ -1,3 +1,30 @@
 Engenharia de Software - Aula 6 - Aula Prática
 Prof: Alex Mateus Porn
 
+Fluxo de trabalho - Gitflow
+    Disponibiliza 3 ramificações
+        Master
+        Bugfix
+        Feature
+
+Master
+    Independente do sistema operacional que utilizamos, ela é criada. A medida que temos uma equipe maior de desenvolvimento, é melhor criar outras ramificações para trabalho, assim você não utiliza a Master(principal).
+    última versão do software, fica na ramificação Master
+
+Feature
+    Pode se ter apenas 1 ramificação Feature ou várias, onde são criadas todas as funcionalidades do software. Cada ramificação Feature possui sua própria ramificação. Ao final das funcionalidades, essas ramificações integrada a ramificação Master (quando terminada). Antes disso, são feitos os testes, sem esquecer
+
+Bugfix / Hotfixes
+    Intenção de ser utilizada para correções que foram encontradas no Software. Essas correção precisam ser pequenas e encontradas no software já em utilização, sendo pequenas, não necessitam passar pela Feature, assim indo direto para a Bugfix para ser solucionada o mais rápido possível (todos os membros da equipe sabem que as correções em Bugfix, são para solucionar os problemas especificos em Bugfix).
+    Por outro lado, se o problema for maior, ela pode ser inserida dentro de uma refatoração posteriormente em uma nova versão do Software, dai sendo colocada em Feature (com talvés, contendo novas funcionalidades junto com essa correção)
+
+Fluxo Gitflow
+    Master
+    Hotfixes
+    Release branches
+    Develop
+    Feature branches
+        (imagem salva na pasta)
+
+
+
