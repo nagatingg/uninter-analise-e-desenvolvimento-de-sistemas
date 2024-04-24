@@ -9,4 +9,112 @@ Recursos de DevOps
 Implantando o DevOps
 Equivocos de DevOps
 
+---------------
+
+Fundamentos do DevOps
+    Dev
+        Equipe responsável pela identificação dos requisitos com o cliente, pela análise, projeto, codificação e testes
+    Ops
+        Equipe responsável pela implantanção em produção, pelo monitoramento e pela solução de incidentes e problemas
+
+DevOps é uma cultura fortemente colaboritva entre as equipes de desenvolvimento e operaçoes, para entregar o software funcionando em produção de forma ágil, segura e estável.
+    Empatia entre todos
+
+Pilares da cultura de DevOps
+    Colaboração
+        Construir resultados específicos com interações de pessoas com diferentes experiências e um propósito comum
+    Afinidade
+        Construção de relações interpendentes entre os profissionais para aprendizagem contínua
+    Ferramentas
+        Funcionam como um acelarador, impulsionando a mudança com base na cultura atual
+    Escala
+        O dimensionamento leva em conta como os outros três pilares podem ser aplicados à medida que as organizações crescem, amadurecem e até encolhem, considerando questões técnicas e culturais
+
+DevOps influencia o ciclo de vida do aplicativo em todas as fases
+    Planejamento
+    Desenvolvimento
+    Entrega
+    Operação
+
+Planejamento
+    Idealizam, definem e descrevem os recursos e funcionalidades dos aplicativos e sistema que estão construindo
+        Criar lista de pendências, acompanhar bugs, gerenciar o desenvolvimento de software ágil e com Scrum, usar quadros Kanban e visualizar o progresso com dashboards
+
+Desenvolvimento
+    Inclui todos os aspectos da codificação: gravação, teste, revisão e integração do código
+        As equipes DevOps buscam inovar rapidamente sem sacrificar a qualidade, a estabilidade e a produtividade
+
+Entrega
+    É o processo de implantação de aplicativos nos ambientes de produção, de maneira consistente e confiável.
+        As equipes definem um processo de gerenciamento de versão com estágios claros de aprovação manual
+
+Operação
+    Envolve manter, monitorar e solucionar problemas de aplicativos em ambientes de produção
+        As equipes trabalham para garantir a confiabilidade do sistema, a alta disponibilidade e o objetivo de tempo de inatividade igual a zero, reforçando a segurança e a governança
+
+---------------------
+
+Integração Contínua
+    A integração contínua é uma prática do desenvolvimento de software em que cada participante do time integra seu trabalho pelo menos uma vez no dia. Cada integração é veirifcada por um build automatizado para detectar erros de imediato e permitir que as atividades de desenvolvimento de software tenham mais qualidade e agilidade
+
+Princípios da integração contínua
+    Manter um repositório de origem único (todos possuem acesso)
+    Automatizar a versão
+    Fazer o autoteste de construção (testes unitários)
+    Todos devem fazer commit pelo menos uma vez por dia
+    Todo commit deve ser centralizado em uma máquina de Integração
+    Corrigir quebra de código imediamente
+    Manter a construção rápida
+    Testar em um ambiente que seja o mais próximo possível do ambiente de produção
+    Garantir que qualquer um possa obter o executável mais recente
+    Permitir que todo mundo possa ver o que está acontecendo
+    Automatizar a implantação (instalação do software possa ser a mais fácil possível)
+
+------------------
+
+Recursos DevOps
+    Em resumo, os recursos que o DevOps proporciona, não são novas ferramentas, mas sim atitudes que podem ser utilizadas principalmente na continuedade, seja nos testes, no desenvolvimento, para que seja padronizada entre todos.
+
+--------------------
+
+Implantando o DevOps
+    Embora o nome DevOps sugira recursos baseados em desenvolvimento e operações, trata-se de um recurso coporativo que abrange todas as partes interessadas em uma organização, incluindo proprietários de negócios, arquitetura, design, desenvolvimento, garantia de qualidade, operações, segurança, parceiros e fornecedores. A exclusão de qualquer parte interessada - interna ou externa - leva a uma implementação incompleta do DevOps.
+
+Fontes de ineficiência na entrega do Software (quanto mais atrasa um projeto, mais alto será o seu custo)
+    Sobrecarga desnecessária
+        Necessidade de comunicar várias vezes a mesma informação e conhecimento
+    Retrabalho desnecessário
+        Defeitos são descobertos em testes ou produção, forçando a equipe a voltar ao desenvolvimento
+    Superprodução
+        Funcionalidades desenvolvidas que não foram requeridas
+
+Uma cultura DevOps de uma empresa específica, não significa que funcione em outra empresa totalmente diferente ou parecida
+
+Principais técnicas
+    Melhoria contínua
+        Foco no que se deseja melhorar
+        Métricas para medir o desempenho
+        Padronização
+    Planejamento de liberação
+    Integração contínua
+    Entrega contínua
+    Teste contínuo
+    Monitoramento e feedback contínuos
+
+---------------------
+
+Equívocos DevOps
+    É apenas para desenvolvedores e administradores de sistemas
+        (todos podem ter essa cultura DevOps)
+    É um time
+        (novamente, todos da empresa podem ter essa cultura DevOps e não um time especifico)
+    É uma função
+        (também não)
+    É relevante apenas para startups web
+        (qualquer empresa de diferente porte pode ter uma cultura DevOps)
+    Necessita de uma certificação
+    Significa fazer todo o trabalho com metade da equipe
+
+
+
 
