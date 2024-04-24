@@ -1,2 +1,7 @@
 Engenharia de Software - Aula 5 - Aula Prática
 Prof: Alex Mateus Porn
+
+Demonstranção utilizando a ferramenta MuJava > Específica para linguagem Java
+
+    A ferramenta funciona no Windows, mas é recomendável utilizar o sistema operacional Linux.
+
