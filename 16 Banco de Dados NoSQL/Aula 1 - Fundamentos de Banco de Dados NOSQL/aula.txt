@@ -1,5 +1,130 @@
 Banco de Dados NOSQL                         - Prof: Alex Mateus Porn
    
+Tema 1 (Banco de Dados Relacional ou NoSQL?)
+    Fundamentos de Sistema de Banco de Dados NoSQL
+
+Tema 2 (Teorema Cap)
+    Características relacionadas aos banco de dados distruídos e sistemas distribuídos
+
+Fundamentos de Banco de Dados NoSQL
+
+Tema 3 (Modelos de dados e linguagens de consulta)
+
+Tema 5 (Modelos de distruição e consistência)
+
+Tema 4 (Modelos de dados agregados)
+
+----
+
+Tema 1
+    Fundamentos de sistemas de banco de dados NoSQL
+
+A estrutura de todo sgbd é praticamente a mesma
+
+Se tratando de NoSQL, temos 4 modelos
+    Chave-valor
+        geralmente chave do tipo string
+    Documentos
+        geralmente formato json ou xml
+    Familia de colunas
+        mais próximo do modelo relacional
+    Grafos
+
+NoSQL = Desempenho de processamento
+    Postagem de comentários no fórum
+    Arquitetura híbrida
+
+x
+
+Banco de Dados Relacional
+    Para controle de estoque por exemplo, etc
+
+Diferenças de Banco de Dados Relacional x No SQL
+
+Banco de Dados Relacional
+    Aplicações centralizadas, por exemplo, ERP, CRM
+    Requerem alta disponibilidade, quando necessário
+    Dados são gerados em velocidades moderadas
+    Dados gerados a partir de poucas fontes
+    Dados estruturados
+    Transações complexas
+    Moderado volume de dados
+
+Banco de Dados NoSQL
+    Aplicações descentralizadas, por exemplo, Web, Mobile, Big Data, Iot
+    A disponibilidade precisa ser contínua, sem interrupção
+    Dados gerados em alta velocidade, por exemplo, sensores
+    Dados gerados a partir de múltiplas fontes, semi ou não estruturados.
+    Transações simples
+    Alto volume de dados
+
+------
+
+Tema 2 - Caractéristicas relacionadas aos banco de dados
+
+Características relacionadas aos bancos de dados distribuídos e sistemas distribuídos
+    Disponibilidade, para o compartilhamento dos dados e escalabilidade, em virtude do contínuo aumento do volume destas bases
+    Escalabilidade horizontal
+        O sistema distribuído é expandido, adicionando modos para armazenamento e processamento de dados à medida que o volume de dados aumenta
+
+Teorema CAP
+    Consistência, disponibilidade, partição
+
+    Consistência
+        Todos os clientes veem dados atuais, independemente de atualizações ou exclusões
+    
+    Disponibilidade
+        O sistema continua a operar conforme o esperado, mesmo com falhas nos nós
+
+    Tolerância a partições
+        O sistema continua a operar conforme o esperado, apesar das falhas na rede ou nas mensagens
+
+------
+
+Tema 3 - Modelos de dados e linguagens de consulta
+
+-----
+
+Tema 4 - Modelos de dados agregados
+
+Modelo em que o banco organiza os seus dados
+Categoria chave-valor, categoria e colunas 
+
+-----
+
+Tema 5 - Modelos de distribuição e consistência
+    Não use distribuição ( se possível )
+    Um único servidor é mais facilmente gerenciado e menos complexo para os desenvolvedores
+    Usar quando:
+        Escalabilidade
+        Melhoria de desempenho
+
+Distribuição pode ser feito em 2 formatos
+    Fragmentação
+        Coloca dados diferentes em nodos diferentes
+    Replicação
+        Copia os mesmos dados em múltiplos nodos
+
+Fragmentação
+    Escalabilidade horizontal
+    Cada servidor desempenho o papel de gerenciar um subconjunto de dados
+    (exemplo do fichario)
+
+Replicação
+    Copia os dados para múltiplos servidores, permitindo acesso aos dados em múltiplos lugares
+    Diminui o tempo de recuperação de informações
+    Replicação
+        Mestre-escravo e ponto a ponto
+
+Mestre-escravo explicação
+    Existe um servidor mestre onde tudo é gravado nele
+        Posteriormente os dados são replicados em outros servidor chamados de Escravos
+        (Onde esses servidores podem apenas visualizar os dados, mas não alterar os mesmo)
+        Todas as alterações do servidor Mestre são replicadas nos Escravos
+
+Replicação ponto a ponto
+    Todos os nodos são Mestres, podendo visualizar, alterar, etc
+
 
 
 
