@@ -1,0 +1,161 @@
+Professor: Manoel Flávio Leal
+
+Aula 1 - Conversar Inicial
+
+Manifesto ágil e métodos ágeis
+    Tem por objetivo entregar software com celeridade e eficência
+    Destacando a comunicação, colaboração,feedback e a adaptação a mudanças
+
+----
+
+O que é agilidade
+
+    Práticas flexíveis
+
+Equipes Ágeis
+    Uma abordagem colaborativa
+    Orientada a resultados
+    Prioriza a entrega de valor ao cliente
+    Aprendizagem continua
+    Melhoria interativa
+
+Onde aplicar
+    Desenvolvimento de software
+    entre outras áreas de atuação
+
+Vantagens da métodologias ágeis
+    Maior colaboração
+    Melhoria contínua
+    Melhor gestão de risco
+    Flexibilidade
+    Entrega constante de valor
+
+Desvantagens
+    Menas documentação
+    Necessidade de comunicação constante
+    Dificuldade de prever prazos e custos
+
+----
+
+Cultura organizacional ágil
+
+3 Pilares
+    Colaboração
+    Adaptabilidade
+    Flexibilidade
+
+Principais características
+    Foco no cliente
+    Colaboração
+    Autonomia e responsabilidade
+    Flexbilidade
+
+Principais características
+    Experimentação
+    Transparência
+    Melhoria Contínua 
+    Foco em resultados
+
+-----
+
+Manifesto ágil
+
+    Criado em 2001, por desenvolvedores em Utah, EUA
+    17 desenvolvedores, "Aliança Ágil"
+    Valores e principais serem replicados para todo desenvolvimento de software
+
+Valores
+    VA1 - Indivíduos e iterações mais que as ferramentas e processos
+    VA2 - Software em funcionamento mais que documentação abrangente
+    VA3 - Colaboração com cliente mais que negociação de contratos
+    VA4 - Responder a mudanças mais que seguir um plano
+
+Princípios
+    PA1 - Satisfazer o cliente com entrega e valor
+    PA2 - Aceitar mudanças de requisitos
+    PA3 - Fornecer um software com frequencia
+    PA4 - Trabalho conjunto com negocios e desenvolvedores
+    PA5 - Construir projetos ao redor de indivíduos motivados
+    PA6 - Priorizar a conversa cara a cara
+    PA7 - Software funcional como medida primária
+    PA8 - pROMOVER UM AMBIENTE SUSTENTÁVEL A EQUOE
+    PA9 - Atenção contínua à excelência técnica e bom design
+    PA10 - Maximizar a quantidade de trabalho que não precisou ser feito
+    PA11 - Arquiteturas, requisitos e designs emergem de times auto-organizáveis
+    PA12 - Refletir regurlamente sobre como ficar mais efetivo e ajustar o comportamento
+
+-----
+
+Processos Ágeis
+
+    Técnicas de gerencimento de projetos e desenvolvimento de software
+    Priorizam adaptação, colaboração, entregas interativa e incremental
+    Menos buracráticos do que os métodos tradicionais
+
+Algumas metodologias Ágeis
+    Scrum
+        Iterações de trabalho(sprints - 1 a 4 semanas)
+    Kanban
+        Visualização do fluxo de trabalho
+    Lean
+        Minimização de desperdícios
+    Extreme Programming (XP)
+        Qualidade do código e colobraoção intensiva
+    Crystal
+        Entrega incremental, simplicidade e qualidade do produto
+
+-----
+
+Ferramentas
+
+    Pair programming
+        Piloto e observador
+
+    Refatoração
+        Refino o código, melhoro ele.
+
+Importância da Refatoração
+    Prática recorrente no desenvolvimento Ágil
+    Evita o acúmulo de débito técnico
+        Melhorar aquela função
+    Melhora o design do software existente
+    Maior fecilidade de entendimento, eficiência, menor acoplamento e maior coesão
+
+Princípios da refatoração
+    Realizar alterações graduais no código
+    Assegurar testes para garantir a estabilidiade do software
+    Reorganização do código, eliminação de duplicação, melhoria da legibilidade, simplificação de algoritmos e melhoria da estrutura de dados
+
+Riscos da fatoração
+    Posso arrumar um erro e estragar o outro
+    Refatorações menores e mais frequentes são menos arriscadas
+
+--
+
+Pair Programming e refatoração são práticas essenciais no desenvolvimento ágil de software
+
+Promovem a coloração, qualidade do código e melhoria contínua
+
+Equipes ágeis podem aproveitar os benefícios e superar os desafios dessas ferramentas
+
+Contribuem para o sucesso de projetos ágeis e entrega de valor incremental
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
