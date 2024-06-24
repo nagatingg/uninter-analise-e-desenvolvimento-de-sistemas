@@ -1,0 +1,140 @@
+Professor: Manoel Flávio Leal
+
+Aula 3 - Conversar Inicial
+
+    O Scrum vem do rugby
+    No rugby, o Scrim é uma formação estratégica
+    Uma equipe eficiente
+
+---
+
+Contextualização do Scrum
+    Uma abordagem ágil de gerencimento de projetos focada em entregar valor
+    Colaboração intensa entre as equipe por meio de sprints
+
+Iterações de 1 a 4 semanas
+    Gerenciar backlog do produto e da sprint
+
+--
+
+Papéis do Scrum
+
+Producto Owner
+    Interalão entre a equipe de desenvolvimento e o cliente
+
+Scrum Master
+    Facilitador do Scrum, garante a aplicação correta do método
+
+Time de Desenvolvimento
+    Equipe multidisciplinar e autogerenciável
+
+--
+
+Processo
+    Visão
+      Histórias de usuároio
+         Sprint backlog
+            1 - 4 semanas
+                (à cada as 24 horas, dayli{15 mninutos})
+                    Entrega Sprint
+                        Revisão (se o trabalho funcionou)
+
+--------
+
+    A coleta de requisitos é fundamentação para o Scrum
+
+Product Backlog
+    É uma lista priorizada de requisitos, funcionalidades e melhorias desejados para o produto
+        Produtc Owner cuida dessa lista
+
+Técnicas de coleta de requisitos no Scrum
+    Entrevistas com stakeholders
+        Individuais ou em grupo / necessidades e requisitos especificos
+
+    Workshops colaborativos
+        Sessões interativas com a participalão de membros da equipe Scrum e especialistas relevantes
+
+    Observação do usuário
+        Observar o uso real do produto ou do sistema pelos usuários finais
+    
+    Prototipação
+        Criar protótipos rápidos e iterativos para validar e refinar os requisitos
+
+Feedback contínuo
+
+-----
+
+Estrutura do Scrum
+
+Sprint
+
+Elementos da Sprint
+    Equipe sabendo o que cada um está fazendo, onde querem chegar, valor do produto
+    Product Backlog: lista de prioridades
+
+Sprint backlog
+    Lista de itens detrabalhos selecionados para a Sprint
+        Características
+            Detalhamento
+            Estimativas
+            Priorização
+            Atualização
+
+User Story
+    Descrição clara e concisa de funcionalidades
+        Como [ quem?] / Eu quero [o que] / Para [que]
+
+-----
+
+Meetings
+    Sprint plannig *
+        Requisitos já com as histórias
+        Estimativa de esforço e definição das tarefas
+        Resultado: plano detalhado da Sprint
+    Daily Scrum *
+    Sprint Review *
+    Sprint Retrospective *
+    Backlog Refinement
+    Product Review
+        Principais*
+
+Planning Poker
+    Estimativa colaborativa e precisa do esforço necessário
+    Discussão e convergência em estimativas mais confiáveis
+
+Sprimt Review
+    Oportunidade de compartilhar trabalho concluído com stakeholders
+    Apresentação de User Stories ou funcionalidades
+    Feedback, validação e atualização do Produtc Backlog
+
+Sprint Retrospective
+    Esquece o produto e se concentra se deu ou não, como melhorar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
