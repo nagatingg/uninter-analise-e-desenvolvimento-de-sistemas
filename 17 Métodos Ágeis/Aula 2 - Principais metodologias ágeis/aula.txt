@@ -1,0 +1,211 @@
+Professor: Manoel Flávio Leal
+
+Aula 2 - Conversar Inicial
+
+Extreme Programming (XP)
+Feature Driven Development (FDD)
+Test Driven Development (TDD)
+Crystal
+Scrum
+
+------
+
+Extreme Programming (XP)
+
+Criado em 1996 - Kent Beck
+
+Valores
+    Comunicação
+    Simplicidade
+    Feedback
+    Coragem
+
+Princípios
+    Feedback rápido
+    Presumir simplicidade
+    Mudança incremental
+    Trabalho de alta qualidade
+    Pequenos passos
+    Melhoria contínua
+    Diversidade
+    Reflexão constante
+    Comunicação
+    Respeito
+    Coragem
+    Cliente presente
+
+Práticas do XP
+    Jogo de planejamento
+        Definição de funcionalidades em conjunto com o cliente
+    Pequenos realeses
+        Entrega frequente de funcionalidades de valor
+    Metáfora
+        Uso de metáforas para facilitar o entendimento do software
+    Projeto simples
+        Construção de um software claro e objetivo
+    Teste
+        Criação de testes automatizados para garantir qualidade do código
+    Programação em par
+        Pair programming para melhor colaboração e qualidade do código
+    Refatoração
+        Melhoria contínua do código
+    Integração contínua
+        Teste e validação frequentes do código
+    Ritmo sustentável
+        Estabelecimento de um ritmo de trabalho saudável
+    Cliente presente
+        Participação ativa do cliente no desenvolvimento
+    Programação em duplas rotativas
+        Rotação das duplas de programação para maior colaboração
+    Propriedade coletiva do código
+        Responsabilidade compartilhada pelo código
+    Padrões de codificação
+        Uso de padrões para facilitar a manuntenção do código
+    Integração do usuário
+        Utilização de histórias de usuário para documentar as funcionalidades
+    Refatoração em larga escala
+        Melhoria do código em grande escala
+    Programe o que você precisa hoje
+        Desenvolvimento apenas do necessário para o momento
+    Uso de metogolodias ágeis
+        Combinação com outras, como Scrum, Kanban e Lean
+
+XP é uma metodologia ágil focada em simplicidade, comunicação, feedback e coragem
+
+-------
+
+Desenvolvimento dirigido por funcionalidades (FDD)
+
+    FDD (feature-driven development) é uma abordagem ágil criada por Jeff De Luca e Peter Coad na década de 1990
+    Ênfase na entrega rápida de funcionalidades de valoir para o cliente
+    Processo estruturado e orientado a processo
+
+Etapas do FDD
+    Desenvolve um modelo geral
+        Requisitos, sistemas, etc
+    Criar uma lista de funcionalidades
+        Função por função, é isso mesmo? Abrir conta? etc
+    Planejar por funcionalidade
+        Como vou construir? Qual primeiro?
+    Modelar por funcionalidade
+        Documentação (diagrama de classe, etc)
+    Construir por funcionalidade
+
+Características do FDD
+    Ênfase no no planejamento
+    Inspeções de código
+    Êngase na comunicação
+    Entrega contínua
+
+Vantagens do FDD
+    Abordagem orientada a objetos
+    Equipe multidisciplinar
+    Entrega contínua de recursos
+    Adaptabilidade
+
+Desvantagens do FDD
+    Falta de foco em documentação
+    Dependência de habilidades técnicas
+    Necessidade de planejamento detalhado
+    Potencial para conflitos
+
+----------
+
+Desenvolvimento orientado a teste (TDD)
+
+    TDD criado em 1990 por Kent Beck, como parte da Extreme Programming (XP)
+    Surge como uma prática do desenvolvimento ágil para minimizar bugs e assegurar a qualidade do software
+    Consiste em escrever testes antes mesmo de escrever o código em si
+
+
+    Escrevi o sistema
+        Teste passou
+            Refatorar
+                Novamente volta o processo, repete
+
+Características do TDD
+    Foco em testes
+    Mais seguro
+    Refatoração constante
+    Equipe mais produtivo
+    Desenvolvimento iterativo
+
+Vantangens do TDD
+    Redução do número de  defeitos
+    Melhoria na qualidade do código
+    Facilita a detecção de regressões
+    Proporciona mais confiança no software
+
+Desvantagens do TDD
+    Possível aumento no tempo de desenvolvimento
+    Possível aumento da complexidade do código
+    Requer maior habilidade do desenvolvedor
+
+----------
+
+Crystal
+    Criado por Alistair Cockburn em 1990
+    Enfatiza a simplicidade, o trabalho em equipe, a comunicação e a capacidade de adaptação
+    Proporciona um conjunto de diretrizes flexíveis e ajustáveis
+
+Família Crystal
+    Identificado por cor, membros, etc
+
+Crystal Clear
+Crystal Orange
+
+---------
+
+Scrum
+
+    Criado por Jeff Sutherland, John Scumniotales e Jeff McKenna em 1990
+    Inicialmente implantado em empresas de tecnologias nos Estados Unidos
+        Posteriormente exportado para empresas do mundo todo
+
+Características do Scrum
+    Time auto-organizado
+    Ciclos de trabalhos curtos (sprints - 30 dias)
+    Backlog do produto
+    Reuniões diárias (daily scrum - 15 minutos)
+    Sprint review
+    Retrospectiva da sprint
+    Papeís definidos
+    Transparência
+
+Vantangens do Scrum
+    Maior Flexibilidade
+    Foco no valor para o cliente
+    Transparência
+    Colaboração
+    Melhoria contínua
+
+Desvantagens do Scrum
+    Díficil de entender e implementar
+    Requer muita disciplina e comprometimento
+    Exige um alto nível de comunicação
+    Não é adequado para todos os projetos
+    Difícil de medir o progresso
+
+Apesar dos desafios, o Scrum é amplamente adotado e eficaz em diversas áreas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
