@@ -1,0 +1,101 @@
+Professor: Maniel Flavio Leal
+
+Conversa Inicial
+
+    Gestão ágil do projeto
+    Requisitos
+
+Como gerenciar um projeto de forma ágil e efeciente
+
+-----
+
+Planejamento Ágil
+    Definição de um objetivo do cliente
+    Evitar detalhes desnecessários
+    Percepção que o projeto está andando
+    Foco nos intervalos de datas em vez de estimativas fixas
+
+Agile planning onion
+    Separação em camadas
+    Conforme você avança nas camadas, vai ficar mais complexo e maiores
+        Estratégia (strategy)
+        Portóflio
+        Produto (producto)
+        Release (entregas de valor)
+        Iteração (Iteration)
+        Daily
+
+-------
+
+Requisitos
+    História do Usuário
+
+Requisitos funcional / não funcionais
+
+Principais técnicas
+    Entrevistas
+    Workshops colaborativos
+    Prototipagem
+    Análise de documentos e artefatos existentes
+    Observação de usuário 
+    Storytelling
+    Análise e feedback e métricas
+
+Conseguir documentar de uma forma entendível e clara (objetiva)
+
+--------
+
+Conversão de Requisitos em Classe
+
+    Desenvolvimento de Software baseado em orientação de Objetos
+
+Classes
+    Definição de atributos e métodos
+        Atributos = características
+        Métodos = funcionalidades
+    Validação e verificação
+    Gerenciamento de mudanças
+
+Exemplo de conversão
+    Histórias e critérios de aceitação
+
+Identificamos TAREFAS e Projeto (classes)
+    Atributos
+    Métodos
+    {DIAGRAMA DE CLASSE}
+
+-------
+
+Gerencimento de Projeto Ágeis
+
+(Revisão)
+
+Mínimo produto viável (MVP)
+    Lançamento do produto com o mínimo recurso necessário
+
+-------
+
+Configuração de Projetos Ágeis
+    aLINHAMENTO ESTRATÉGICO COM OBJETIVOS DA ORGANIZAÇÃO
+    Deixar claro os pápeis dos membros da equipes
+
+Infraestrutura e ambientes de desenvolvimento
+    Controle de versão (GIT)
+    Hospedagem de repisitório (GutHub)
+    Ferramentas de gerenciamente (Jira e Trello)
+    Comunicação (Discord, Teams, etc)
+
+Equipe multifuncional
+    Desenvolvedores, deisgners de UI e UX
+    Definição clara de papéis e responsabilidades
+    Product Owner, Scrum Master e equipe de desenvolvimento
+
+Ambientes de testes e integração contínua
+    Ambiente de desenvolvimento, testes, etc (separado)
+
+Iterações e entregas frequentes
+
+MVP !IMPORTANT
+
+
+
