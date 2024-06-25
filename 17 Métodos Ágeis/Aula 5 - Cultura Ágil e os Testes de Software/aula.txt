@@ -1,0 +1,128 @@
+Professor: Manoel Flavio Leal
+
+Conversa Inicial
+
+Test Driven Development
+
+-----
+
+Por que criar um teste antes da implementação do código
+
+    Basicamente porque conseguimos reduzir bugs no processo de desenvolvimento do software com uma frequencia maior
+    Identificando erros desde o início com testes, para garantir a correção do código
+    ( 
+        Escrevemos o teste primeiro para passar na funcionalidade
+        {ao contrário de fazer tudo primeiro e testar depois}
+    )
+
+-Benefícios do TDD
+    Maior qualidade do produto
+    Maior segurança durante as mudanças de desenvolvimento do Software
+    Teste automatizados executados repetidamente, proporcionando feedback mais rápida
+    Detecção mais rápida de problemas no desenvolvimento
+
+Diferenças do TDD vs Abordagem Tradicional
+-Aspectos
+
+{Sequência de desenvolvimento}
+*TDD - Como já vimos anteriormente, escrevemos os testes antes do código. (Enquanto que na abordagem clássica, escrevemos primeiro o código, por exemplo, a tela do usuário e posteriormente apenas, escrevemos os testes)
+
+{Foco no resultado}
+*TDD - Por conta de iniciar todo o processo realizando testes, temos um foco maior em solucionar vários problemas futuros que possam acontecer. (Enquanto na Abordagem Clássica, como vamos corrigir os BUGS apenas depois da implementação, solucionamos apenas o necessário.
+
+{Ciclo de feedback}
+*TDD - Feedback instântaneo. {Abordagem clássica, apenas após implementação do projeto}
+
+"O teste bem feito, é aquele que dá erro"
+------
+
+Ciclos de Refinamento Contínuo
+
+*Teste automatizado*
+    Escrevo um teste "falhando" de forma básica
+    Escrevo um teste básico também, esperando que passe
+    (Refatoro todo esse código para fácil entendimento)
+    {Repito o processo até que todos os testes passem}
+
+Red-Green-Refactoring
+    Técnica utilizada para garantir que o código seja funcional e bem projetado
+        Red
+            Escrever um teste que falhe
+
+        Green
+            Escrever o código básico para passar
+
+        Refatoração (Refactoring)
+            Melhorar o design do código, garantindo que todos passem
+
+*Implementação orientada pelos testes resultado em código seguro e confiável*
+
+------
+
+Como desenvolver um teste
+    Garantir funcionalidades de forma assertiva e com qualidade, melhorando a manutenibilidade e a confiabilidade do sistema
+
+Modelo F.I.R.S.T
+    F - (Rápido) Permitir execuções frequentes e identificação ágil de problemas
+    I - (Isolado) Independente, sem depender de outros para evitar inconsistências
+    R - (Repetível) Produção dos mesmos resultados sempre
+    S - (Autovalidação) Uma verificação automatica se o resultado é o esperado
+    {TESTES AUTOMATIZADOS, LEMBRA?!}
+    T - (Oportuno) Escrito antes do código de produção
+
+Técnica GWT ( GIVEN WHEN THEN) == { DADO QUANDO ENTÃO } 
+    Pode ser utilizado para estruturar e comunicar claramente o cenário de teste
+
+
+Alguns frameworks
+    JUnit, Nunit, pytest, Jasmine, entre outros
+
+*RECEITA DE BOLO*
+
+-----
+
+Teste legível, isolado, minucioso e explícito
+
+Teste legível
+    Facilmente entendível
+
+Teste Isolado
+    Testamos apenas uma função, uma parte
+    (encaixamos o teste de acordo com a nossa necessidade)
+
+Teste minucioso
+    Testamos cada parte do código e validada
+
+------
+
+Complexidade incremental e desgin incremental
+    É a prática de adicionar novos recursos e funcionalidades de forma gradual e controlada ao longo do processo de desenvolvimento
+    (
+        Vou inserir outra, mas sempre antes de finalizar a outra
+    )
+    Evolução do teste
+
+
+Design incremental
+    Pequenos incrementos
+    Refatoração contínua
+    Validação contínua
+    Feedback e aprendizado
+    Testes como requisitos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
