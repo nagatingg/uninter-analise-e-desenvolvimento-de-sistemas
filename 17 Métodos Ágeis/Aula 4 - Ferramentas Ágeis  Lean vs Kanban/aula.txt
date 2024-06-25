@@ -1,0 +1,127 @@
+Professor: Manoel Flávio Leal
+
+Aula 4
+
+---
+
+Principais Ferramentas
+
+Kanban
+    Trello
+        Controle de tarefas
+
+
+Jira
+    Informações mais detalhadas
+
+----
+
+Lean
+    É uma filosofia de gestão  que busca criar valor e eliminar desperdícios em processos e sistemas
+    Originado do Sistema Toyota de Produção
+    Criado por Taiichi Ohno e Shigeo Shingo - 1950
+
+Beneficios
+    Redução de Desperdício
+    Melhoria da Qualidade
+    Aumento da produtividade
+    Engajamento dos colaboradores
+
+--
+Lean IT
+
+Pricípios do Lean IT
+    Eliminar desperdícios
+    Ampliar o aprendizado
+    Decidir o mais tarde possível
+    Entregar o mais rápido possível
+    Valorizar a equipe
+    Criar integridade
+    Ver o todo
+
+Ferramentas do Lean IT
+    Kaizen
+    Kanban
+    Mapemaneto do fluxo de valor
+    Poka-yoke
+    (entre outras)
+
+-----
+
+Método Kanban
+    Origem 1940
+    Kanban (cartão ou sinal visual)
+    Objetivo inicial é o controle efeciente do fluxo de produção e estoque
+
+    Atualmente em várias áreas de gestão
+    Adoção como princípio do Lean
+
+Princípios do Método da Kanban
+    Clareza nos processo e identificação de problemas
+    Direcionamento da equipe para a excelência
+    Revelação de falhas, excesso de trabalho e impactos financeiros
+    Abordagem para mudança gerencial e introdução de melhorias
+
+------
+Implementação do Método Kanban
+
+Etapas de Preparação
+    Compreender o processo atual
+    Identificar etapas do processo
+    Definição das regras de movimentação de cartões
+    Definir os cartões Kanban
+    Estabelecer limites de WIP
+
+Etapas de Implementação
+    Criar um quadro Kanban
+    Realizar reuniões stand-up diárias
+    Reduzir o trabalho em progresso (WIP) para discutir os bloqueios
+    Realizar revisões operacionais mensais ou trimestrais
+    Avaliar as oportunidades de melhoria usando as métricas Kanban
+
+
+Vantagens do Kanban
+    Clareza no trabalho e no processo
+    Mudança cultural
+    Aprimoramento da maturidade e da capacidade organizacional
+
+Seis passos para o sucesso do Kanban
+    Enfatizar a qualidade
+    Reduzir o trabalho em andamento
+    Abordar as fontas de variabilidade para melhorar a previsibilidade
+    Estabelecer prioridades
+    Equilibrar a demanda e o rendimento
+    Realizar entregas frequentes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
