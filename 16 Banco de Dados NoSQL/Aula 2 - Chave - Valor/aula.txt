@@ -60,6 +60,29 @@ Tipos de dados suportados
     Document Type
         Não aceita lista com valores vazios
 
+--
+
+Características de consistencia, transações e escalabilidade
+
+Eventualmente Consistente (EC)
+    Leitura dos dados realizadas nos dados armazenado em cache
+
+Fortemente Consistente (FC)
+    Leitura dos dados realizada diretamente nas tabelas do DynamoDB
+
+Características de escalabilidade
+    Escalabilidade para cima sempre que necessários
+    Escalabilidade para baixo somente até quatro vezes ao dia
+
+----
+
+Casos de uso apropriados
+
+Aplicações com grandes quantidades de dados e volumes extremamente altos de mudanças de estado
+    Carrinhos de compras em sites de comércio eletrônico
+Aplicativos orientados por sessão
+
+
 
 
 
