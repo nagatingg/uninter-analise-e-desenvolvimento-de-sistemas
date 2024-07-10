@@ -1,0 +1,65 @@
+Banco de Dados NOSQL                         - Prof: Alex Mateus Porn
+
+Tema 1 - Armazenamento Chave - Valor
+Tema 2 - DynamoDB
+Tema 3 - Acessando e configurando o banco de dados DynamoDB
+Tema 4 - Características de Consistência, Transações e Escalabilidade
+Tema 5 - Casos de Usos Apropriados
+
+--
+
+Armazenamento chave-Valor
+    Utilização de pares de chave e valor para armazenar as informações
+    Chaves do tipo String
+    Valores
+        Qualquer tipo de dado
+    Não possuem esquema predefinido
+
+Exemplo
+    Universidade: "Instituição de Ensino"
+
+Limitações
+    Como não há uma definição do tipo de dado, não é possível fazer uma indexação para cada campo
+    Não é possível a geração de consultas mais complexas
+    A única forma de realizar consultas é por meio da chave
+    Processos de inclusão, edição e exclusão também ocorrem por meio da chave
+
+Modelos de banco de dados chave-valor
+SGBDs / Fica a cargo do administrador do banco de dados escolher o melhor para determinada tarefa, segue alguns  exemplos:
+    DynamoDB
+    CouchBase
+    Riak
+    Redis
+    Memcached
+
+---------
+
+DynamoDB - Fornecido pela Amazon
+
+Banco de dados NoSQL orientado a chave-valor e documentos
+Propriedade da Amazon Web Services (AWS)
+Totalmente gerenciado na nuvem (serverless)
+O custo é atribuído ao seu uso
+Disponível globalmente
+
+Formas de acesso ao DyanmoDB
+    Acesso pelo AWS Console (qualquer navegador)
+    Acesso pelo AWS CLI (Command Line Interface)
+    Acesso pelo AWS SDK
+    APIs do DynamoDB - Python, Ruby, Java, etc
+
+Tipos de dados suportados
+    Scalar Type
+        String - Aceita texto, não aceita valores vazios
+        Número - Aceitá números positivos ou negativos
+        Boolean - Aceita somente os valores verdadeiros ou falso
+        Binário - Não aceita valores vazios, mas dados como imagens, vídeos, documentos (BLOB)
+        Null - Tipo de dados indefinido ou desconhecido
+    Set type
+        Conjunto de valores do tipo Scalar Type, mas só posso adicionar valores definidos, como string, só string, números, apenas números.
+    Document Type
+        Não aceita lista com valores vazios
+
+
+
+
