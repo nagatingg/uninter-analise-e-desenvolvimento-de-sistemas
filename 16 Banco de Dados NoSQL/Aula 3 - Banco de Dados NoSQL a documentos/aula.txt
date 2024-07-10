@@ -1,0 +1,81 @@
+Professor: Alex Mateus Porn
+
+Banco de Dados NoSQL orientado a documentos
+
+1 Modelagem de dados orientada a documentos
+2 MongoDB
+3 Operações Crud no MongoDB
+4 Características de consistência, transações e disponibilidade
+5 Casos de uso apropriados
+
+----
+
+Sistemas NoSQL baseados em documentos
+
+Armazenamento baseado em documentos
+    Considerado como uma extensão dos banco de dados orientados a chave-valor
+    Não se aplicam critérios de normalização de dados
+    A criação de joins e esquemas é inexistente
+    Os documentos são estruturas flexíveis, como por exemplo, XML, JSON e BSON
+
+Características
+    Permitem a criação de consultas e filtros sobre qualquer valor armazenado
+    Os dados são armazenados de forma desnormalizada, proporcionando escalabilidade e velocidade de leitura
+    Não fornecem relacionamentos entre os documentos
+    Mantém os dados integrados ao próprio documento, ao invés de áreas de armazenamento separadas
+
+Tabelas são representadas como documentos
+
+---
+
+MongoDB
+    Banco de dados NoSQL orientado a documentos
+    Com base na definição de coleções e índices
+    Diferentes tipos de documentos podem coexistir em uma mesma coleção
+
+Eu tenho várias coleções dentro de um banco de dados mongoDB
+E vários documentos em uma única coleção
+
+Tipos de dados suportados
+    String, Integer, Boolean, Double, Arrays e Null
+
+--
+
+Instalação e acesso ao mongoDB
+    Possui versão offline e online
+
+--------
+
+Operações CRUD no MongoDB
+
+Insert() / Find() / Update() / Delete()
+
+db.coleção.deleteOne()
+
+-------
+
+Características de consistência, transações e disponibilidade
+
+    Operações atÇomicas para um único documento
+    Para atomicidade em vários documentos, o MongoDB oferece suporte a transações de vários documentos
+
+Disponibilidade
+    Alta disponibilidade é a possibilidade de ter os dados replicados em diferentes lugares, denominados como nodos, e se um nodo cair, outro assume o seu lugar, evitando assim que a aplicação deixe de funcionar
+    Arquitetura conhecida como replica set
+    Novos nodos secundários podem ser adicionados a qualquer instante, sem interromper o cluster inteiro
+    Recurso denominado heartbeat para verificar a disponibilidade de cada nodo, onde a cada dois segundos os nodos "conversam" para verificarem se estão ativos
+
+----
+
+Casos de usos apropriados
+
+Para Marquesone
+    Armazenamento de conteúdos de páginas Web
+    Catalogação de documentos de uma empresa
+    Gerenciamento de inventário de um e-commerce
+Conforme AWS
+    Blogs e plataformas de vídeo
+
+
+
+
