@@ -1,11 +1,11 @@
-a# Notas da Aula
+# Notas da Aula
 
 **Professor:** Alex Mateus Porn
 
 #### [Tema 1 - Armazenamento Orientado a Colunas](#tema1)
-#### [Tema 2 - Banco de Dados Orientado a Colunas HBase](#tema2)
+#### [Tema 2 - Banco de Dados HBase](#tema2)
 #### [Tema 3 - Operações CRUD no HBase](#tema3)
-##### [Tema 4 - Características de Consistência, Disponibilidade e Escalabilidade](#tema4)
+#### [Tema 4 - Características de Consistência, Disponibilidade e Escalabilidade](#tema4)
 #### [Tema 5 - Casos de Uso Apropriados](#tema5)
 
 ---
