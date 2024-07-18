@@ -18,7 +18,7 @@ a# Notas da Aula
 
 Primeiramente, define-se as famílias de colunas e, em seguida, as colunas. Cada família permite a flexibilidade de inserir quantas colunas forem necessárias para cada registro armazenado, sem precisar alterar a estrutura dos dados já armazenados.
 
-### <a name="#tema2"> Características</a>
+### Características
 
 - Fornece flexibilidade e grande escalabilidade.
 - O registro de um item pode ter informações gravadas em diversas famílias de colunas.
@@ -26,7 +26,7 @@ Primeiramente, define-se as famílias de colunas e, em seguida, as colunas. Cada
 
 ---
 
-## Banco de Dados HBase
+## <a name="#tema2">Banco de Dados HBase</a>
 
 - SGBD distribuído orientado a colunas.
 - Utilizado principalmente com grande quantidade de dados e muitos atributos.
@@ -36,7 +36,7 @@ Primeiramente, define-se as famílias de colunas e, em seguida, as colunas. Cada
 
 ---
 
-## Operações CRUD no HBase
+## <a name="tema3">Operações CRUD no HBase</a>
 
 ### Interface Shell no HBase
 
@@ -55,7 +55,7 @@ Primeiramente, define-se as famílias de colunas e, em seguida, as colunas. Cada
 
 ----
 
-## Características de Consistência, Transações e Disponibilidade
+## <a name="tema4">Características de Consistência, Transações e Disponibilidade</a>
 
 - Todas as leituras e gravações são roteadas por meio de um único servidor de região.
 - Isso garante que todas as gravações ocorram em ordem e todas as leituras acessem os dados conforme foram armazenados recentemente.
@@ -74,7 +74,7 @@ Primeiramente, define-se as famílias de colunas e, em seguida, as colunas. Cada
 
 ---
 
-## Casos de Uso Apropriados
+## <a name="tema5">Casos de Uso Apropriados</a>
 
 Conforme Shon (2014):
 
