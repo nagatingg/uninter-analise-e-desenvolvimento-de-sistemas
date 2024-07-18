@@ -26,7 +26,7 @@ Primeiramente, define-se as famílias de colunas e, em seguida, as colunas. Cada
 
 ---
 
-## <a name="#tema2">Banco de Dados HBase</a>
+## <a name="tema2">Banco de Dados HBase</a>
 
 - SGBD distribuído orientado a colunas.
 - Utilizado principalmente com grande quantidade de dados e muitos atributos.
